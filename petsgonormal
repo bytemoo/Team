@@ -1,5 +1,5 @@
 getgenv().Settings = {        
-    FPSLimit = 10,
+    FPSLimit = 5,
     CraftInsta4PotionsSoICanSellThem = true,
     ["Notifications"] = {
         Webhook = "",
