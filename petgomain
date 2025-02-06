@@ -25,7 +25,7 @@ getgenv().Settings = {
             ["Crystal Key"] = {Amount = 100}, 
             ["Crystal Key Lower Half"] = {Amount = 200},
             ["Crystal Key Upper Half"] = {Amount = 100},
-            ["Corrupted Huge Bait"] = {Amount = 200},
+            ["Corrupted Huge Bait"] = {Amount = 500},
             ["Exotic Fishing Bait"] = {Amount = 100},
             ["Exotic Fishing Chest"] = {Amount = 100},
             ["Legendary Fishing Bait"] = {Amount = 100},
