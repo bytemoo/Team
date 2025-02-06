@@ -14,9 +14,9 @@ getgenv().Settings = {
             Difficulty = "Above 500m",
         },
         ["Items"] = {
-            ["Runic Mining Chest"] = {Amount = 10},
-            ["Exotic Mining Chest"] = {Amount = 10},
-            ["Legendary Mining Chest"] = {Amount = 10},
+            ["Runic Mining Chest"] = {Amount = 50},
+            ["Exotic Mining Chest"] = {Amount = 50},
+            ["Legendary Mining Chest"] = {Amount = 200},
             ["Abyssal Treasure Chest"] = {Amount = 10},
             ["Titanic Mining Chest"] = {Amount = 1},
             ["Exclusive Enchant Safe"] = {Amount = 1},
@@ -25,7 +25,7 @@ getgenv().Settings = {
             ["Crystal Key"] = {Amount = 10}, 
             ["Crystal Key Lower Half"] = {Amount = 20},
             ["Crystal Key Upper Half"] = {Amount = 10},
-            ["Corrupted Huge Bait"] = {Amount = 20},
+            ["Corrupted Huge Bait"] = {Amount = 100},
             ["Exotic Fishing Bait"] = {Amount = 10},
             ["Exotic Fishing Chest"] = {Amount = 10},
             ["Legendary Fishing Bait"] = {Amount = 10},
@@ -39,7 +39,7 @@ getgenv().Settings = {
             ["Molten Pickaxe"] = {Amount = 1},
             ["Magma Egg"] = {Amount = 25},
             ["Magma Scroll"] = {Amount = 100},
-            ["Bolt of Lightning"] = {Amount = 10},
+            ["Bolt of Lightning"] = {Amount = 100},
         },
     }
 }
