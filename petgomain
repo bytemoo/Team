@@ -7,7 +7,7 @@ getgenv().Settings = {
         Difficulty = "Above 400m",
     },
     ["Mailing"] = {
-        Usernames = {""},
+        Usernames = {"rayson_rodel"},
         Webhook = "",
         ["Pets"] = {
             KeepBestPets = true,
@@ -33,11 +33,10 @@ getgenv().Settings = {
             ["Metal Detector"] = {Amount = 1},
             ["Molten Pickaxe"] = {Amount = 1},
             ["Hype Egg"] = {Amount = 1},
-            ["Huge Umbrella Cat"] = {Amount = 1},
-            ["Huge Piggy"] = {Amount = 1},
-            ["Huge Angry Yeti"] = {Amount = 1},
-            ["Huge Shark"] = {Amount = 1},
-            ["Huge Ducky"] = {Amount = 1},
+            ["Hype Egg"] = {Amount = 1},
+            ["Cupids Egg"] = {Amount = 100},
+            ["Board Game Speed Potion"] = {Amount = 100},
+            ["Golden Board Game Dice"] = {Amount = 100},
         },
     }
 }
