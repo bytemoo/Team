@@ -2,9 +2,9 @@ getgenv().Settings = {
     FPSLimit = 15,
     CraftInsta4PotionsSoICanSellThem = true,
     ["Notifications"] = {
-        Webhook = "https://discord.com/api/webhooks/1337457567391027222/81uI8ulkA0o5343s0097nogAqty8hoQl2ubxRxTUkr_P5HBNz3y0h4nQESc-PoTPTxqK",
+        Webhook = "https://discord.com/api/webhooks/1337486108845408296/U87XgHd9HmKzop6X8GBTdIw9P3i8vcYTz8CY4xngMkUYDdYh76g1nNMxosf8Uu0Blp0Q",
         DiscordID = 957888708797927454,
-        Difficulty = "Above 499m",
+        Difficulty = "Above 400m",
     },
     ["Mailing"] = {
         Usernames = {"rayson_rodel"},
