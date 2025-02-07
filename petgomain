@@ -14,7 +14,7 @@ getgenv().Settings = {
             Difficulty = "Above 499m",
         },
         ["Items"] = {
-            ["Runic Mining Chest"] = {Amount = 100},
+            ["Runic Mining Chest"] = {Amount = 500},
             ["Exotic Mining Chest"] = {Amount = 500},
             ["Legendary Mining Chest"] = {Amount = 1000},
             ["Abyssal Treasure Chest"] = {Amount = 100},
