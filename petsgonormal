@@ -33,12 +33,9 @@ getgenv().Settings = {
             ["Metal Detector"] = {Amount = 1},
             ["Molten Pickaxe"] = {Amount = 1},
             ["Hype Egg"] = {Amount = 1},
-            ["Bolt of Lightning"] = {Amount = 100},
-            ["Huge Umbrella Cat"] = {Amount = 1},
-            ["Huge Piggy"] = {Amount = 1},
-            ["Huge Angry Yeti"] = {Amount = 1},
-            ["Huge Shark"] = {Amount = 1},
-            ["Huge Ducky"] = {Amount = 1},
+            ["Cupids Egg"] = {Amount = 10},
+            ["Board Game Speed Potion"] = {Amount = 10},
+            ["Golden Board Game Dice"] = {Amount = 10},
         },
     }
 }
