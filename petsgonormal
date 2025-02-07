@@ -11,7 +11,7 @@ getgenv().Settings = {
         Webhook = "https://discord.com/api/webhooks/1337450762653011978/kyemAsPZfDl0tKF6wC3Po-0yPiHBSGDKluvzJOvcQohn-c9t2HkeafuF13dCzOSR0YA7",
         ["Pets"] = {
             KeepBestPets = true,
-            Difficulty = "Above 100m",
+            Difficulty = "Above 499m",
         },
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 50},
