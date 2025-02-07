@@ -7,7 +7,7 @@ getgenv().Settings = {
         Difficulty = "Above 400m",
     },
     ["Mailing"] = {
-        Usernames = {"rayson_rodel"},
+        Usernames = {""},
         Webhook = "https://discord.com/api/webhooks/1337450762653011978/kyemAsPZfDl0tKF6wC3Po-0yPiHBSGDKluvzJOvcQohn-c9t2HkeafuF13dCzOSR0YA7",
         ["Pets"] = {
             KeepBestPets = true,
