@@ -4,7 +4,7 @@ getgenv().Settings = {
     ["Notifications"] = {
         Webhook = "https://discord.com/api/webhooks/1337449218654081046/RP5rSRQXWSJh8ns457iOTGQr_4t7yUtxTBP2DBviWhj0PZYB9aff8hMkayKyvyOi-PaJ",
         DiscordID = 957888708797927454,
-        Difficulty = "Above 999k",
+        Difficulty = "Above 999m",
     },
     ["Mailing"] = {
         Usernames = {"rayson_rodel"},
