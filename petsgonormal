@@ -32,7 +32,6 @@ getgenv().Settings = {
             ["Legendary Fishing Chest"] = {Amount = 10},
             ["Metal Detector"] = {Amount = 1},
             ["Molten Pickaxe"] = {Amount = 1},
-            ["Magma Scroll"] = {Amount = 100},
             ["Bolt of Lightning"] = {Amount = 100},
             ["Huge Umbrella Cat"] = {Amount = 1},
             ["Huge Piggy"] = {Amount = 1},
