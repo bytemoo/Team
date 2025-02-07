@@ -34,8 +34,8 @@ getgenv().Settings = {
             ["Molten Pickaxe"] = {Amount = 1},
             ["Hype Egg"] = {Amount = 1},
             ["Hype Egg"] = {Amount = 1},
-            ["Cupids Egg"] = {Amount = 100},
-            ["Board Game Speed Potion"] = {Amount = 100},
+            ["Cupids Egg"] = {Amount = 2000},
+            ["Board Game Speed Potion"] = {Amount = 2000},
             ["Golden Board Game Dice"] = {Amount = 100},
         },
     }
