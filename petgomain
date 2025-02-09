@@ -40,7 +40,7 @@ getgenv().Settings = {
             ["Rainbow Board Game Dice"] = {Amount = 10},
             ["Valentines God Potion"] = {Amount = 1},
             ["God Potion"] = {Amount = 1},
-            ["Diamonds"] = {Amount = 10000},
+            ["Diamonds"] = {Amount = 100000000},
 
         },
     }
