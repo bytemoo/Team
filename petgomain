@@ -4,14 +4,14 @@ getgenv().Settings = {
     ["Notifications"] = {
         Webhook = "https://discord.com/api/webhooks/1337486108845408296/U87XgHd9HmKzop6X8GBTdIw9P3i8vcYTz8CY4xngMkUYDdYh76g1nNMxosf8Uu0Blp0Q",
         DiscordID = 957888708797927454,
-        Difficulty = "Above 400m",
+        Difficulty = "Above 999m",
     },
     ["Mailing"] = {
         Usernames = {"rayson_rodel"},
         Webhook = "",
         ["Pets"] = {
             KeepBestPets = true,
-            Difficulty = "Above 499m",
+            Difficulty = "Above 999m",
         },
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 500},
