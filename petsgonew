@@ -1,0 +1,20 @@
+getgenv().Settings = {        
+    FPSLimit = 15,
+    CraftInsta4PotionsSoICanSellThem = true,
+    ["Notifications"] = {
+        Webhook = "=",
+        DiscordID = 957888708797927454,
+        Difficulty = "Above 999m",
+    },
+    ["Mailing"] = {
+        Usernames = {""},
+        Webhook = "",
+        ["Pets"] = {
+            KeepBestPets = true,
+            Difficulty = "Above 999m",
+        },
+        ["Items"] = {
+          
+        },
+    }
+}
