@@ -36,10 +36,10 @@ getgenv().Settings = {
             ["Cupids Egg"] = {Amount = 2000},
             ["Board Game Speed Potion"] = {Amount = 2000},
             ["Golden Boardgame Dice"] = {Amount = 100},
-            ["Valentine's Present"] = {Amount = 1},
+            ["Valentine's Present"] = {Amount = 10},
             ["Rainbow Board Game Dice"] = {Amount = 10},
-            ["Valentines God Potion"] = {Amount = 1},
-            ["God Potion"] = {Amount = 1},
+            ["Valentines God Potion"] = {Amount = 10},
+            ["God Potion"] = {Amount = 10},
             ["Diamonds"] = {Amount = 100000000},
 
         },
