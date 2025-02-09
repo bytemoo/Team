@@ -16,7 +16,7 @@ getgenv().Settings = {
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 500},
             ["Exotic Mining Chest"] = {Amount = 500},
-            ["Legendary Mining Chest"] = {Amount = 1000},
+            ["Legendary Mining Chest"] = {Amount = 5000},
             ["Abyssal Treasure Chest"] = {Amount = 100},
             ["Titanic Mining Chest"] = {Amount = 10},
             ["Exclusive Enchant Safe"] = {Amount = 10},
@@ -25,7 +25,7 @@ getgenv().Settings = {
             ["Crystal Key"] = {Amount = 100}, 
             ["Crystal Key Lower Half"] = {Amount = 200},
             ["Crystal Key Upper Half"] = {Amount = 100},
-            ["Corrupted Huge Bait"] = {Amount = 500},
+            ["Corrupted Huge Bait"] = {Amount = 2000},
             ["Exotic Fishing Bait"] = {Amount = 100},
             ["Exotic Fishing Chest"] = {Amount = 100},
             ["Legendary Fishing Bait"] = {Amount = 100},
