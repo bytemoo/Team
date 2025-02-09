@@ -11,7 +11,7 @@ getgenv().Settings = {
         Webhook = "",
         ["Pets"] = {
             KeepBestPets = true,
-            Difficulty = "Above 999m",
+            Difficulty = "Above 499m",
         },
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 50},
