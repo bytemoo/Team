@@ -57,3 +57,5 @@ getgenv().Settings = {
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b58d9c50c5ea74f255af40a8f735773.lua"))()
 
 _G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS2 Plaza Seller", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/bytemoo/Team/refs/heads/main/vps0delmap.txt"))()
