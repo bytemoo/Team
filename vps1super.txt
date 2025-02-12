@@ -17,7 +17,7 @@ getgenv().Settings = {
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 500},
             ["Exotic Mining Chest"] = {Amount = 500},
-            ["Legendary Mining Chest"] = {Amount = 5000},
+            ["Legendary Mining Chest"] = {Amount = 1000},
             ["Abyssal Treasure Chest"] = {Amount = 100},
             ["Titanic Mining Chest"] = {Amount = 10},
             ["Exclusive Enchant Safe"] = {Amount = 10},
