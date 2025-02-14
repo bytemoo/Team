@@ -15,37 +15,60 @@ getgenv().Settings = {
             Difficulty = "Above 999m",
         },
         ["Items"] = {
-            ["Runic Mining Chest"] = {Amount = 500},
-            ["Exotic Mining Chest"] = {Amount = 500},
-            ["Legendary Mining Chest"] = {Amount = 1000},
-            ["Abyssal Treasure Chest"] = {Amount = 100},
-            ["Titanic Mining Chest"] = {Amount = 10},
-            ["Exclusive Enchant Safe"] = {Amount = 10},
-            ["Legendary Enchant Safe"] = {Amount = 50},
-            ["Celestial Enchant Safe"] = {Amount = 30},
+script_key="VuxfKIkcwqBGhDrSigjQNQksQQAnjlbT";
+getgenv().Settings = {        
+    FPSLimit = 15,
+    CraftInsta4PotionsSoICanSellThem = true,
+    ["Notifications"] = {
+        Webhook = "https://discord.com/api/webhooks/1337486108845408296/U87XgHd9HmKzop6X8GBTdIw9P3i8vcYTz8CY4xngMkUYDdYh76g1nNMxosf8Uu0Blp0Q",
+        DiscordID = 957888708797927454,
+        Difficulty = "Above 999m",
+    },
+    ["Mailing"] = {
+        Usernames = {"rayson_rodel"},
+        Webhook = "",
+        ["Pets"] = {
+            KeepBestPets = true,
+            Difficulty = "Above 999m",
+        },
+        ["Items"] = {
+            ["Runic Mining Chest"] = {Amount = 200},
+            ["Exotic Mining Chest"] = {Amount = 200},
+            ["Legendary Mining Chest"] = {Amount = 500},
+            ["Abyssal Treasure Chest"] = {Amount = 500},
+            ["Titanic Mining Chest"] = {Amount = 1},
+            ["Exclusive Enchant Safe"] = {Amount = 100},
+            ["Legendary Enchant Safe"] = {Amount = 100},
+            ["Celestial Enchant Safe"] = {Amount = 100},
             ["Crystal Key"] = {Amount = 100}, 
-            ["Crystal Key Lower Half"] = {Amount = 200},
+            ["Crystal Key Lower Half"] = {Amount = 100},
             ["Crystal Key Upper Half"] = {Amount = 100},
-            ["Corrupted Huge Bait"] = {Amount = 2000},
-            ["Exotic Fishing Bait"] = {Amount = 100},
-            ["Exotic Fishing Chest"] = {Amount = 100},
+            ["Corrupted Huge Bait"] = {Amount = 1000},
+            ["Exotic Fishing Bait"] = {Amount = 200},
+            ["Exotic Fishing Chest"] = {Amount = 200},
             ["Legendary Fishing Bait"] = {Amount = 100},
             ["Legendary Fishing Chest"] = {Amount = 100},
-            ["Metal Detector"] = {Amount = 1},
             ["Molten Pickaxe"] = {Amount = 1},
             ["Hype Egg"] = {Amount = 1},
-            ["Cupids Egg"] = {Amount = 10000},
-            ["Heartbreak Egg"] = {Amount = 10000},
-            ["Valentine's Present"] = {Amount = 5},
-            ["Valentines Present"] = {Amount = 5},
-            ["Heartbreak Present"] = {Amount = 5},
-            ["Board Game Speed Potion I"] = {Amount = 1000},
-            ["Board Game Speed Potion 1"] = {Amount = 1000},
-            ["Board Game Speed Potion"] = {Amount = 1000},
-            ["Valentines God Potion"] = {Amount = 5},
-            ["God Potion"] = {Amount = 5},
+            ["Cupids Egg"] = {Amount = 100},
+            ["Heartbreak Egg"] = {Amount = 100},
+            ["Valentine's Present"] = {Amount = 1},
+            ["Valentines Present"] = {Amount = 1},
+            ["Heartbreak Present"] = {Amount = 1},
+            ["Board Game Speed Potion I"] = {Amount = 100},
+            ["Board Game Speed Potion 1"] = {Amount = 100},
+            ["Board Game Speed Potion"] = {Amount = 100},
+            ["Valentines God Potion"] = {Amount = 1},
+            ["God Potion"] = {Amount = 1},
             ["Diamonds"] = {Amount = 10000000},
+        },
+    }
+}
 
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3cb1834cff48e9af0cc2616e44ab7d70.lua"))()
+
+_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS1 - Supervisor", }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
         },
     }
 }
