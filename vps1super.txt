@@ -37,7 +37,7 @@ getgenv().Settings = {
             ["Heartbreak Egg"] = {Amount = 10000},
             ["Valentine's Present"] = {Amount = 100},
             ["Valentines Present"] = {Amount = 100},
-            ["Heartbreak Present"] = {Amount = 100},
+            ["Heartbreak Present"] = {Amount = 200},
             ["Board Game Speed Potion"] = {Amount = 100},
             ["Board Game Speed Potion I"] = {Amount = 100},
             ["Board Game Speed Potion 1"] = {Amount = 100},
