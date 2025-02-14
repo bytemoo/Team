@@ -46,7 +46,7 @@ getgenv().Settings = {
             ["Legendary Fishing Chest"] = {Price = "0%"},
             ["Molten Pickaxe"] = {Price = "0%"},
             ["Hype Egg"] = {Price = "0%"},
-            ["Heartbreak Egg"] = {Price = "0%"},
+            ["Heartbreak Egg"] = {Price = "20%"},
             ["Valentine's Present"] = {Price = "0%"},
             ["Valentines Present"] = {Price = "0%"},
             ["Heartbreak Present"] = {Price = "0%"},
