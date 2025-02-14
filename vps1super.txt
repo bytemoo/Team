@@ -18,9 +18,13 @@ getgenv().Settings = {
 
             ["Instant Luck Potion IV"] = {Amount = 1},
             ["Instant Luck Potion 4"] = {Amount = 1},
-            ["Instant Luck Potion lV"] = {Amount = 1},
-
-
+            ["Instant Luck Potion IV"] = {Amount = 1},
+            ["InstantLuck Potion 4"] = {Amount = 1},
+            ["InstantLuck Potion IV"] = {Amount = 1},
+            ["InstantLuckPotion 4"] = {Amount = 1},
+            ["InstantLuckPotion IV"] = {Amount = 1},
+            ["InstantLuckPotion4"] = {Amount = 1},
+            ["InstantLuckPotionIV"] = {Amount = 1},
         },
     }
 }
