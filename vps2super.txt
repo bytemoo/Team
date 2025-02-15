@@ -46,6 +46,8 @@ getgenv().Settings = {
             ["Board Game Speed Potion III"] = {Amount = 100},
             ["Board Game Speed Potion 3"] = {Amount = 100},
             ["Valentines God Potion"] = {Amount = 1},
+            ["Valentine's Spinny Wheel Ticket"] = {Amount = 1},
+            ["Valentines Spinny Wheel Ticket"] = {Amount = 1},
             ["God Potion"] = {Amount = 1},
             ["Diamonds"] = {Amount = 10000000},
         },
