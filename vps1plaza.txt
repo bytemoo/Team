@@ -42,7 +42,7 @@ getgenv().Settings = {
             ["Hype Egg"] = {Price = "5%"},
             ["Valentine's Present"] = {Price = "10%"},
             ["Valentines Present"] = {Price = "10%"},
-            ["Heartbreak Present"] = {Price = "10%"},,
+            ["Heartbreak Present"] = {Price = "10%"},
             ["Valentine's Spinny Wheel Ticket"] = {Price = "5%"},
             ["Valentines Spinny Wheel Ticket"] = {Price = "5%"},
             ["Valentines God Potion"] = {Price = "5%"},
