@@ -30,7 +30,7 @@ getgenv().Settings = {
             ["All Rarity: Secret"] = {Price = "5%", AllTypes = true},
             ["Runic Mining Chest"] = {Price = "5%"},
             ["Exotic Mining Chest"] = {Price = "5%"},
-            ["Legendary Mining Chest"] = {Price = "5%"},
+            ["Legendary Mining Chest"] = {Price = "10%"},
             ["Abyssal Treasure Chest"] = {Price = "5%"},
             ["Titanic Mining Chest"] = {Price = "5%"},
             ["Exclusive Enchant Safe"] = {Price = "5%"},
