@@ -29,7 +29,7 @@ getgenv().Settings = {
             ["Legendary Fishing Bait"] = {Amount = 100},
             ["Legendary Fishing Chest"] = {Amount = 100},
             ["Hype Egg"] = {Amount = 1},
-            ["Heartbreak Egg"] = {Amount = 10000},
+            ["Heartbreak Egg"] = {Amount = 50000},
             ["Valentine's Present"] = {Amount = 10},
             ["Valentines Present"] = {Amount = 10},
             ["Heartbreak Present"] = {Amount = 10},
@@ -37,7 +37,7 @@ getgenv().Settings = {
             ["Valentines Spinny Wheel Ticket"] = {Amount = 1},
             ["Valentines God Potion"] = {Amount = 1},
             ["God Potion"] = {Amount = 1},
-            ["Diamonds"] = {Amount = 10000000},
+            ["Diamonds"] = {Amount = 100000000},
         },
     }
 }
