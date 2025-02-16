@@ -37,6 +37,7 @@ getgenv().Settings = {
             ["Valentines Spinny Wheel Ticket"] = {Amount = 1},
             ["Valentines God Potion"] = {Amount = 1},
             ["God Potion"] = {Amount = 1},
+            ["Plasma Board Game Dice"] = {Amount = 100},
             ["Diamonds"] = {Amount = 100000000},
         },
     }
