@@ -28,13 +28,11 @@ getgenv().Settings = {
         ["Items"] = {
             ["Runic Mining Chest"] = {Price = "10%"},
             ["Exotic Mining Chest"] = {Price = "5%"},
-            ["Legendary Mining Chest"] = {Price = "10%", Priority = false},
             ["Abyssal Treasure Chest"] = {Price = "5%"},
             ["Titanic Mining Chest"] = {Price = "5%"},
             ["Crystal Key"] = {Price = "5%"},
             ["Crystal Key Lower Half"] = {Price = "5%"},
             ["Crystal Key Upper Half"] = {Price = "5%"},
-            ["Corrupted Huge Bait"] = {Price = "5%", Priority = false},
             ["Exotic Fishing Bait"] = {Price = "5%"},
             ["Exotic Fishing Chest"] = {Price = "5%"},
             ["Legendary Fishing Bait"] = {Price = "5%"},
@@ -48,6 +46,8 @@ getgenv().Settings = {
             ["Valentines God Potion"] = {Price = "5%"},
             ["God Potion"] = {Price = "5%"},
             ["Plasma Board Game Dice"] = {Price = "5%"},
+            ["Legendary Mining Chest"] = {Price = "10%", Priority = false},
+            ["Corrupted Huge Bait"] = {Price = "5%", Priority = false},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = ""},
@@ -64,4 +64,4 @@ getgenv().Settings = {
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b58d9c50c5ea74f255af40a8f735773.lua"))()
 
-_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS1 Plaza Seller", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
+_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS2 Plaza Seller", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
