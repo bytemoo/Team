@@ -1,49 +1,30 @@
 script_key="byAWVagmJAbMZUazIhPDekwTQkjKFHze";
 getgenv().Settings = {        
-    FPSLimit = 15,
-    CraftInsta4PotionsSoICanSellThem = true,
+    FPSLimit = 60,
+    CraftInsta4PotionsSoICanSellThem = false,
     ["Notifications"] = {
-        Webhook = "https://discord.com/api/webhooks/1337486108845408296/U87XgHd9HmKzop6X8GBTdIw9P3i8vcYTz8CY4xngMkUYDdYh76g1nNMxosf8Uu0Blp0Q",
-        DiscordID = 957888708797927454,
-        Difficulty = "Above 999m",
+        Webhook = "",
+        DiscordID = "",
+        Difficulty = "Above 100m",
     },
     ["Mailing"] = {
-        Usernames = {"fileentry"},
+        Usernames = {""},
         Webhook = "",
         ["Pets"] = {
-            KeepBestPets = true,
-            Difficulty = "Above 300m",
+            KeepBestPets = false,
+            Difficulty = "Above 1b",
         },
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 50},
-            ["Exotic Mining Chest"] = {Amount = 10},
-            ["Legendary Mining Chest"] = {Amount = 50},
-            ["Abyssal Treasure Chest"] = {Amount = 10},
             ["Titanic Mining Chest"] = {Amount = 1},
-            ["Crystal Key"] = {Amount = 10}, 
-            ["Crystal Key Lower Half"] = {Amount = 10},
-            ["Crystal Key Upper Half"] = {Amount = 10},
-            ["Corrupted Huge Bait"] = {Amount = 100},
-            ["Exotic Fishing Bait"] = {Amount = 10},
-            ["Exotic Fishing Chest"] = {Amount = 10},
-            ["Legendary Fishing Bait"] = {Amount = 10},
-            ["Legendary Fishing Chest"] = {Amount = 10},
-            ["Hype Egg"] = {Amount = 1},
-            ["Heartbreak Egg"] = {Amount = 1000},
-            ["Valentine's Present"] = {Amount = 1},
-            ["Valentines Present"] = {Amount = 1},
-            ["Heartbreak Present"] = {Amount = 1},
-            ["Valentine's Spinny Wheel Ticket"] = {Amount = 1},
-            ["Valentines Spinny Wheel Ticket"] = {Amount = 1},
-            ["Valentines God Potion"] = {Amount = 1},
             ["God Potion"] = {Amount = 1},
-            ["Plasma Board Game Dice"] = {Amount = 1},
-            ["Diamonds"] = {Amount = 100000},
+            ["Tech Gift Bag"] = {Amount = 50},
         },
-    }
+    },
+    ["Debug"] = {
+    },
 }
-
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3cb1834cff48e9af0cc2616e44ab7d70.lua"))()
 
-_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS2 - Farmer", }
+_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "NewAccounts", }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
