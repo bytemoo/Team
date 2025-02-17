@@ -29,8 +29,8 @@ getgenv().Settings = {
             ["All Huges"] = {Price = "+5%", AllTypes = true},
             ["All Rarity: Secret"] = {Price = "5%", AllTypes = true},
             ["Runic Mining Chest"] = {Price = "10%"},
-            ["Exotic Mining Chest"] = {Price = "5%"},
-            ["Abyssal Treasure Chest"] = {Price = "5%"},
+            ["Exotic Mining Chest"] = {Price = "15%"},
+            ["Abyssal Treasure Chest"] = {Price = "10%"},
             ["Titanic Mining Chest"] = {Price = "5%"},
             ["Crystal Key"] = {Price = "5%"},
             ["Crystal Key Lower Half"] = {Price = "5%"},
@@ -40,15 +40,15 @@ getgenv().Settings = {
             ["Legendary Fishing Bait"] = {Price = "5%"},
             ["Legendary Fishing Chest"] = {Price = "5%"},
             ["Hype Egg"] = {Price = "5%"},
-            ["Valentine's Present"] = {Price = "10%"},
-            ["Valentines Present"] = {Price = "10%"},
-            ["Heartbreak Present"] = {Price = "10%"},
+            ["Valentine's Present"] = {Price = "15%"},
+            ["Valentines Present"] = {Price = "15%"},
+            ["Heartbreak Present"] = {Price = "15%"},
             ["Valentine's Spinny Wheel Ticket"] = {Price = "5%"},
             ["Valentines Spinny Wheel Ticket"] = {Price = "5%"},
             ["Valentines God Potion"] = {Price = "5%"},
             ["God Potion"] = {Price = "5%"},
             ["Plasma Board Game Dice"] = {Price = "5%"},
-            ["Legendary Mining Chest"] = {Price = "10%", Priority = false},
+            ["Legendary Mining Chest"] = {Price = "15%", Priority = false},
             ["Corrupted Huge Bait"] = {Price = "5%", Priority = false},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
@@ -66,4 +66,4 @@ getgenv().Settings = {
 }
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b58d9c50c5ea74f255af40a8f735773.lua"))()
 
-_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS2 Plaza Seller", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
+_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS1 Plaza Seller", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
