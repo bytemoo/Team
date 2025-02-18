@@ -12,11 +12,11 @@ getgenv().Settings = {
         Webhook = "",
         ["Pets"] = {
             KeepBestPets = true,
-            Difficulty = "Above 300m",
+            Difficulty = "Above 499m",
         },
         ["Items"] = {
             ["Runic Mining Chest"] = {Amount = 500},
-            ["Exotic Mining Chest"] = {Amount = 10},
+            ["Exotic Mining Chest"] = {Amount = 500},
             ["Legendary Mining Chest"] = {Amount = 5000},
             ["Abyssal Treasure Chest"] = {Amount = 500},
             ["Titanic Mining Chest"] = {Amount = 1},
@@ -26,7 +26,7 @@ getgenv().Settings = {
             ["Corrupted Huge Bait"] = {Amount = 5000},
             ["Exotic Fishing Bait"] = {Amount = 10},
             ["Exotic Fishing Chest"] = {Amount = 10},
-            ["Legendary Fishing Bait"] = {Amount = 10},
+            ["Legendary Fishing Bait"] = {Amount = 500},
             ["Legendary Fishing Chest"] = {Amount = 10},
             ["Hype Egg"] = {Amount = 1},
             ["Heartbreak Egg"] = {Amount = 100000},
