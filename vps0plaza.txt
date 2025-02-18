@@ -26,7 +26,7 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         ["Items"] = {
-            ["All Huges"] = {Price = "+0%", AllTypes = true},
+            ["All Huges"] = {Price = "+5%", AllTypes = true},
             ["All Rarity: Secret"] = {Price = "0%", AllTypes = true},
             ["Runic Mining Chest"] = {Price = "10%"},
             ["Exotic Mining Chest"] = {Price = "15%"},
@@ -40,9 +40,9 @@ getgenv().Settings = {
             ["Legendary Fishing Bait"] = {Price = "5%"},
             ["Legendary Fishing Chest"] = {Price = "5%"},
             ["Hype Egg"] = {Price = "5%"},
-            ["Valentine's Present"] = {Price = "15%"},
-            ["Valentines Present"] = {Price = "15%"},
-            ["Heartbreak Present"] = {Price = "15%"},
+            ["Valentine's Present"] = {Price = "5%"},
+            ["Valentines Present"] = {Price = "5%"},
+            ["Heartbreak Present"] = {Price = "5%"},
             ["Valentine's Spinny Wheel Ticket"] = {Price = "5%"},
             ["Valentines Spinny Wheel Ticket"] = {Price = "5%"},
             ["Valentines God Potion"] = {Price = "5%"},
