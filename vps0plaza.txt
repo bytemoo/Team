@@ -54,7 +54,7 @@ getgenv().Settings = {
         ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = ""},
         ["Kill Switch"] = {
-            ["Booth Runout"] = false,
+            ["Booth Runout"] = true,
             ["Diamonds Hit: 1b"] = false,
             ["60 Minutes Timer"] = false,
             ["^^^ Switch To Sniping"] = false,
