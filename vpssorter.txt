@@ -34,7 +34,7 @@ getgenv().petsGoConfig = {
         CELESTIAL_MINING_CHEST = 5, RUNIC_MINING_CHEST = 500,
         CELESTIAL_ENCHANT_SAFE = 1,
         EVENT_GIFT_BAG = 10,
-        EVENT_EGG = 10000,
+        EVENT_EGG = 50000,
     },
 
 MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
