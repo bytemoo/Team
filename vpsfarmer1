@@ -27,10 +27,6 @@ getgenv().petsGoConfig = {
     USERNAME_TO_MAIL = {"rq1nee"} -- Mail to username, Example : USERNAME_TO_MAIL = {"username1", "username2"} 
 },
 
-MAIL_FISHING_ROD = false,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
-MAIL_GEMS_MIN = 1,  -- Minimum Gems to mail out
-}
-
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e81ea00ef49a917bb1242da4f41dc4f9.lua"))()
 
 _G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "Pc", } loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
