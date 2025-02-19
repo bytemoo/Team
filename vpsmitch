@@ -1,4 +1,4 @@
-script_key="WRFtAlMQlyBikZhWWFMOGSwhbwiITCqD";
+script_key="eyhyYOPJObzsurYQsJxVygeWdCgLMxJu";
 
 getgenv().petsGoConfig = {
     -- true/false (true = consume, false = automail)
