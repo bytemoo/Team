@@ -18,8 +18,6 @@ getgenv().Settings = {
             ["Runic Mining Chest"] = {Amount = 500},
             ["Exotic Mining Chest"] = {Amount = 500},
             ["Abyssal Treasure Chest"] = {Amount = 250},
-            ["Titanic Mining Chest"] = {Amount = 1},
-            ["Exclusive Enchant Safe"] = {Amount = 10},
             ["Legendary Enchant Safe"] = {Amount = 10},
             ["Celestial Enchant Safe"] = {Amount = 10},
             ["Crystal Key"] = {Amount = 100}, 
@@ -29,7 +27,6 @@ getgenv().Settings = {
             ["Exotic Fishing Bait"] = {Amount = 50},
             ["Legendary Fishing Bait"] = {Amount = 50},
             ["Hype Egg"] = {Amount = 1},
-            ["Cupids Egg"] = {Amount = 10000},
             ["Heartbreak Egg"] = {Amount = 10000},
             ["Valentine's Present"] = {Amount = 50},
             ["Valentines Present"] = {Amount = 50},
@@ -40,12 +37,9 @@ getgenv().Settings = {
             ["Valentine's Spinny Wheel Ticket"] = {Amount = 10},
             ["Valentines Spinny Wheel Ticket"] = {Amount = 10},
             ["Diamonds"] = {Amount = 10000000},
-
         },
     }
 }
-
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3cb1834cff48e9af0cc2616e44ab7d70.lua"))()
-
 _G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS1 - Farmer", }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
