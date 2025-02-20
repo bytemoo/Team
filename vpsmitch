@@ -3,7 +3,7 @@ getgenv().Settings = {
     FPSLimit = 15,
     CraftInsta4PotionsSoICanSellThem = true,
     ["Notifications"] = {
-        Webhook = "https://discord.com/api/webhooks/1337486108845408296/U87XgHd9HmKzop6X8GBTdIw9P3i8vcYTz8CY4xngMkUYDdYh76g1nNMxosf8Uu0Blp0Q",
+        Webhook = "https://discord.com/api/webhooks/1337450762653011978/kyemAsPZfDl0tKF6wC3Po-0yPiHBSGDKluvzJOvcQohn-c9t2HkeafuF13dCzOSR0YA7",
         DiscordID = "",
         Difficulty = "Above 999m",
     },
