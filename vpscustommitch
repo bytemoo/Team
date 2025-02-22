@@ -1,4 +1,4 @@
-script_key="LmEkzyOwByhcZVfwdQyZtOzdfphlFBlD";
+script_key="aMTrSwXDJYclRurZFZRXBsCzDYYjQehs";
 getgenv().Settings = {        
     FPSLimit = 15,
     CraftInsta4PotionsSoICanSellThem = true,
