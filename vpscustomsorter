@@ -8,7 +8,7 @@ getgenv().Settings = {
         Difficulty = "Above 999m",
     },
     ["Mailing"] = {
-        Usernames = {"Mangetsu035"},
+        Usernames = {"rayson_rodel"},
         Webhook = "",
         ["Pets"] = {
             KeepBestPets = true,
