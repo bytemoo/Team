@@ -30,6 +30,7 @@ getgenv().Settings = {
             ["Valentines God Potion"] =  {Price = "10%"},
             ["Valentine's Present"] =  {Price = "+10%"},
             ["Valentines Present"] =  {Price = "+10%"},
+            ["Heartbreak Present"] =  {Price = "+10%"},
             ["Runic Mining Chest"] =  {Price = "5%"},
             ["Exotic Thieving Chest"] =  {Price = "5%"},
             ["Legendary Thieving Chest"] =  {Price = "5%"},
@@ -42,7 +43,7 @@ getgenv().Settings = {
         ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = ""},
         ["Kill Switch"] = {
-            ["Booth Runout"] = true,
+            ["Booth Runout"] = false,
             ["Diamonds Hit: 1b"] = false,
             ["60 Minutes Timer"] = false,
             ["^^^ Switch To Sniping"] = false,
