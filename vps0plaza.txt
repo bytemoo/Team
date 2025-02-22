@@ -26,14 +26,14 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         ["Items"] = {
-            ["All Huges"] = {Price = "0%", AllTypes = true},
-            ["All Rarity: Secret"] = {Price = "0%", AllTypes = true},
             ["Hype Egg"] = {Price = "+10%"},
             ["Valentines God Potion"] =  {Price = "10%"},
             ["Valentine's Present"] =  {Price = "10%"},
             ["Valentines Present"] =  {Price = "10%"},
             ["Exotic Mining Chest"] =  {Price = "5%"},
             ["Abyssal Treasure Chest"] = {Price = "5%"},
+            ["All Huges"] = {Price = "0%", AllTypes = true},
+            ["All Rarity: Secret"] = {Price = "0%", AllTypes = true},
             ["Corrupted Huge Bait"] = {Price = "10%"},
 
         },
