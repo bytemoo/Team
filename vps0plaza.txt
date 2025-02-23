@@ -52,7 +52,7 @@ getgenv().Settings = {
             ["60 Minutes Timer"] = false,
             ["^^^ Switch To Sniping"] = false,
         },
-        ["Diamonds Sendout"] = {Active = true, Username = "rayson_rodel", Amount = "10m"},
+        ["Diamonds Sendout"] = {Active = true, Username = "rayson_rodel", Amount = "100m"},
     },
 
 
