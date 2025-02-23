@@ -30,7 +30,6 @@ getgenv().Settings = {
             ["God Potion"] = {Amount = 1},
             ["10,000x Thieving Egg"] = {Amount = 100},
             ["100x Thieving Egg"] = {Amount = 10000},
-
             ["Thieving Gift Bag"] = {Amount = 1},
             ["Diamonds"] = {Amount = 10000000},
         },
