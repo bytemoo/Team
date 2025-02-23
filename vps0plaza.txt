@@ -42,7 +42,7 @@ getgenv().Settings = {
             ["Thieving Success Scroll"] =  {Price = "10%"},
             ["Bolt of Lightning"] =  {Price = "10%"},
             ["Crystal Key Lower Half"] =  {Price = "10%"},
-            ["Pickaxe Strenght I"] =  {Price = "10%"},
+            ["Pickaxe Strength I"] =  {Price = "10%"},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = ""},
