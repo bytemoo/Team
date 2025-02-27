@@ -1,1 +1,39 @@
-loadstring(game:HttpGet("https://raw.githubusercontent.com/bytemoo/Team/refs/heads/main/vps0farmerdefault"))()
+script_key="LmEkzyOwByhcZVfwdQyZtOzdfphlFBlD";
+getgenv().Settings = {        
+    ["Notifications"] = {
+        Webhook = "",
+        DiscordID = "",
+        Difficulty = "Above 100m",
+    },
+    ["Mailing"] = {
+        Usernames = {"rq1nee"},
+        Webhook = "",
+        ["Pets"] = {
+            KeepBestPets = true,
+            Difficulty = "Above 1b",
+        },
+        ["Items"] = {
+            --// These are EXAMPLES, please change/add anything to your liking! (Display Names) \\--
+            ["Runic Mining Chest"] = {Amount = 10},
+            ["Titanic Mining Chest"] = {Amount = 1},
+            ["Abyssal Treasure Chest"] = {Amount = 10},
+            ["Exotic Fishing Chest"] = {Amount = 1},
+            ["Legendary Fishing Chest"] = {Amount = 1},
+            ["Exotic Thieving Chest"] = {Amount = 1},
+            ["Legendary Thieving Chest"] = {Amount = 5},
+            ["Hype Egg"] = {Amount = 1},
+            ["Thieving God Potion"] = {Amount = 1},
+            ["God Potion"] = {Amount = 1},
+            ["10,000x Thieving Egg"] = {Amount = 1},
+            ["100x Thieving Egg"] = {Amount = 1},
+            ["Thieving Gift Bag"] = {Amount = 1},
+            ["Diamonds"] = {Amount = 100000}, 
+        },
+    },
+    ["Debug"] = {
+    },
+}
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3cb1834cff48e9af0cc2616e44ab7d70.lua"))()
+
+_G.Config = { UserID = "18f08fa4-17d7-48e8-b9a1-b3facea4c8dd", discord_id = "957888708797927454" , Note = "VPS1 - Farmer", }
+loadstring(game:HttpGet("https://raw.githubusercontent.com/skadidau/unfazedfree/refs/heads/main/petsgo"))()
