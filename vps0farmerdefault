@@ -10,7 +10,7 @@ getgenv().Settings = {
         Webhook = "",
         ["Pets"] = {
             KeepBestPets = true,
-            Difficulty = "Above 1b",
+            Difficulty = "Above 499m",
         },
         ["Items"] = {
             --// These are EXAMPLES, please change/add anything to your liking! (Display Names) \\--
