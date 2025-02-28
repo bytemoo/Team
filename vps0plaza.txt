@@ -26,6 +26,8 @@ getgenv().Settings = {
     Seller = {
         Active = true,
         ["Items"] = {
+            ["All Huges"] = {Price = "0%", AllTypes = true},
+            ["All Rarity: Secret"] = {Price = "0%", AllTypes = true},
             ["Hype Egg"] = {Price = "+10%"},
             ["Secret Key"] = {Price = "+10%"},
             ["Heartbreak Present"] =  {Price = "0%"},
@@ -45,8 +47,6 @@ getgenv().Settings = {
             ["Emerald Lockpick"] =  {Price = "0%"},
             ["Crystal Key Lower Half"] =  {Price = "10%"},
             ["Crystal Key"] =  {Price = "0%"},
-            ["All Huges"] = {Price = "0%", AllTypes = true},
-            ["All Rarity: Secret"] = {Price = "0%", AllTypes = true},
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
         ["Webhook"] = {Active = true, URL = ""},
