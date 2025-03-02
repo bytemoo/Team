@@ -11,6 +11,7 @@ getgenv().petsGoConfig = {
     CONSUME_INSTA_LUCK_4 = true,
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
     CONSUME_VAULT_KEY = true,
+MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
 MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
   -- General
   INSTA_POTION_IV = 5,
