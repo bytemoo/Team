@@ -12,6 +12,9 @@ getgenv().petsGoConfig = {
     IGNORE_DICE_COMBO = false, -- Consume Insta Luck 3 without combo
     CONSUME_VAULT_KEY = true,
 MAIL_GEMS_MIN = 100000,  -- Minimum Gems to mail out
+-- Allowed enchant keywords : Criticals, Loot, Speed, Strength, Chests, Diamonds, Huges, Lightning, TNT
+PICKAXE_ENCHANTS = {"Speed", "Strength"},  -- only 3 enchants is allowed
+
 MIN_MAIL_AMOUNT = {  -- Rare items not listed, default min 1
   -- General
   INSTA_POTION_IV = 5,
