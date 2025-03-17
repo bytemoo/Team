@@ -1,64 +1,53 @@
-script_key="MRCRPdDJSCaEhZzGVxGTjvTRNLrJhmgv";
-getgenv().Settings = {
-    Sniper = {
-        Active = false,
-        ["Items"] = {
-            SearchTerminal = {
-                [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Nice Egg"] = {Price = "5%", InventoryLimit = 355},
-                ["Huge Night Terror Cat"] = {Price = "50%", UseCosmicValues = true},
-            },
-            ["All Class: Misc"] = {Price = 5},
-            ["All Rarity: Celestial"] = {Price = "50%"},
-            ["Shiny Rainbow Broomstick Cat"] = {Price = "+2%"},
-            ["All Huges"] = {Price = "15m", DetectManipulation = true, AllTypes = true},
-        },
-        ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = ""},
-        ["Kill Switch"] = {
-            ["Limits Reached"] = false,
-            ["Diamonds Hit: 25m"] = false,
-            ["60 Minutes Timer"] = false,
-            ["^^^ Switch To Selling"] = false,
-        },
-    },
+script_key="WRFtAlMQlyBikZhWWFMOGSwhbwiITCqD";
 
-    Seller = {
-        Active = true,
-        ["Items"] = {
-            ["All Huges"] = {Price = "0%", AllTypes = true},
-            ["All Rarity: Secret"] = {Price = "0%", AllTypes = true},
-            ["Hype Egg"] = {Price = "+10%"},
-            ["Secret Key"] = {Price = "+10%"},
-            ["Heartbreak Present"] =  {Price = "0%"},
-            ["Runic Mining Chest"] =  {Price = "5%"},
-            ["Legendary Mining Chest"] =  {Price = "5%"},
-            ["Exotic Mining Chest"] =  {Price = "5%"},
-            ["Thieving Gift Bag"] =  {Price = "5%"},
-            ["Corrupted Fishing Rod"] =  {Price = "5%"},
-            ["Legendary Fishing Chest"] =  {Price = "5%"},
-            ["Exotic Fishing Chest"] =  {Price = "5%"},
-            ["Exotic Thieving Chest"] =  {Price = "5%"},
-            ["Legendary Thieving Chest"] =  {Price = "5%"},
-            ["Abyssal Treasure Chest"] = {Price = "5%"},
-            ["Emerald Pickaxe"] = {Price = "5%"},
-            ["Obsidian Pickaxe"] = {Price = "5%"},
-            ["Frozen Fishing Rod"] = {Price = "10%"},
-            ["Emerald Lockpick"] =  {Price = "0%"},
-            ["Crystal Key Lower Half"] =  {Price = "10%"},
-            ["Crystal Key"] =  {Price = "0%"},
-        },
-        ["Switch Servers"] = {Active = true, MinuteDelay = 15, OnlyPRO = false},
-        ["Webhook"] = {Active = true, URL = ""},
-        ["Kill Switch"] = {
-            ["Booth Runout"] = false,
-            ["Diamonds Hit: 1b"] = false,
-            ["60 Minutes Timer"] = false,
-            ["^^^ Switch To Sniping"] = false,
-        },
-        ["Diamonds Sendout"] = {Active = true, Username = "rayson_rodel", Amount = "10m"},
-    },
+-- Config with "MIN" = 1-5000 Minimum Quantity to sell
+-- Config with "SELL_PERCENTAGE" -> 1 = 100% RAP, 1.1 = 110% RAP, 0.8 = 80% RAP, , 0.85 = 85% RAP (Any Amount)
+getgenv().petsGoConfig = {
+    DISCORD_ID = "",
+    PLAZA_WEBHOOK_URL = "",
+    MAIL_GEM_WEBHOOK_URL = "",
 
+    -- Plaza hop delay will reset if someone purchase something.
+    PLAZA_HOP_DELAY = 20,  -- (minutes) If no one purchase, server hop
+    BOOTH_RESET_DELAY = 20,  -- (minutes) force reset booth (Reset RAP Prices)
+    AVOID_USERNAME = {""},  -- serverhop when it finds username, You can put multiple usernames
+    
+    -- Pets
+    SELL_100M_PET = false, SELL_PERCENTAGE_100M = 1,
+    SELL_500M_PET = false, SELL_PERCENTAGE_500M = 1,
+    SELL_SECRET = true, SELL_PERCENTAGE_SECRET = 1,
+    SELL_HUGE = true, SELL_SHINY_HUGE = true, SELL_PERCENTAGE_HUGE = 1,
+    
+    -- Consumables
+    SELL_CONSUMABLE = false, SELL_CONSUMABLE_MIN = 1, SELL_CONSUMABLE_PERCENTAGE = 1,
+    SELL_SCROLL = false, SELL_SCROLL_PERCENTAGE = 1,
+    SELL_BAIT = false, SELL_BAIT_MIN = 10, SELL_BAIT_PERCENTAGE = 1,
+    SELL_CHEST = false, SELL_CHEST_MIN = 10, SELL_CHEST_PERCENTAGE = 1,
+    SELL_GIFT_BAG = false, SELL_GIFT_BAG_MIN = 1, SELL_GIFT_BAG_PERCENTAGE = 1,
+    SELL_ENCHANT_SAFE = false, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 1,
 
+    -- Potions
+    SELL_POTION = true, SELL_POTION_MIN = 10, SELL_POTION_PERCENTAGE = 1,
+    SELL_GOD_POTION = true, SELL_GOD_POTION_PERCENTAGE = 1,
+
+    -- Eggs
+    -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
+    SELL_EGG = false, SELL_EGG_MIN = 5, SELL_EGG_PERCENTAGE = 1,
+    SELL_HUGE_EGG = false, -- true/false
+    SELL_HYPE_EGG = false, -- true/false
+    
+    -- Keys
+    SELL_KEY = true, SELL_KEY_MIN = 10, SELL_KEY_PERCENTAGE = 1,
+    SELL_KEY_LOWER = true,  -- true/false, enable selling lower crystal key
+    SELL_KEY_UPPER = true,  -- true/false, enable selling upper crystal key
+
+    -- Tools
+    SELL_FISHING_ROD = false, SELL_FISHING_ROD_PERCENTAGE = 1, 
+    SELL_PICKAXE = false, SELL_PICKAXE_PERCENTAGE = 1,
+    SELL_LOCKPICK = false, SELL_LOCKPICK_PERCENTAGE = 1,
+
+    MAIL_GEMS_USERNAME = {"rayson_rodel"},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
+    MAIL_GEMS_MIN = 100000000,  -- Minimum gems required to send
 }
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/3b58d9c50c5ea74f255af40a8f735773.lua"))()
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/074ae419ea26f2a773d8e592958ec2e8.lua"))() 
