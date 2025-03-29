@@ -9,7 +9,7 @@ getgenv().Settings = {
         Usernames = {"rayson_rodel"},
         Webhook = "",
         ["Pets"] = {
-            KeepBestPets = false,
+            KeepBestPets = true,
             Difficulty = "Above 999m",
         },
         ["Items"] = {
