@@ -1,4 +1,4 @@
-script_key="CGkqtxPrcXUCdRNgvHzNQmFZnzynLUdi";
+script_key="INGWsbGaUGCmBfcdpcVjxZRRmEzGnrrR";
 setfpscap(5)  -- number = fps
 getgenv().petsGoConfig = {
     AUTO_RESTART = true,
