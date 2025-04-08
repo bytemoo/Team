@@ -25,7 +25,7 @@ MASTERY_CAPE = "Rolling",  -- Rolling, Breakables, Fishing, Mining, Thieving, Ma
 PICKAXE_ENCHANTS = {"Speed", "Strength", "Loot"},  -- only 3 enchants is allowed
 
 MIN_MAIL_AMOUNT = {
-    MAIL_GEMS_MIN = 10000,
+    MAIL_GEMS_MIN = 1000,
 }
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1358555515696975943/ojVmIVlNTMgwvHbkEgz6qUY-XKmBMUoDQeOW29Chus_W9v9oDXBQUhkn7W7KBlptO_az",
