@@ -8,7 +8,7 @@ getgenv().petsGoConfig = {
     MAIL_GEM_WEBHOOK_URL = "",
 
     -- Plaza hop delay will reset if someone purchase something.
-    PLAZA_HOP_DELAY = 20,  -- (minutes) If no one purchase, server hop
+    PLAZA_HOP_DELAY = 15,  -- (minutes) If no one purchase, server hop
     BOOTH_RESET_DELAY = 20,  -- (minutes) force reset booth (Reset RAP Prices)
     AVOID_USERNAME = {""},  -- serverhop when it finds username, You can put multiple usernames
     
@@ -19,35 +19,35 @@ getgenv().petsGoConfig = {
     SELL_HUGE = false, SELL_SHINY_HUGE = true, SELL_PERCENTAGE_HUGE = 1,
     
     -- Consumables
-    SELL_CONSUMABLE = false, SELL_CONSUMABLE_MIN = 1, SELL_CONSUMABLE_PERCENTAGE = 1,
-    SELL_SCROLL = false, SELL_SCROLL_PERCENTAGE = 1,
-    SELL_BAIT = false, SELL_BAIT_MIN = 10, SELL_BAIT_PERCENTAGE = 1,
-    SELL_CHEST = false, SELL_CHEST_MIN = 10, SELL_CHEST_PERCENTAGE = 1,
-    SELL_GIFT_BAG = false, SELL_GIFT_BAG_MIN = 1, SELL_GIFT_BAG_PERCENTAGE = 1,
-    SELL_ENCHANT_SAFE = false, SELL_ENCHANT_SAFE_MIN = 5, SELL_ENCHANT_SAFE_PERCENTAGE = 1,
+    SELL_CONSUMABLE = true, SELL_CONSUMABLE_MIN = 1, SELL_CONSUMABLE_PERCENTAGE = 1,
+    SELL_SCROLL = true, SELL_SCROLL_PERCENTAGE = 1,
+    SELL_BAIT = true, SELL_BAIT_MIN = 500, SELL_BAIT_PERCENTAGE = 1,
+    SELL_CHEST = true, SELL_CHEST_MIN = 100, SELL_CHEST_PERCENTAGE = 1,
+    SELL_GIFT_BAG = true, SELL_GIFT_BAG_MIN = 10, SELL_GIFT_BAG_PERCENTAGE = 1,
+    SELL_ENCHANT_SAFE = true, SELL_ENCHANT_SAFE_MIN = 10, SELL_ENCHANT_SAFE_PERCENTAGE = 1,
 
     -- Potions
-    SELL_POTION = false, SELL_POTION_MIN = 100, SELL_POTION_PERCENTAGE = 1,
-    SELL_GOD_POTION = false, SELL_GOD_POTION_PERCENTAGE = 1,
+    SELL_POTION = true, SELL_POTION_MIN = 100, SELL_POTION_PERCENTAGE = 1,
+    SELL_GOD_POTION = true, SELL_GOD_POTION_PERCENTAGE = 1.1,
 
     -- Eggs
     -- SELL_EGG_MIN : [Doesn't apply to Huge/Hype Egg (Default MIN 1)]
     SELL_EGG = false, SELL_EGG_MIN = 5, SELL_EGG_PERCENTAGE = 1,
-    SELL_HUGE_EGG = false, -- true/false
-    SELL_HYPE_EGG = false, -- true/false
+    SELL_HUGE_EGG = true, -- true/false
+    SELL_HYPE_EGG = true, -- true/false
     
     -- Keys
-    SELL_KEY = false, SELL_KEY_MIN = 10, SELL_KEY_PERCENTAGE = 1,
-    SELL_KEY_LOWER = false,  -- true/false, enable selling lower crystal key
-    SELL_KEY_UPPER = false,  -- true/false, enable selling upper crystal key
+    SELL_KEY = true, SELL_KEY_MIN = 10, SELL_KEY_PERCENTAGE = 1,
+    SELL_KEY_LOWER = true,  -- true/false, enable selling lower crystal key
+    SELL_KEY_UPPER = true,  -- true/false, enable selling upper crystal key
 
     -- RAINBOW TOKENS
-    SELL_RAINBOW_TOKEN = false, SELL_RAINBOW_TOKEN_MIN = 1, SELL_RAINBOW_TOKEN_PERCENTAGE = 1,
+    SELL_RAINBOW_TOKEN = true, SELL_RAINBOW_TOKEN_MIN = 1, SELL_RAINBOW_TOKEN_PERCENTAGE = 1.1,
 
     -- Tools
-    SELL_FISHING_ROD = false, SELL_FISHING_ROD_PERCENTAGE = 1, 
-    SELL_PICKAXE = false, SELL_PICKAXE_PERCENTAGE = 1,
-    SELL_LOCKPICK = false, SELL_LOCKPICK_PERCENTAGE = 1,
+    SELL_FISHING_ROD = true, SELL_FISHING_ROD_PERCENTAGE = 1, 
+    SELL_PICKAXE = true, SELL_PICKAXE_PERCENTAGE = 1,
+    SELL_LOCKPICK = true, SELL_LOCKPICK_PERCENTAGE = 1,
 
     MAIL_GEMS_USERNAME = {""},  -- Empty = Disabled Gem Mail, You can put multiple usernames 1% fee
     MAIL_GEMS_MIN = 100000000,  -- Minimum gems required to send
