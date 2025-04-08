@@ -10,7 +10,7 @@ getgenv().petsGoConfig = {
     CONSUME_VAULT_KEY = true,
     CONSUME_KRAKEN_TENTACLE = true,
     CONSUME_BUCKET_O_CHUM = false,
-    BREAK_PINATA = true,
+    BREAK_PINATA = false,
     CONSUME_ALL_FISHING_CHEST = false,
     CONSUME_ALL_ENCHANT_SAFE = false,
     CONSUME_ALL_THIEVING_CHEST = false,  -- false = have smart auto-open ensure at least 1 scroll active
