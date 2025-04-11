@@ -10,7 +10,7 @@ getgenv().Settings = {
                 ["Pickaxe Speed V"] = {Price = "0%", InventoryLimit = 20},
                 ["Runic Pickaxe"] = {Price = "0%", InventoryLimit = 20},
                 ["Diamond Lockpick"] = {Price = "0%", InventoryLimit = 15},
-                ["Huge Sphinx"] = {Price = "0%", InventoryLimit = 25},
+                ["Huge Sphinx"] = {Price = "0%", InventoryLimit = 100},
             },
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
