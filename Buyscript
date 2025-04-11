@@ -5,11 +5,11 @@ getgenv().Settings = {
         ["Items"] = {
             SearchTerminal = {
                 [[ Search Items via Trading Terminal, Custom Keywords NOT supported here. ]],
-                ["Frozen Fishing Rod"] = {Price = "0%", InventoryLimit = 15},
-                ["Deep Sea Fishing Rod"] = {Price = "0%", InventoryLimit = 15},
-                ["Pickaxe Strength V"] = {Price = "0%", InventoryLimit = 25},
-                ["Pickaxe Speed V"] = {Price = "0%", InventoryLimit = 25},
-                ["Runic Pickaxe"] = {Price = "0%", InventoryLimit = 25},
+                ["Frozen Fishing Rod"] = {Price = "0%", InventoryLimit = 10},
+                ["Pickaxe Strength V"] = {Price = "0%", InventoryLimit = 20},
+                ["Pickaxe Speed V"] = {Price = "0%", InventoryLimit = 20},
+                ["Runic Pickaxe"] = {Price = "0%", InventoryLimit = 20},
+                ["Diamond Lockpick"] = {Price = "0%", InventoryLimit = 15},
             },
         },
         ["Switch Servers"] = {Active = true, SecondDelay = 7, OnlyPRO = false},
