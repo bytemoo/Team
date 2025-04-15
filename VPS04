@@ -14,7 +14,7 @@ getgenv().petsGoConfig = {
     CONSUME_BUCKET_O_CHUM = true,
     MAIL_FISHING_ROD = true,  -- true = mail, false = keep fishing rod on account (FASTER Fishing)
     MAIL_PICKAXE = true, -- true = mail (smart mail [keep best pickaxe, mail excess])
-    MAIL_GEMS_MIN = 10000,  -- Minimum Gems to mail out
+    MAIL_GEMS_MIN = 500000,  -- Minimum Gems to mail out
     MASTERY_CAPE = "Rolling",  -- Rolling, Breakables, Fishing, Mining, Thieving, Master Skill
     PICKAXE_ENCHANTS = {"Speed", "Strength", ""},
     WEBHOOK_URL = "https://discord.com/api/webhooks/1358553140198379741/y3vtHi1B8LB1imDHoCHHTGzYcZfx7X5SLk5Wbw94jY8niw7vS0hpG0JwDpg1TP7VDUJf",
