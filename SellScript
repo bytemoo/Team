@@ -38,7 +38,7 @@ getgenv().Settings = {
             ["God Potion"] = {Price = "0%"},
             ["Exotic Mining Chest"] = {Price = "0%"},
             ["All Celestial"] = {Price = "0%", AllTypes = true},
-            ["All Huges"] = {Price = "+20%", AllTypes = true},
+            ["All Huges"] = {Price = "+10%", AllTypes = true},
 
         },
         ["Switch Servers"] = {Active = true, MinuteDelay = 20, OnlyPRO = false},
