@@ -28,15 +28,20 @@ getgenv().Settings = {
     "Ma_Kristine2"
 },
 
-["Enchant Settings"] = {
-    EnchantPets = true,
+    ["Enchant Settings"] = {
+        EnchantPets = true,
 
     ["Require All Enchants"] = true,
-    ["Enchants Needed"] = {
-        ["Team Up"] = {Tier = 5, HigherTiers = true},
+        ["Enchants Needed"] = {
+            ["Team Up"] = {Tier = 5, HigherTiers = false},
     },
 },
+
+
+
     },
+
+
 
 }
 loadstring(game:HttpGet("https://system-exodus.com/scripts/BGSI/OneClick.lua"))()
