@@ -7,20 +7,8 @@ getgenv().Settings = {
         ["Notifications"] = {
             Webhook = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
             DiscordID = "957888708797927454",
-            Difficulty = "1m", --// Minimum Difficulty for Webhook Notifications
+            Difficulty = "100k", --// Minimum Difficulty for Webhook Notifications
         },
-
-["Enchant Settings"] = {
-    EnchantPets = true,
-
-    ["Require All Enchants"] = true,
-    ["Enchants Needed"] = {
-        ["Team Up"] = {Tier = 5, HigherTiers = true},
-    },
-},
-["Trade Users"] = {
-    "Ma_Kristine2"
-},
 
         ["Rifts"] = {
             FindRifts = true,
@@ -28,7 +16,7 @@ getgenv().Settings = {
             --// true --> Sort by Multiplier out of ALL Targetted Rifts.
             --// false --> Sort by Multiplier out of BEST Targetted Rifts.
             
-            Targets = {"Aura Egg", "Pastel Egg", "Bunny Egg", "Throwback Egg"},
+            Targets = {},
             --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
         },
     },
@@ -36,5 +24,19 @@ getgenv().Settings = {
     ["Debug"] = {
         DisableUI = false,
     },
+
+["Enchant Settings"] = {
+    EnchantPets = true,
+
+    ["Require All Enchants"] = true,
+    ["Enchants Needed"] = {
+        ["High Roller] = {Tier = 5, HigherTiers = false},
+    },
+},
+
+["Trade Users"] = {
+    "Ma_Kristine2"
+},
+
 }
 loadstring(game:HttpGet("https://system-exodus.com/scripts/BGSI/OneClick.lua"))()
