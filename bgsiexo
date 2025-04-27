@@ -24,18 +24,14 @@ getgenv().Settings = {
     ["Debug"] = {
         DisableUI = false,
     },
-
+--// Enchant Pets with any enchant you type!
 ["Enchant Settings"] = {
     EnchantPets = true,
 
     ["Require All Enchants"] = true,
     ["Enchants Needed"] = {
-        ["High Roller] = {Tier = 5, HigherTiers = false},
+        ["Team Up"] = {Tier = 5, HigherTiers = false},
     },
-},
-
-["Trade Users"] = {
-    "Ma_Kristine2"
 },
 
 }
