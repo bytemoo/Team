@@ -1,7 +1,7 @@
 getgenv().Settings = {
     ["Egg Settings"] = {
         OpenEggs = true,
-        Egg = "Throwback Egg",
+        Egg = "100M Egg",
         --// Supports ANY egg ("Rainbow Egg", "Infinity Egg", ...). Keep "Best" for new accounts.
         
         ["Notifications"] = {
@@ -16,13 +16,13 @@ getgenv().Settings = {
             --// true --> Sort by Multiplier out of ALL Targetted Rifts.
             --// false --> Sort by Multiplier out of BEST Targetted Rifts.
             
-            Targets = {},
+            Targets = {"Throwback Egg"},
             --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
         },
     },
     
     ["Debug"] = {
-        DisableUI = false,
+        DisableUI = true,
     },
 --// Enchant Pets with any enchant you type!
 ["Enchant Settings"] = {
