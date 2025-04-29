@@ -46,8 +46,7 @@ getgenv().Config = {
 	},
 	["Completitive"] = {
 		["Reroll Hatch Amount"] = 1500,
-		["Hatch Pet Task Option"] = "Ignore (will do other mission or run Auto Hatch feature)",
-		["Auto Task"] = true
+		["Hatch Pet Task Option"] = "Ignore (will do other mission or run Auto Hatch feature)"
 	},
 	["Inventory"] = {
 		["Auto Delete"] = {
