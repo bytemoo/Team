@@ -33,7 +33,8 @@ getgenv().Config = {
 	},
 	["Rift Island"] = {
 		["Rift Hatcher"] = {
-			["Luck Multiplier"] = 5
+			["Luck Multiplier"] = 0,
+			["Auto Hatch Rift"] = true
 		},
 		["Use Potions"] = {
 			["Potions"] = {
@@ -43,7 +44,8 @@ getgenv().Config = {
 				["Infinity Elixir"] = true,
 				["Lucky Evolved"] = true
 			},
-			["Luck Multiplier"] = 5
+			["Luck Multiplier"] = 0,
+			["Enable"] = true
 		},
 		["Auto Hatch Silly"] = true,
 		["Auto Hatch Aura"] = true
@@ -60,9 +62,8 @@ getgenv().Config = {
 		["Hatch Pet Task Option"] = "Ignore (will do other mission or run Auto Hatch feature)"
 	},
 	["Hatcher"] = {
-		["Egg"] = "Infinity Egg",
-		["Hatch Location"] = "Spawn",
-		["Auto Hatch"] = true
+		["Egg"] = "Rainbow Egg",
+		["Hatch Location"] = "Spawn"
 	},
 	["Inventory"] = {
 		["Auto Delete"] = {
@@ -121,7 +122,8 @@ getgenv().Config = {
 		["Disable Hatch Animation"] = true
 	},
 	["Event Hatcher"] = {
-		["Egg"] = "100M Egg"
+		["Egg"] = "Throwback Egg",
+		["Auto Hatch Event"] = true
 	},
 	["Auto Enchant"] = {
 		["Slot 2"] = {
