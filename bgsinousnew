@@ -31,26 +31,38 @@ getgenv().Config = {
 			}
 		}
 	},
-	["Hatcher"] = {
-		["Egg"] = "Infinity Egg",
-		["Hatch Location"] = "Spawn",
-		["Auto Hatch"] = true
+	["Rift Island"] = {
+		["Rift Hatcher"] = {
+			["Luck Multiplier"] = 5
+		},
+		["Use Potions"] = {
+			["Potions"] = {
+				["Mythic Evolved"] = true,
+				["Coins Evolved"] = true,
+				["Speed Evolved"] = true,
+				["Infinity Elixir"] = true,
+				["Lucky Evolved"] = true
+			},
+			["Luck Multiplier"] = 5
+		},
+		["Auto Hatch Silly"] = true,
+		["Auto Hatch Aura"] = true
 	},
 	["Webhook"] = {
 		["Egg Hatched"] = {
-			["Chance"] = 2000000,
-			["Enable"] = true
+			["Enable"] = true,
+			["Chance"] = 2000000
 		},
 		["URL"] = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd"
-	},
-	["Upgrade"] = {
-		["Auto Flavor"] = true,
-		["Auto Gum"] = true,
-		["Auto Mastery"] = true
 	},
 	["Completitive"] = {
 		["Reroll Hatch Amount"] = 1500,
 		["Hatch Pet Task Option"] = "Ignore (will do other mission or run Auto Hatch feature)"
+	},
+	["Hatcher"] = {
+		["Egg"] = "Infinity Egg",
+		["Hatch Location"] = "Spawn",
+		["Auto Hatch"] = true
 	},
 	["Inventory"] = {
 		["Auto Delete"] = {
@@ -65,12 +77,12 @@ getgenv().Config = {
 		["Auto Equip Best"] = true
 	},
 	["Claimer"] = {
-		["Auto Doggy Jump"] = true,
 		["Auto Index"] = true,
-		["Auto Playtime"] = true,
+		["Auto Doggy Jump"] = true,
+		["Auto Wheel Spin"] = true,
 		["Auto Season"] = true,
 		["Auto Chest"] = true,
-		["Auto Wheel Spin"] = true
+		["Auto Playtime"] = true
 	},
 	["Islands"] = {
 		["Island Hop"] = {
@@ -97,8 +109,8 @@ getgenv().Config = {
 		["Auto Golden Orb"] = true
 	},
 	["Automation"] = {
-		["Auto Blow"] = true,
 		["Auto Pickup"] = true,
+		["Auto Blow"] = true,
 		["Auto Gift"] = true,
 		["Auto Sell"] = true
 	},
@@ -122,21 +134,10 @@ getgenv().Config = {
 			["Team Up 5"] = true
 		}
 	},
-	["Rift Island"] = {
-		["Rift Hatcher"] = {
-			["Luck Multiplier"] = 5
-		},
-		["Auto Hatch Aura"] = true,
-		["Use Potions"] = {
-			["Luck Multiplier"] = 5,
-			["Potions"] = {
-				["Mythic Evolved"] = true,
-				["Coins Evolved"] = true,
-				["Speed Evolved"] = true,
-				["Infinity Elixir"] = true,
-				["Lucky Evolved"] = true
-			}
-		}
+	["Upgrade"] = {
+		["Auto Flavor"] = true,
+		["Auto Gum"] = true,
+		["Auto Mastery"] = true
 	}
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
