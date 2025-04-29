@@ -1,26 +1,4 @@
 getgenv().Config = {
-	["Inventory"] = {
-		["Auto Delete"] = {
-			["Enable"] = true,
-			["Rarity"] = {
-				["Common"] = true,
-				["Epic"] = true,
-				["Rare"] = true
-			},
-			["Chance"] = 999999
-		}
-	},
-	["Webhook"] = {
-		["Egg Hatched"] = {
-			["Enable"] = true,
-			["Chance"] = 2000000
-		},
-		["URL"] = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd"
-	},
-	["Completitive"] = {
-		["Hatch Pet Task Option"] = "Ignore (will do other mission or run Auto Hatch feature)",
-		["Auto Task"] = true
-	},
 	["Potions"] = {
 		["Use Potions"] = {
 			["Enable"] = true,
@@ -54,33 +32,42 @@ getgenv().Config = {
 			}
 		}
 	},
-	["Rift Island"] = {
-		["Rift Hatcher"] = {
-			["Luck Multiplier"] = 5,
-			["Auto Hatch Rift"] = true
+	["Webhook"] = {
+		["Egg Hatched"] = {
+			["Chance"] = 2000000,
+			["Enable"] = true
 		},
-		["Use Potions"] = {
-			["Enable"] = true,
-			["Luck Multiplier"] = 5,
-			["Potions"] = {
-				["Speed Evolved"] = true,
-				["Mythic Evolved"] = true,
-				["Coins Evolved"] = true,
-				["Infinity Elixir"] = true,
-				["Lucky Evolved"] = true
-			}
-		},
-		["Auto Hatch Aura"] = true
+		["URL"] = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd"
 	},
-	["Powerups"] = {
-		["Auto Box"] = {
+	["Upgrade"] = {
+		["Auto Flavor"] = true,
+		["Auto Gum"] = true,
+		["Auto Mastery"] = true
+	},
+	["Completitive"] = {
+		["Reroll Hatch Amount"] = 1500,
+		["Hatch Pet Task Option"] = "Ignore (will do other mission or run Auto Hatch feature)",
+		["Auto Task"] = true
+	},
+	["Inventory"] = {
+		["Auto Delete"] = {
 			["Enable"] = true,
-			["Box"] = {
-				["Golden Box"] = true,
-				["Mystery Box"] = true
-			}
-		},
-		["Auto Golden Orb"] = true
+			["Rarity"] = {
+				["Common"] = true,
+				["Epic"] = true,
+				["Rare"] = true
+			},
+			["Chance"] = 999999
+		}
+	},
+	["Claimer"] = {
+		["Auto Doggy Jump"] = true,
+		["Auto Index"] = true,
+		["Auto Playtime"] = true,
+		["Auto Season"] = true,
+		["Auto Chest"] = true,
+		["Auto Quest"] = true,
+		["Auto Wheel Spin"] = true
 	},
 	["Islands"] = {
 		["Island Hop"] = {
@@ -94,9 +81,21 @@ getgenv().Config = {
 		["Auto Royal Chest"] = true,
 		["Auto Golden Chest"] = true
 	},
-	["Event Hatcher"] = {
-		["Egg"] = "100M Egg",
-		["Auto Hatch Event"] = true
+	["Powerups"] = {
+		["Auto Box"] = {
+			["Enable"] = true,
+			["Box"] = {
+				["Golden Box"] = true,
+				["Mystery Box"] = true
+			}
+		},
+		["Auto Golden Orb"] = true
+	},
+	["Automation"] = {
+		["Auto Blow"] = true,
+		["Auto Pickup"] = true,
+		["Auto Gift"] = true,
+		["Auto Sell"] = true
 	},
 	["Performance"] = {
 		["Disable Popups"] = true,
@@ -104,20 +103,9 @@ getgenv().Config = {
 		["Black Screen"] = true,
 		["Disable Hatch Animation"] = true
 	},
-	["Automation"] = {
-		["Auto Pickup"] = true,
-		["Auto Blow"] = true,
-		["Auto Gift"] = true,
-		["Auto Sell"] = true
-	},
-	["Claimer"] = {
-		["Auto Index"] = true,
-		["Auto Doggy Jump"] = true,
-		["Auto Wheel Spin"] = true,
-		["Auto Season"] = true,
-		["Auto Chest"] = true,
-		["Auto Quest"] = true,
-		["Auto Playtime"] = true
+	["Event Hatcher"] = {
+		["Egg"] = "100M Egg",
+		["Auto Hatch Event"] = true
 	},
 	["Auto Enchant"] = {
 		["Slot 2"] = {
@@ -130,10 +118,24 @@ getgenv().Config = {
 			["Team Up 5"] = true
 		}
 	},
-	["Upgrade"] = {
-		["Auto Flavor"] = true,
-		["Auto Gum"] = true,
-		["Auto Mastery"] = true
+	["Rift Island"] = {
+		["Rift Hatcher"] = {
+			["Luck Multiplier"] = 5,
+			["Auto Hatch Rift"] = true
+		},
+		["Auto Hatch Aura"] = true,
+		["Auto Hatch Silly"] = true,
+		["Use Potions"] = {
+			["Enable"] = true,
+			["Luck Multiplier"] = 5,
+			["Potions"] = {
+				["Mythic Evolved"] = true,
+				["Coins Evolved"] = true,
+				["Speed Evolved"] = true,
+				["Infinity Elixir"] = true,
+				["Lucky Evolved"] = true
+			}
+		}
 	}
 }
 loadstring(game:HttpGet("https://nousigi.com/loader.lua"))()
