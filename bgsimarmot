@@ -1,0 +1,32 @@
+getgenv().bgsInfConfig = {
+    ADD_FRIEND = true,
+    AUTO_UPDATE_RESTART = true,
+    PURCHASE_ALIENSHOP = true,
+    PURCHASE_BLACKMARKET = true,
+    PURCHASE_STARSHOP_SLOT = 13,
+    RESTOCK_SHOP = "Blackmarket",
+
+    DO_BUBBLE_GUM = true,
+    USE_ROYAL_KEY = true,
+    USE_GOLDEN_KEY = true,
+    USE_MYSTERY_BOX = true,
+    IGNORE_MYSTERY_BOX_GEM_CAP = false,
+    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
+    LEGENDARY_TIER_TO_DELETE = 2,
+
+    MASTERY_BUFFS_LEVEL = 20,
+    POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
+
+    ENCHANT_TEAMUP = true,
+    ENCHANT_TEAMUP_TIER = 5,
+
+    RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Void Egg", "Rainbow Egg"},
+    HATCH_1X_EGG = "100M Egg", 
+
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
+    DISCORD_ID = "",
+    WEBHOOK_ODDS = 1000000,
+    SHOW_PET_WEBHOOK_USERNAME = true,
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/e2d15fd8d5fd053a359cc3e296c68150.lua"))()
