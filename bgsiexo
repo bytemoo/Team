@@ -1,0 +1,47 @@
+getgenv().Settings = {
+    ["Egg Settings"] = {
+        OpenEggs = true,
+        Egg = "Best",
+        --// Supports ANY egg ("Rainbow Egg", "Infinity Egg", ...). Keep "Best" for new accounts.
+        
+        ["Notifications"] = {
+            Webhook = "",
+            DiscordID = "",
+            Difficulty = "100k", --// Minimum Difficulty for Webhook Notifications
+        },
+
+        ["Rifts"] = {
+            FindRifts = true,
+            SortByMultiplier = false, 
+            --// true --> Sort by Multiplier out of ALL Targetted Rifts.
+            --// false --> Sort by Multiplier out of BEST Targetted Rifts.
+            
+            Targets = {"Aura Egg", "Hell Egg"},
+            --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
+        },
+    },
+    
+    ["Debug"] = {
+        DisableUI = false,
+    },
+
+--// Set the username to the account your alts will accept trades from!
+--// Simply type in the trade chat once opend: "add PETNAME x5" and ur alt will add such pets!
+["Trade Users"] = {
+    "ForV3r"
+},
+
+--// Enchant Pets with any enchant you type!
+["Enchant Settings"] = {
+    EnchantPets = true,
+
+    ["Require All Enchants"] = true,
+    ["Enchants Needed"] = {
+        ["Team Up"] = {Tier = 5, HigherTiers = true},
+    },
+},
+
+
+
+}
+loadstring(game:HttpGet("https://system-exodus.com/scripts/BGSI/OneClick.lua"))()
