@@ -1,11 +1,11 @@
 getgenv().Settings = {
     ["Egg Settings"] = {
         OpenEggs = true,
-        Egg = "Best",
+        Egg = "100M Egg",
         --// Supports ANY egg ("Rainbow Egg", "Infinity Egg", ...). Keep "Best" for new accounts.
         
         ["Notifications"] = {
-            Webhook = "",
+            Webhook = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
             DiscordID = "",
             Difficulty = "100k", --// Minimum Difficulty for Webhook Notifications
         },
@@ -16,7 +16,7 @@ getgenv().Settings = {
             --// true --> Sort by Multiplier out of ALL Targetted Rifts.
             --// false --> Sort by Multiplier out of BEST Targetted Rifts.
             
-            Targets = {"Aura Egg", "Hell Egg"},
+            Targets = {"Silly Egg", "Nightmare Egg", "Void Egg", "Rainbow Egg"},
             --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
         },
     },
