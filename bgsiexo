@@ -19,7 +19,7 @@ getgenv().Settings = {
     ["Trade Users"] = {"MainAccount1", "MainAccount2", "MainAccount3"},
 
     ["Debug"] = {
-        DisableUI = false,
+        DisableUI = true,
         
     }
 }
