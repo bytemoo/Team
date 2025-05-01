@@ -1,47 +1,26 @@
 getgenv().Settings = {
-    ["Egg Settings"] = {
-        OpenEggs = true,
-        Egg = "100M Egg",
-        --// Supports ANY egg ("Rainbow Egg", "Infinity Egg", ...). Keep "Best" for new accounts.
-        
-        ["Notifications"] = {
-            Webhook = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
-            DiscordID = "",
-            Difficulty = "100k", --// Minimum Difficulty for Webhook Notifications
-        },
+    ["Open Egg"] = "Best Egg",
 
-        ["Rifts"] = {
-            FindRifts = true,
-            SortByMultiplier = false, 
-            --// true --> Sort by Multiplier out of ALL Targetted Rifts.
-            --// false --> Sort by Multiplier out of BEST Targetted Rifts.
-            
-            Targets = {"Silly Egg", "Nightmare Egg", "Void Egg", "Rainbow Egg"},
-            --// Targets = {} will automatically find the Top 3 BEST Rifts to hatch.
-        },
+    ["Target Rifts"] = {"Silly Egg", "Rainbow Egg", "Throwback Egg"},
+    ["Minimum Rift Luck"] = 25,
+    ["Target Highest Luck"] = false,
+    --// true --> Targets highest luck out of ALL selected rifts.
+    --// false --> Targets highest luck out of the BEST selected rift.
+
+    ["Webhook"] = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
+    ["Discord ID"] = "",
+    ["Minimum Send Difficulty"] = "1m",
+
+    ["Enchant Equipped"] = {
+        ["Team Up"] = {Tier = 5, HigherTiers = true}
     },
-    
-    ["Debug"] = {
-        DisableUI = false,
-    },
-
---// Set the username to the account your alts will accept trades from!
---// Simply type in the trade chat once opend: "add PETNAME x5" and ur alt will add such pets!
-["Trade Users"] = {
-    "ForV3r"
-},
-
---// Enchant Pets with any enchant you type!
-["Enchant Settings"] = {
-    EnchantPets = true,
-
     ["Require All Enchants"] = true,
-    ["Enchants Needed"] = {
-        ["Team Up"] = {Tier = 5, HigherTiers = true},
-    },
-},
 
+    ["Trade Users"] = {"MainAccount1", "MainAccount2", "MainAccount3"},
 
-
+    ["Debug"] = {
+        DisableUI = true,
+        
+    }
 }
-loadstring(game:HttpGet("https://system-exodus.com/scripts/BGSI/OneClick.lua"))()
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/fb6f3bc2f2e7dd88042fac40addd4d57.lua"))()
