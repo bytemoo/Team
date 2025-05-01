@@ -1,9 +1,9 @@
 getgenv().Settings = {
     ["Open Egg"] = "Best Egg",
 
-    ["Target Rifts"] = {"Silly Egg", "Rainbow Egg", "Throwback Egg"},
+    ["Target Rifts"] = {"Silly Egg", "Nightmare Egg", "Void Egg", "Rainbow Egg"},
     ["Minimum Rift Luck"] = 25,
-    ["Target Highest Luck"] = false,
+    ["Target Highest Luck"] = true,
     --// true --> Targets highest luck out of ALL selected rifts.
     --// false --> Targets highest luck out of the BEST selected rift.
 
