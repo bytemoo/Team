@@ -1,4 +1,5 @@
 setfpscap(15)  -- number = fps
+task.wait (10)
 
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
