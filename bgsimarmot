@@ -13,7 +13,7 @@ getgenv().bgsInfConfig = {
     USE_ROYAL_KEY = true,
     USE_GOLDEN_KEY = true,
     USE_MYSTERY_BOX = true,
-    IGNORE_MYSTERY_BOX_GEM_CAP = false,
+    IGNORE_MYSTERY_BOX_GEM_CAP = true,
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     LEGENDARY_TIER_TO_DELETE = 2,
 
