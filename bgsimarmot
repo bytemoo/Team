@@ -1,4 +1,4 @@
-setfpscap(15)  -- number = fps
+setfpscap(10)  -- number = fps
 task.wait (10)
 
 getgenv().bgsInfConfig = {
