@@ -20,7 +20,7 @@ getgenv().bgsInfConfig = {
     POTIONS_TO_CRAFT = {"Mythic", "Lucky", "Speed"},
 
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 5
+    ENCHANT_TEAMUP_TIER = 5,
 
     RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Common Egg"},
     HATCH_1X_EGG = "Infinity Egg", 
