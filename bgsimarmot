@@ -1,9 +1,8 @@
 setfpscap(10)  -- number = fps
-task.wait (10)
 
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
-    AUTO_UPDATE_RESTART = true,
+    AUTO_UPDATE_RESTART = false,
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_STARSHOP_SLOT = 13,
@@ -20,8 +19,7 @@ getgenv().bgsInfConfig = {
     MASTERY_BUFFS_LEVEL = 20,
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
 
-    ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 5,
+    ENCHANT_HIGH_ROLLER = false,,
 
     RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Common Egg"},
     HATCH_1X_EGG = "Infinity Egg", 
