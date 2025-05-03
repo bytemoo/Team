@@ -19,7 +19,8 @@ getgenv().bgsInfConfig = {
     MASTERY_BUFFS_LEVEL = 20,
     POTIONS_TO_CRAFT = {"Mythic", "Lucky", "Speed"},
 
-    ENCHANT_HIGH_ROLLER = true,
+    ENCHANT_TEAMUP = true,
+    ENCHANT_TEAMUP_TIER = 5
 
     RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Common Egg"},
     HATCH_1X_EGG = "Infinity Egg", 
