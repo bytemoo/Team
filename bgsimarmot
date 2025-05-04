@@ -3,15 +3,15 @@ setfpscap(15)  -- number = fps
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
-    PURCHASE_ALIENSHOP = true,
+    PURCHASE_ALIENSHOP = false,
     MASTERY_BUFFS_LEVEL = 20,
-    PURCHASE_BLACKMARKET = true,
+    PURCHASE_BLACKMARKET = false,
     PURCHASE_STARSHOP_SLOT = 13,
     RESTOCK_SHOP = "Blackmarket",
 
-    USE_ROYAL_KEY = true,
-    USE_GOLDEN_KEY = true,
-    USE_MYSTERY_BOX = true,
+    USE_ROYAL_KEY = false,
+    USE_GOLDEN_KEY = false,
+    USE_MYSTERY_BOX = false,
 
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     LEGENDARY_TIER_TO_DELETE = 2,
@@ -21,7 +21,7 @@ getgenv().bgsInfConfig = {
 
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
     RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Common Egg"},
-    HATCH_1X_EGG = "100M Egg", 
+    HATCH_1X_EGG = "Game Egg", 
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
