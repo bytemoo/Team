@@ -21,7 +21,7 @@ getgenv().bgsInfConfig = {
 
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
     RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Common Egg"},
-    HATCH_1X_EGG = "Game Egg", 
+    HATCH_1X_EGG = "Infinity Egg", 
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
