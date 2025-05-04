@@ -4,6 +4,7 @@ getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
     PURCHASE_ALIENSHOP = true,
+    MASTERY_BUFFS_LEVEL = 20,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_STARSHOP_SLOT = 13,
     RESTOCK_SHOP = "Blackmarket",
@@ -18,6 +19,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 5,
 
+    POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
     RIFT_EGGS = {"Silly Egg", "Nightmare Egg", "Common Egg"},
     HATCH_1X_EGG = "100M Egg", 
 
