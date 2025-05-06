@@ -13,7 +13,7 @@ getgenv().bgsInfConfig = {
     USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
-
+    IGNORE_MYSTERY_BOX_GEM_CAP = true,
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     LEGENDARY_TIER_TO_DELETE = 2,
 
@@ -24,7 +24,8 @@ getgenv().bgsInfConfig = {
 
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
     RIFT_EGGS = {"Common Egg", "Silly Egg", "Nightmare Egg", "Cyber Egg"},
-    HATCH_1X_EGG = "Common Egg", 
+    HATCH_1X_EGG = "Infinity Egg", 
+    INFINITY_EGG_TYPE = "World2",
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
