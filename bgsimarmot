@@ -3,17 +3,22 @@ setfpscap(10)  -- number = fps
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     MASTERY_BUFFS_LEVEL = 21,
-    IGNORE_STARTER_HATCH = true,
-    PURCHASE_STARSHOP_SLOT = 13,
+    IGNORE_STARTER_HATCH = false,
+    AUTO_UPDATE_RESTART = true,
+    PURCHASE_ALIENSHOP = true,
+    PURCHASE_BLACKMARKET = true,
+    PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Blackmarket",
 
     USE_ROYAL_KEY = true,
     USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
-    IGNORE_MYSTERY_BOX_GEM_CAP = true,
-    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
-    LEGENDARY_TIER_TO_DELETE = 2,
+
+    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Legendary"},  -- Delete if max inventory (Ignore shiny/mythic)
+    DELETE_LEGENDARY_SHINY = true,
+    DELETE_LEGENDARY_MYTHIC = true,
+    MAX_LEGENDARY_TIER_TO_DELETE = 2,  -- Maximum legendary tier to delete, if "3" it will delete Tier 1 to 3
 
     USE_GEMS_ENCHANT = true,
     ENCHANT_TEAMUP = true,
@@ -22,7 +27,8 @@ getgenv().bgsInfConfig = {
 
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
     RIFT_EGGS = {"Common Egg", "Silly Egg", "Nightmare Egg", "Cyber Egg"},
-    HATCH_1X_EGG = "Game Egg", 
+    HATCH_1X_EGG = {"Game Egg", "Cyber Egg"}, 
+    SERVERHOP_EGG = false, -- Serverhop until HATCH_1X_EGG egg found
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
