@@ -16,7 +16,7 @@ getgenv().bgsInfConfig = {
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
-    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Legendary"},  -- Delete if max inventory (Ignore shiny/mythic)
+    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},  -- Delete if max inventory (Ignore shiny/mythic)
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
     MAX_LEGENDARY_TIER_TO_DELETE = 2,  -- Maximum legendary tier to delete, if "3" it will delete Tier 1 to 3
