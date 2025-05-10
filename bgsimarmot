@@ -4,12 +4,12 @@ setfpscap(10)  -- number = fps
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     MASTERY_BUFFS_LEVEL = 21,
-    IGNORE_STARTER_HATCH = false,
     AUTO_UPDATE_RESTART = true,
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Blackmarket",
+    ALWAYS_INFINITY_ELIXIR = false,
 
     USE_ROYAL_KEY = true,
     USE_GOLDEN_KEY = true,
@@ -24,7 +24,6 @@ getgenv().bgsInfConfig = {
     USE_GEMS_ENCHANT = true,
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 5,
-    ENCHANT_HIGH_ROLLER = false,
 
     INFINITY_EGG_TYPE = "World1",
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
