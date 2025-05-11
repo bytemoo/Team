@@ -22,7 +22,7 @@ getgenv().bgsInfConfig = {
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
-    MAX_LEGENDARY_TIER_TO_DELETE = 2,
+    MAX_LEGENDARY_TIER_TO_DELETE = 1,
 
     USE_GEMS_ENCHANT = true,
     ENCHANT_TEAMUP = true,
