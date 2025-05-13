@@ -8,7 +8,7 @@ getgenv().bgsInfConfig = {
     MASTERY_SHOPS_LEVEL = 11,
     IGNORE_STARTER_HATCH = true,
 
-    FARM_MIN_GEMS = 200000000,
+    FARM_MIN_GEMS = 240000000,
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
@@ -26,7 +26,9 @@ getgenv().bgsInfConfig = {
     MAX_LEGENDARY_TIER_TO_DELETE = 2,
 
     USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
-    ENCHANT_HIGH_ROLLER = true,
+    ENCHANT_TEAMUP = true,  -- Works after legendary+ team
+    ENCHANT_TEAMUP_TIER = 5,  -- Works after legendary+ team
+    ENCHANT_HIGH_ROLLER = false,
 
     AUTO_BOUNTY_RIFT = true,
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
