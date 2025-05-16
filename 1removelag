@@ -3,7 +3,7 @@ repeat task.wait() until game:IsLoaded();
 getgenv().boostFPS = true
 
 local vim = game:GetService("VirtualInputManager")
-setfpscap(5000)
+setfpscap(10)
 
 game.DescendantAdded:Connect(function(d)
    if d.Name == "MainView" and d.Parent.Name == "DevConsoleUI" and boostFPS then
