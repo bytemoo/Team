@@ -30,7 +30,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 5,  -- Works after legendary+ team
     ENCHANT_HIGH_ROLLER = false,
 
-    AUTO_BOUNTY_RIFT = false,
+    AUTO_BOUNTY_RIFT = true,
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
     RIFT_EGGS = {"Underworld Egg", "Silly Egg"},
     HATCH_1X_EGG = {"200M Egg"},
