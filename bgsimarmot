@@ -22,6 +22,7 @@ getgenv().bgsInfConfig = {
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},  
     DELETE_LEGENDARY_SHINY = true,
     MAX_LEGENDARY_TIER_TO_DELETE = 2,
+    AUTO_COLLECT_WORLD_REWARDS = false,
 
     USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
     ENCHANT_TEAMUP = true,  -- Works after legendary+ team
