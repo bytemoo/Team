@@ -8,7 +8,7 @@ getgenv().bgsInfConfig = {
     MASTERY_SHOPS_LEVEL = 11,
     IGNORE_STARTER_HATCH = true,
 
-    FARM_MIN_GEMS = 100000000,
+    FARM_MIN_GEMS = 200000000,
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
@@ -22,22 +22,20 @@ getgenv().bgsInfConfig = {
     IGNORE_MINIGAME = true,
 
     RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
-    PETS_TO_DELETE = {""},
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},  
     DELETE_LEGENDARY_SHINY = true,
-    DELETE_LEGENDARY_MYTHIC = true,
     MAX_LEGENDARY_TIER_TO_DELETE = 2,
 
     USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
-    ENCHANT_TEAMUP = true,  -- Works after legendary+ team
+    ENCHANT_TEAMUP = false,  -- Works after legendary+ team
     ENCHANT_TEAMUP_TIER = 5,  -- Works after legendary+ team
-    ENCHANT_HIGH_ROLLER = false,
+    ENCHANT_HIGH_ROLLER = true,
 
     AUTO_BOUNTY_RIFT = true,
     INFINITY_EGG_TYPE = "World2",
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
-    RIFT_EGGS = {"Underworld Egg", "Silly Egg"},
-    HATCH_1X_EGG = {"Neon Egg"},
+    RIFT_EGGS = {"Change Egg", "Neon Egg", "Underworld Egg", "Silly Egg"},
+    HATCH_1X_EGG = {"Chance Egg", "Neon Egg"},
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
