@@ -3,9 +3,6 @@ setfpscap(10)  -- number = fps
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
-    MASTERY_PETS_LEVEL = 17,
-    MASTERY_BUFFS_LEVEL = 21,
-    MASTERY_SHOPS_LEVEL = 11,
     IGNORE_STARTER_HATCH = true,
 
     FARM_MIN_GEMS = 200000000,
@@ -27,14 +24,11 @@ getgenv().bgsInfConfig = {
     MAX_LEGENDARY_TIER_TO_DELETE = 2,
 
     USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
-    ENCHANT_TEAMUP = false,  -- Works after legendary+ team
+    ENCHANT_TEAMUP = true,  -- Works after legendary+ team
     ENCHANT_TEAMUP_TIER = 5,  -- Works after legendary+ team
-    ENCHANT_HIGH_ROLLER = true,
 
-    AUTO_BOUNTY_RIFT = false,
-    INFINITY_EGG_TYPE = "World2",
     POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
-    RIFT_EGGS = {"Change Egg", "Neon Egg", "Underworld Egg", "Silly Egg"},
+    RIFT_EGGS = {"Chance Egg", "Neon Egg", "Underworld Egg", "Silly Egg"},
     HATCH_1X_EGG = {"Chance Egg", "Neon Egg"},
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
