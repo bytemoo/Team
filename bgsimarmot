@@ -5,7 +5,6 @@ getgenv().bgsInfConfig = {
     AUTO_UPDATE_RESTART = true,
     IGNORE_STARTER_HATCH = true,
 
-    FARM_MIN_GEMS = 200000000,
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
