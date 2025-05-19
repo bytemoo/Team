@@ -3,6 +3,12 @@ setfpscap(10)  -- number = fps
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
+    ENABLE_EXIT = true,
+    ALWAYS_INFINITY_ELIXIR = true,
+    IGNORE_MINIGAME = true,
+    INFINITY_EGG_TYPE = "World2",
+    AUTO_COLLECT_WORLD_REWARDS = false,
+    IGNORE_MINIGAME = true,
     IGNORE_STARTER_HATCH = true,
 
     PURCHASE_ALIENSHOP = true,
@@ -10,26 +16,25 @@ getgenv().bgsInfConfig = {
     PURCHASE_DICE_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Blackmarket",
+    AUTO_COLLECT_WORLD_REWARDS = false,
 
     USE_ROYAL_KEY = true,
     USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
-    IGNORE_MINIGAME = true,
 
+    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
-    RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},  
-    DELETE_LEGENDARY_SHINY = true,
     MAX_LEGENDARY_TIER_TO_DELETE = 2,
-    AUTO_COLLECT_WORLD_REWARDS = false,
+    DELETE_LEGENDARY_SHINY = true,
 
-    USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
-    ENCHANT_TEAMUP = true,  -- Works after legendary+ team
-    ENCHANT_TEAMUP_TIER = 5,  -- Works after legendary+ team
-
-    POTIONS_TO_CRAFT = {"Coins", "Mythic", "Lucky", "Speed"},
-    RIFT_EGGS = {"Chance Egg", "Neon Egg", "Underworld Egg", "Silly Egg"},
-    HATCH_1X_EGG = {"Chance Egg", "Neon Egg"},
+    USE_GEMS_ENCHANT = true,
+    ENCHANT_TEAMUP = true,
+    ENCHANT_TEAMUP_TIER = 1,
+    
+    AUTO_BOUNTY_RIFT = true,
+    RIFT_EGGS = {"Underworld Egg", "Cyber Egg", "Nightmare Egg"},
+    HATCH_1X_EGG = {"Chance Egg", "Neon Egg", "Cyber Egg"}, 
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
