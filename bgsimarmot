@@ -1,4 +1,4 @@
-setfpscap(10)  -- number = fps
+setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
@@ -34,6 +34,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 1,
     
     AUTO_BOUNTY_RIFT = true,
+    MIN_RIFT_MULTIPLIER = 5,
     RIFT_EGGS = {"Underworld Egg", "Chance Egg", "Neon Egg"},
     HATCH_1X_EGG = {"Chance Egg", "Neon Egg"}, 
 
