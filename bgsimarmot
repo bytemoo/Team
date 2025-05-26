@@ -5,12 +5,7 @@ getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
     IGNORE_MINIGAME = true,
-    ENABLE_EXIT = true,
-    SERVERHOP_EGG = false,
-    AUTO_BOUNTY_RIFT = false,
-    AUTO_COLLECT_WORLD_REWARDS = false,
-    IGNORE_MINIGAME = true,
-
+    
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
@@ -29,16 +24,14 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
 
-    USE_GEMS_ENCHANT = false,
+    USE_GEMS_ENCHANT = true,
     ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 3,
+    ENCHANT_TEAMUP_TIER = 5,
 
     IGNORE_EVENT_STARTER_HATCH = false,
     HATCH_1X_EGG = {"Fruit Egg", "Icecream Egg"}, 
-    MIN_SEASHELLS_BEFORE_HATCHING = 1000000000,
+    MIN_SEASHELLS_BEFORE_HATCHING = 50000000,
     ALWAYS_INFINITY_ELIXIR = true,
-
-
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
     WEBHOOK_ODDS = 5000000,
