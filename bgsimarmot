@@ -3,7 +3,7 @@ setfpscap(3)  -- number = fps
 getgenv().bgsInfConfig = {
     SUMMER_EVENT = true,
     ADD_FRIEND = true,
-    AUTO_UPDATE_RESTART = true,
+    AUTO_UPDATE_RESTART = false,
     
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
