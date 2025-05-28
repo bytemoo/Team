@@ -4,7 +4,6 @@ getgenv().bgsInfConfig = {
     SUMMER_EVENT = true,
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
-    IGNORE_MINIGAME = true,
     
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
@@ -12,9 +11,8 @@ getgenv().bgsInfConfig = {
     PURCHASE_EVENT_SHOP = true,
     PURCHASE_STARSHOP_SLOT = 14,
     RESTOCK_SHOP = "Event Shop",
-
+    MIN_RIFT_MULTIPLIER = 10,
     USE_ROYAL_KEY = true,
-    USE_GOLDEN_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
 
@@ -24,14 +22,14 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
 
-    USE_GEMS_ENCHANT = true,
+    USE_GEMS_ENCHANT = false,
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 5,
 
-    IGNORE_EVENT_STARTER_HATCH = false,
+    AUTO_BOUNTY_RIFT = true,
     HATCH_1X_EGG = {"Fruit Egg", "Icecream Egg"}, 
-    MIN_SEASHELLS_BEFORE_HATCHING = 50000000,
     ALWAYS_INFINITY_ELIXIR = true,
+
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
     DISCORD_ID = "",
     WEBHOOK_ODDS = 5000000,
