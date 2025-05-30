@@ -16,7 +16,6 @@ getgenv().bgsInfConfig = {
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
     ENABLE_EXIT = true,
-    IGNORE_MINIGAME = true,
 
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
