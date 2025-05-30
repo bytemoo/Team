@@ -28,7 +28,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 5,
 
     AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Fruit Egg", "Icecream Egg"}, 
+    HATCH_1X_EGG = {"Icecream Egg"}, 
     ALWAYS_INFINITY_ELIXIR = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1364362243227127891/QcRrAITql5Vt17FU60qv9yQGkXFsmcIIpxoFMcGZ1r8eJhT6PpCdTzHnYk6b2guxSTFd",
