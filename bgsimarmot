@@ -17,6 +17,9 @@ getgenv().bgsInfConfig = {
     USE_MYSTERY_BOX = true,
     ENABLE_EXIT = true,
     IGNORE_MINIGAME = true,
+    FOCUS_DICE = true,
+    MIN_SEASHELLS_BEFORE_HATCHING = 10000000000,
+    ALWAYS_EGG_ELIXIR = true,
 
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
@@ -29,7 +32,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP_TIER = 5,
 
     AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Icecream Egg"}, 
+    HATCH_1X_EGG = {"Fossil Egg"},
     ALWAYS_INFINITY_ELIXIR = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1378254192585478145/D9kkM5QWdi-aGZtpJ9-eNg7W_I9kHPDNK5LEkfSQCmdx543K2OZnxzOZoYmEy8a_1VML",
