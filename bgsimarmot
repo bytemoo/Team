@@ -31,7 +31,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 5,
 
-    AUTO_BOUNTY_RIFT = true,
+    AUTO_BOUNTY_RIFT = false,
     HATCH_1X_EGG = {"Fossil Egg"},
     ALWAYS_INFINITY_ELIXIR = true,
 
