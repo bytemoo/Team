@@ -20,6 +20,7 @@ getgenv().bgsInfConfig = {
     FOCUS_DICE = true,
     MIN_SEASHELLS_BEFORE_HATCHING = 10000000000,
     ALWAYS_EGG_ELIXIR = true,
+    SHOW_MULTIPLIER = true,
 
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
