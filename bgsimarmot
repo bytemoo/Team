@@ -1,26 +1,20 @@
 setfpscap(3)  -- number = fps
 
 getgenv().bgsInfConfig = {
-    SUMMER_EVENT = true,
     ADD_FRIEND = true,
-    AUTO_UPDATE_RESTART = false,
+    AUTO_UPDATE_RESTART = true,
+    IGNORE_MINIGAME = true,
+    IGNORE_SEASON_CHALLENGES = true,
     
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
-    PURCHASE_DICE_MERCHANT = true,
-    PURCHASE_EVENT_SHOP = true,
+    PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 14,
-    RESTOCK_SHOP = "Event Shop",
-    MIN_RIFT_MULTIPLIER = 10,
+    RESTOCK_SHOP = "Blackmarket",
+
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
     USE_MYSTERY_BOX = true,
-    ENABLE_EXIT = true,
-    IGNORE_MINIGAME = true,
-    FOCUS_DICE = true,
-    MIN_SEASHELLS_BEFORE_HATCHING = 10000000000,
-    ALWAYS_EGG_ELIXIR = true,
-    SHOW_MULTIPLIER = true,
 
     RARITY_TO_DELETE = {"Common", "Unique", "Rare", "Epic", "Legendary"},
     RARITY_TO_SHINY = {"Common", "Unique", "Rare", "Epic", "Legendary"},
@@ -28,17 +22,23 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
 
-    USE_GEMS_ENCHANT = false,
     ENCHANT_TEAMUP = true,
     ENCHANT_TEAMUP_TIER = 5,
 
+    MASTERY_MINIGAMES_LEVEL = 1,
+    MIN_TICKETS_BEFORE_HATCHING = 1,
+    
     AUTO_BOUNTY_RIFT = true,
-    HATCH_1X_EGG = {"Fossil Egg"},
+    MIN_RIFT_MULTIPLIER = 20,
+    AUTO_BOUNTY_1X = false,
+    HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
     ALWAYS_INFINITY_ELIXIR = true,
+    ALWAYS_EGG_ELIXIR = true,
 
     WEBHOOK_URL = "https://discord.com/api/webhooks/1378254192585478145/D9kkM5QWdi-aGZtpJ9-eNg7W_I9kHPDNK5LEkfSQCmdx543K2OZnxzOZoYmEy8a_1VML",
     DISCORD_ID = "",
-    WEBHOOK_ODDS = 49000000,
+    WEBHOOK_NOTE = "VPS1and2",
+    WEBHOOK_ODDS = "50m",
     SHOW_PET_WEBHOOK_USERNAME = true,
 }
 
