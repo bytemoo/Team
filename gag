@@ -21,9 +21,10 @@ getgenv().Sea = {
         Stock = {
             "Basic Sprinkler",
             "Advanced Sprinkler",
-            "Master Sprinkler"
+            "Master Sprinkler",
             "Godly Sprinkler",
-            "Watering Can", "Trowel",
+            "Watering Can", 
+            "Trowel",
             "Recall Wrench",
             "Favorite Tool",
             "Harvest Tool",
