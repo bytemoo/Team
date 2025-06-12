@@ -69,7 +69,7 @@ getgenv().Sea = {
         }
     },
     Teams = {
-        EquipBest = true,
+        EquipBest = false,
         Team = { "Pet 1", "Pet 2" }
     },
     Events = {
