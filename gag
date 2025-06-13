@@ -71,7 +71,7 @@ getgenv().Sea = {
     },
     Teams = {
         EquipBest = false,
-        Team = { "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi" }
+        Team = { "Moth", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi" }
     },
     Events = {
         Only = true,
