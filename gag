@@ -13,7 +13,7 @@ getgenv().Sea = {
     },
     Eggs = {
         Only = true,
-        Stock = { "Mythical Egg", "Bug Egg", "Legendary Egg" }
+        Stock = { "Common Egg", "Uncommon Egg", "Rate Egg", "Mythical Egg", "Bug Egg", "Legendary Egg" }
     },
     Gears = {
         Min = "5M",
@@ -33,12 +33,13 @@ getgenv().Sea = {
             "Trowel"
         },
         Active = {
+            "Lightning Rod"
         }
     },
     Pets = {
         PlantEggs = true,
         HatchEggs = true,
-        Egg = { "Mythical Egg", "Bug Egg", "Bee Egg", "Night Egg", "Legendary Egg" },
+        Egg = { "Bug Egg", "Bee Egg", "Night Egg", "Common Egg", "Uncommon Egg", "Rate Egg", "Mythical Egg", "Bug Egg", "Legendary Egg" },
         Sells = {
             Enabled = true,
             Rarity = { "Common", "Uncommon", "Rare" },
@@ -70,7 +71,7 @@ getgenv().Sea = {
     },
     Teams = {
         EquipBest = false,
-        Team = { "Pet 1", "Pet 2" }
+        Team = { "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi" }
     },
     Events = {
         Only = true,
@@ -99,10 +100,10 @@ getgenv().Sea = {
         Mutations = {
             Min = "3B",
             Enabled = false,
-            Mutation = { "Pollinated" }
+            Mutation = { "Pollinated", "Shocked", "Rainbow", "Normal", "Honey Glaze", "Wet", "Chilled", "Moonlit", "Golden", }
         },
         Events = {
-            Enabled = true,
+            Enabled = false,
             Set = { "BeeSwarm" }
         }
     },
@@ -114,7 +115,7 @@ getgenv().Sea = {
         FarmingDelay = 5,
         TeleportDelay = 1,
         CheckIfAboveLimits = true,
-        PlantLimits = 40
+        PlantLimits = 100
     },
     Settings = {
         FPS = 5,
