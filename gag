@@ -115,7 +115,7 @@ getgenv().Sea = {
         FarmingDelay = 5,
         TeleportDelay = 1,
         CheckIfAboveLimits = true,
-        PlantLimits = 100
+        PlantLimits = 10
     },
     Settings = {
         FPS = 5,
