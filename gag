@@ -39,7 +39,7 @@ getgenv().Sea = {
     Pets = {
         PlantEggs = true,
         HatchEggs = true,
-        Egg = { "Bug Egg", "Bee Egg", "Night Egg", "Common Egg", "Uncommon Egg", "Rate Egg", "Mythical Egg", "Bug Egg", "Legendary Egg" },
+        Egg = { "Anti Bee Egg","Bug Egg", "Bee Egg", "Night Egg", "Common Egg", "Uncommon Egg", "Rate Egg", "Mythical Egg", "Bug Egg", "Legendary Egg" },
         Sells = {
             Enabled = true,
             Rarity = { "Common", "Uncommon", "Rare" },
@@ -108,7 +108,7 @@ getgenv().Sea = {
         }
     },
     Misc = {
-        AutoSeedPack = true,
+        AutoSeedPack = false,
         AutoWater = true
     },
     GameSettings = {
