@@ -144,6 +144,3 @@ getgenv().Sea = {
         }
     }
 }
-
-script_key="pOQzYvMmkKaHcUIblEOLWOtXXIgpvKot";
-loadstring(game:HttpGet("https://api.luarmor.net/files/v4/loaders/50cd2cb01ac8c99748c2564ea22722af.lua"))()
