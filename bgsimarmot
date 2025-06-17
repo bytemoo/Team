@@ -3,15 +3,15 @@ setfpscap(3)  -- number = fps
 getgenv().bgsInfConfig = {
     ADD_FRIEND = true,
     AUTO_UPDATE_RESTART = true,
-    IGNORE_MINIGAME = true,
-    IGNORE_SEASON_CHALLENGES = true,
-    MASTERY_BUFFS_LEVEL = 20,
-
+    FOCUS_DICE = true,
+    SUPER_TICKET_MINIGAME = "Robot Claw",
+    
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
+    PURCHASE_DICE_MERCHANT = true,
     PURCHASE_TRAVELING_MERCHANT = true,
     PURCHASE_STARSHOP_SLOT = 14,
-    RESTOCK_SHOP = "Blackmarket",
+    RESTOCK_SHOP = "Dice Merchant",
 
     USE_ROYAL_KEY = true,
     USE_DICE_KEY = true,
@@ -23,23 +23,22 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
 
-    ENCHANT_TEAMUP = true,
-    ENCHANT_TEAMUP_TIER = 5,
+    -- Enchants works after legendary+ team 
+    USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
+    ENCHANT_TEAMUP = true,  
+    ENCHANT_TEAMUP_TIER = 5, 
+    ENCHANT_HIGH_ROLLER = false,
 
-    MASTERY_MINIGAMES_LEVEL = 1,
-    MIN_TICKETS_BEFORE_HATCHING = 1,
-    
     AUTO_BOUNTY_RIFT = true,
-    MIN_RIFT_MULTIPLIER = 20,
-    AUTO_BOUNTY_1X = false,
-    HATCH_1X_EGG = {"Dark Egg", "Light Egg"}, 
+    MIN_RIFT_MULTIPLIER = 10,
+    HATCH_1X_EGG = {"Voidcrystal Egg"}, 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1382120093437268058/Ym8HGalwmpy5SWXBr-TkWlFUkrPY5vgRFSEV-XkwAofEv4ADBKUUqsuPjTZWAxegVxBm",
+    WEBHOOK_URL = "",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
-    WEBHOOK_ODDS = "50m",
+    WEBHOOK_ODDS = "5m",
     SHOW_PET_WEBHOOK_USERNAME = true,
 }
 
