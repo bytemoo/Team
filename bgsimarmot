@@ -35,10 +35,10 @@ getgenv().bgsInfConfig = {
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
-    WEBHOOK_URL = "",
+    WEBHOOK_URL = "https://discord.com/api/webhooks/1382120093437268058/Ym8HGalwmpy5SWXBr-TkWlFUkrPY5vgRFSEV-XkwAofEv4ADBKUUqsuPjTZWAxegVxBm",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
-    WEBHOOK_ODDS = "5m",
+    WEBHOOK_ODDS = "50m",
     SHOW_PET_WEBHOOK_USERNAME = true,
 }
 
