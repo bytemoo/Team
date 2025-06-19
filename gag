@@ -1,146 +1,132 @@
-getgenv().Sea = {
-    Seeds = {
-        AutoPlants = true,
-        Only = false,
-        Stock = {},
-        Sells = {
-            Enabled = true,
-            StopPlant = true,
-            SellWhen = "1B",
-            Type = { "Apple" },
-            Rarity = { "Common", "Uncommon", "Rare" }
-        }
-    },
-    Eggs = {
-        Only = true,
-        Stock = { "Common Egg", "Uncommon Egg", "Rate Egg", "Mythical Egg", "Bug Egg", "Legendary Egg" }
-    },
-    Gears = {
-        Min = "5M",
-        Only = true,
-        Stock = {
-            "Basic Sprinkler",
-            "Advanced Sprinkler",
-            "Master Sprinkler",
-            "Godly Sprinkler",
-            "Watering Can", 
-            "Trowel",
-            "Recall Wrench",
-            "Favorite Tool",
-            "Harvest Tool",
-            "Friendship Pot",
-            "Lightning Rod",
-            "Trowel"
-        },
-        Active = {
-            "Lightning Rod"
-        }
-    },
-    Pets = {
-        PlantEggs = true,
-        HatchEggs = true,
-        Egg = { "Anti Bee Egg","Bug Egg", "Bee Egg", "Night Egg", "Common Egg", "Uncommon Egg", "Rate Egg", "Mythical Egg", "Bug Egg", "Legendary Egg" },
-        Sells = {
-            Enabled = true,
-            Rarity = { "Common", "Uncommon", "Rare" },
-            Type = {
-                "Hedgehog",
-                "Blood Hedgehog",
-                "Kiwi",
-                "Moon Cat",
-                "Caterpillar",
-                "Frog",
-                "Ant",
-                "Giant Ant",
-                "Owl",
-                "Night Owl",
-                "Mole",
-                "Snail",
-                "Mole",
-                "Praying Mantis",
-                "Grey Mouse",
-                "Sea Otter",
-                "Squirrel",
-                "Red Giant Ant",
-                "Cow",
-                "Silver Monkey",
-                "Turtle"
-            },
-            KeepWeight = 3
-        }
-    },
-    Teams = {
-        EquipBest = false,
-        Team = { "Moth", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi", "Blood Kiwi" }
-    },
-    Events = {
-        Only = true,
-        Type = { "Seed", "Seed Pack", "Gear", "Egg" }
-    },
-    Upgrades = {
-        Type = "Pet",
-        BlacklistRarity = { "Divine" }
-    },
-    Trading = {
-        Enable = false,
-        TradeTo = {},
-        Type = { "Raccoon", "Dragonfly","Queen Bee" },
-        Servers = {
-            Enable = false,
-            JobId = ""
-        }
-    },
-    SellFruit = {
-        SellIfMax = true,
-        SellingDelay = 30,
-        BlacklistMutations = { "Pollinated" }
-    },
-    Harvests = {
-        AutoHarvest = true,
-        Mutations = {
-            Min = "3B",
-            Enabled = false,
-            Mutation = { "Pollinated", "Shocked", "Rainbow", "Normal", "Honey Glaze", "Wet", "Chilled", "Moonlit", "Golden", }
-        },
-        Events = {
-            Enabled = false,
-            Set = { "BeeSwarm" }
-        }
-    },
-    Misc = {
-        AutoSeedPack = false,
-        AutoWater = true
-    },
-    GameSettings = {
-        FarmingDelay = 5,
-        TeleportDelay = 1,
-        CheckIfAboveLimits = true,
-        PlantLimits = 10
-    },
-    Settings = {
-        FPS = 5,
-        TrackStats = true,
-        ReduceLag = true,
-        Server = {
-            HopServer = false,
-            Rejoin = false
-        },
-        Webhook = {
-            Url = "",
-            DiscordId = "",
-            Note = "",
-            PetCheck = {
-                Only = true,
-                Target = { "Mythical", "Divine" }
-            },
-            Recheck = {
-                Enabled = false,
-                Ping = true,
-                Type = "Rarity",
-                Target = {
-                    "Divine"
-                }
-            }
-        }
-    }
+wait(10)
+getgenv().ConfigsKaitun = {
+	["Stack Plant"] = true,
+	["Low Cpu"] = true,
+	
+	["Limit Tree"] = { -- จำกัดจำนวนต้นไม้
+		["Limit"] = 400, -- ถ้าต้นไม่ถึงที่ตั้งไว้
+		["Sell Untill"] = 50 -- มันจะขายจนเหลือที่ตั้งตรงนี้
+	},
+
+	["Seed"] = {
+		["Mode"] = "Custom", -- Custom , Auto
+		["Custom"] = { -- ถ้าปรับเป็น custom มันจะซื้อเเค่ที่ใส่ในด้านล่าง
+			"Sugar Apple",
+			"Ember Lily",
+			"Beanstalk",
+			"Cacao",
+			"Pepper",
+		}
+	},
+	
+	["Craft Event"] = {
+		"Crafters Seed Pack",
+		"Anti Bee Egg",
+		"Mutation Spray Shocked",
+		"Mutation Spray Pollinated",
+		"Mutation Spray Choc",
+	},
+	
+	["Event Shop"] =  { -- จะให้ซื้ออะไรบ้างจาก event shop อยากได้อันไหนเพิ่ม เอา -- ออก
+		"Flower Seed Pack",
+		--"Nectarine",
+		--"Hive Fruit",
+		"Honey Sprinkler",
+		"Bee Egg",
+		--"Bee Crate",
+	},
+	
+	["Gear Shop"] = {
+		"Master Sprinkler",
+		"Godly Sprinkler",
+		"Advanced Sprinkler",
+		"Watering Can",
+		"Trowel",
+		"Recall Wrench",
+		"Basic Sprinkler",
+		"Lightning Rod",
+		"Cleaning Spray",
+		"Favorite Tool",
+		"Harvest Tool",
+		"Friendship Pot",
+
+	},
+	["Gear Lock"] = {
+		"Master Sprinkler",
+		"Godly Sprinkler",
+		"Advanced Sprinkler",
+		"Basic Sprinkler",
+
+	},
+
+	["Eggs"] = {
+		["Hatch"] = { -- มันจะสุ่มไขซื้อไข่วางไข่ เรียงจากบนลงล่างก่อน
+			"Anti Bee Egg",
+			"Bee Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Uncommon Egg"
+		},
+		["Safe Eggs"] = { -- จะไม่วางหรือฟักไข่ให้
+		}
+	},
+	
+	["Limit Upgrade Slot"] = 1, -- เป็นการปลด ค่าสูงสุดของการวางไข่เเละใช้สัตว์ (สูงสุด 5)
+	["Equip When Done"] = { -- จะให้มันใส่สัตว์อะไรหลังจากปลดอันบนเสร็จเเล้ว
+		"Blood Owl",
+		"Moth",
+		"Blood Kiwi",
+		"Brown Mouse",
+	},
+
+	["Webhook"] = {-- webhook เเจ้งเตือน ถ้าได้สัตว์ใน Noti Pets หรือพวกที่มี Noti อื่นๆ
+		UrlPet = "Url Here",
+		UrlSeed = "Url Here",
+		PcName = "Threadripper pro 7995wx"
+	},
+	["Noti Seeds"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
+		"Sunflower",
+		"Dragon Pepper"
+	},
+	["Lock Seeds"] = { -- มันจะไม่ใช้ seed ที่เลือก
+		"Sunflower",
+		"Dragon Pepper",
+		"Cocovine",
+		"Bendboo",
+		"Violet Corn",
+		"Succulent",
+		"Crocus",
+	},
+	["Noti Seed Packs"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
+		"Idk"
+	},
+	["Lock Seed Packs"] = { -- มันจะไม่เปิด Seed pack นั้นๆให้
+		"Flower Seed Pack",
+	},
+	["Noti Pets"] = { -- สัตว์ที่จะให้มันเเจ้งเตือนใน webhook
+		"Disco Bee",
+		"Butterfly",
+		"Moth",
+		"Brown Mouse",
+		"Queen Bee",
+		"Dragonfly",
+		"Raccoon",
+		"Red Fox",
+	},
+	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
+		"Disco Bee",
+		"Butterfly",
+		"Moth",
+		"Brown Mouse",
+		"Queen Bee",
+		"Dragonfly",
+		"Raccoon",
+		"Red Fox",
+		"Blood Owl",
+		"Turtle",
+		"Polar Bear",
+		"Blood Kiwi",
+		"Bear Bee",
+	}
 }
