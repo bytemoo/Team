@@ -4,7 +4,7 @@ getgenv().ConfigsKaitun = {
 	["Low Cpu"] = true,
 	
 	["Limit Tree"] = { -- จำกัดจำนวนต้นไม้
-		["Limit"] = 400, -- ถ้าต้นไม่ถึงที่ตั้งไว้
+		["Limit"] = 100, -- ถ้าต้นไม่ถึงที่ตั้งไว้
 		["Sell Untill"] = 50 -- มันจะขายจนเหลือที่ตั้งตรงนี้
 	},
 
@@ -13,7 +13,6 @@ getgenv().ConfigsKaitun = {
 		["Custom"] = { -- ถ้าปรับเป็น custom มันจะซื้อเเค่ที่ใส่ในด้านล่าง
 			"Sugar Apple",
 			"Ember Lily",
-			"Beanstalk",
 			"Cacao",
 			"Pepper",
 		}
@@ -30,7 +29,7 @@ getgenv().ConfigsKaitun = {
 	["Event Shop"] =  { -- จะให้ซื้ออะไรบ้างจาก event shop อยากได้อันไหนเพิ่ม เอา -- ออก
 		"Flower Seed Pack",
 		--"Nectarine",
-		--"Hive Fruit",
+		"Hive Fruit",
 		"Honey Sprinkler",
 		"Bee Egg",
 		--"Bee Crate",
