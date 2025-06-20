@@ -5,7 +5,8 @@ getgenv().bgsInfConfig = {
     AUTO_UPDATE_RESTART = true,
     FOCUS_DICE = true,
     SUPER_TICKET_MINIGAME = "Robot Claw",
-    
+    MASTERY_BUFFS_LEVEL = 20, 
+
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
@@ -30,7 +31,7 @@ getgenv().bgsInfConfig = {
     ENCHANT_HIGH_ROLLER = false,
 
     AUTO_BOUNTY_RIFT = true,
-    MIN_RIFT_MULTIPLIER = 10,
+    MIN_RIFT_MULTIPLIER = 15,
     HATCH_1X_EGG = {"Voidcrystal Egg"}, 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
