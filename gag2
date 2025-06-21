@@ -92,7 +92,18 @@ getgenv().ConfigsKaitun = {
 		"Dragon Pepper"
 	},
 	["Lock Seeds"] = { -- มันจะไม่ใช้ seed ที่เลือก
+		"Banana",
+		"Rose",
+		"Chocolate Carrot",
+		"Moonglow",
+		"Daffoldil",
+		"Glowshroom",
+		"Moon Mango",
+		"Moonflower",
+		"Blood Banana",
+		"Moon Melon",
 		"Carrot",
+		"Nightshade",
 		"Strawberry",
 		"Blueberry",
 		"Orange Tulip",
