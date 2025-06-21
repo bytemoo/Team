@@ -61,14 +61,17 @@ getgenv().ConfigsKaitun = {
 	["Eggs"] = {
 		["Hatch"] = { -- มันจะสุ่มไขซื้อไข่วางไข่ เรียงจากบนลงล่างก่อน
 			"Anti Bee Egg",
-			"Bee Egg",
 			"Night Egg",
 			"Bug Egg",
 			"Mythical Egg",
-			"Uncommon Egg"
+			"Uncommon Egg",
+			"Common Summer Egg",
+			"Rare Summer Egg",
+			"Paradise Egg",
+			"Bee Egg"
 		},
 		["Safe Eggs"] = { -- จะไม่วางหรือฟักไข่ให้
-			"Bee Egg",
+
 		}
 	},
 	
@@ -138,17 +141,12 @@ getgenv().ConfigsKaitun = {
 	},
 	["Noti Pets"] = { -- สัตว์ที่จะให้มันเเจ้งเตือนใน webhook
 		"Disco Bee",
-		"Butterfly",
-		"Moth",
-		"Brown Mouse",
-		"Queen Bee",
-		"Dragonfly",
-		"Raccoon",
-		"Red Fox",
 	},
 	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
 		"Disco Bee",
 		"Butterfly",
+		"Moth",
+		"Queen Bee",
 		"Dragonfly",
 		"Raccoon",
 		"Red Fox",
@@ -156,9 +154,10 @@ getgenv().ConfigsKaitun = {
 		"Turtle",
 		"Polar Bear",
 		"Blood Kiwi",
-		"Tarantula Hawk",
-		"Wasp",
-		"Queen Bee",
+		"Bear Bee",
 		"Petal Bee",
+		"Tarantula Hawk",
+		"Scarlet Macaw",
+		"Mimic Octopus",
 	}
 }
