@@ -1,0 +1,138 @@
+wait(10)
+getgenv().ConfigsKaitun = {
+	["Stack Plant"] = true,
+	["Low Cpu"] = true,
+	
+	["Limit Tree"] = { -- จำกัดจำนวนต้นไม้
+		["Limit"] = 800, -- ถ้าต้นไม่ถึงที่ตั้งไว้
+		["Sell Untill"] = 350 -- มันจะขายจนเหลือที่ตั้งตรงนี้
+	},
+
+	["Seed"] = {
+		["Mode"] = "Custom", -- Custom , Auto
+		["Custom"] = { -- ถ้าปรับเป็น custom มันจะซื้อเเค่ที่ใส่ในด้านล่าง
+			"Sugar Apple",
+			"Ember Lily",
+			"Cacao",
+			"Pepper",
+		}
+	},
+	
+	["Craft Event"] = {
+		"Crafters Seed Pack",
+		"Anti Bee Egg",
+		"Mutation Spray Shocked",
+		"Mutation Spray Pollinated",
+		"Mutation Spray Choc",
+	},
+	
+	["Event Shop"] =  { -- จะให้ซื้ออะไรบ้างจาก event shop อยากได้อันไหนเพิ่ม เอา -- ออก
+		"Flower Seed Pack",
+		"Hive Fruit",
+		"Honey Sprinkler",
+		"Bee Egg",
+	},
+	
+	["Gear Shop"] = {
+		"Master Sprinkler",
+		"Godly Sprinkler",
+		"Advanced Sprinkler",
+		"Watering Can",
+		"Trowel",
+		"Recall Wrench",
+		"Basic Sprinkler",
+		"Lightning Rod",
+		"Cleaning Spray",
+		"Favorite Tool",
+		"Harvest Tool",
+		"Friendship Pot",
+
+	},
+	["Gear Lock"] = {
+		"Master Sprinkler",
+		"Godly Sprinkler",
+		"Advanced Sprinkler",
+		"Basic Sprinkler",
+		"Mutation Spray Shocked",
+		"Mutation Spray Pollinated",
+		"Mutation Spray Choc",
+	},
+
+	["Eggs"] = {
+		["Hatch"] = { -- มันจะสุ่มไขซื้อไข่วางไข่ เรียงจากบนลงล่างก่อน
+			"Anti Bee Egg",
+			"Bee Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Uncommon Egg"
+		},
+		["Safe Eggs"] = { -- จะไม่วางหรือฟักไข่ให้
+			"Bee Egg",
+		}
+	},
+	
+	["Limit Upgrade Slot"] = 1, -- เป็นการปลด ค่าสูงสุดของการวางไข่เเละใช้สัตว์ (สูงสุด 5)
+	["Equip When Done"] = { -- จะให้มันใส่สัตว์อะไรหลังจากปลดอันบนเสร็จเเล้ว
+		"Bear Bee",
+		"Petal Bee",
+		"Tarantula Hawk",
+		"Bee",
+		"Honey Bee",
+		"Queen Bee",
+		"Bee",
+		"Wasp",
+	},
+
+	["Webhook"] = {-- webhook เเจ้งเตือน ถ้าได้สัตว์ใน Noti Pets หรือพวกที่มี Noti อื่นๆ
+		UrlPet = "Url Here",
+		UrlSeed = "Url Here",
+		PcName = "Threadripper pro 7995wx"
+	},
+	["Noti Seeds"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
+		"Sunflower",
+		"Dragon Pepper"
+	},
+	["Lock Seeds"] = { -- มันจะไม่ใช้ seed ที่เลือก
+		"Sunflower",
+		"Dragon Pepper",
+		"Cocovine",
+		"Bendboo",
+		"Violet Corn",
+		"Succulent",
+		"Crocus",
+	},
+	["Noti Seed Packs"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
+		"Idk"
+	},
+	["Lock Seed Packs"] = { -- มันจะไม่เปิด Seed pack นั้นๆให้
+		"Flower Seed Pack",
+		"Crafter Seed Pack",
+	},
+	["Noti Pets"] = { -- สัตว์ที่จะให้มันเเจ้งเตือนใน webhook
+		"Disco Bee",
+		"Butterfly",
+		"Moth",
+		"Brown Mouse",
+		"Queen Bee",
+		"Dragonfly",
+		"Raccoon",
+		"Red Fox",
+	},
+	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
+		"Disco Bee",
+		"Butterfly",
+		"Moth",
+		"Queen Bee",
+		"Dragonfly",
+		"Raccoon",
+		"Red Fox",
+		"Blood Owl",
+		"Turtle",
+		"Polar Bear",
+		"Blood Kiwi",
+		"Bear Bee",
+		"Petal Bee",
+		"Tarantula Hawk",
+	}
+}
