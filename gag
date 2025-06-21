@@ -3,18 +3,14 @@ getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
 	["Low Cpu"] = true,
 	
-	["Limit Tree"] = { -- จำกัดจำนวนต้นไม้
-		["Limit"] = 800, -- ถ้าต้นไม่ถึงที่ตั้งไว้
-		["Sell Untill"] = 9999 -- มันจะขายจนเหลือที่ตั้งตรงนี้
+	["Limit Tree"] = {
+		["Limit"] = 800,
+		["Sell Untill"] = 9999
 	},
 
 	["Seed"] = {
-		["Mode"] = "Custom", -- Custom , Auto
-		["Custom"] = { -- ถ้าปรับเป็น custom มันจะซื้อเเค่ที่ใส่ในด้านล่าง
-			"Sugar Apple",
-			"Ember Lily",
-			"Cacao",
-			"Pepper",
+		["Mode"] = "Auto", -- Custom , Auto
+		["Custom"] = {
 		}
 	},
 	
@@ -26,7 +22,7 @@ getgenv().ConfigsKaitun = {
 		"Mutation Spray Choc",
 	},
 	
-	["Event Shop"] =  { -- จะให้ซื้ออะไรบ้างจาก event shop อยากได้อันไหนเพิ่ม เอา -- ออก
+	["Event Shop"] =  {
 		"Flower Seed Pack",
 		"Hive Fruit",
 		"Honey Sprinkler",
@@ -46,7 +42,6 @@ getgenv().ConfigsKaitun = {
 		"Favorite Tool",
 		"Harvest Tool",
 		"Friendship Pot",
-
 	},
 	["Gear Lock"] = {
 		"Master Sprinkler",
@@ -59,7 +54,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	["Eggs"] = {
-		["Hatch"] = { -- มันจะสุ่มไขซื้อไข่วางไข่ เรียงจากบนลงล่างก่อน
+		["Hatch"] = {
 			"Anti Bee Egg",
 			"Night Egg",
 			"Bug Egg",
@@ -70,18 +65,19 @@ getgenv().ConfigsKaitun = {
 			"Paradise Egg",
 			"Bee Egg"
 		},
-		["Safe Eggs"] = { -- จะไม่วางหรือฟักไข่ให้
+		["Safe Eggs"] = {
+			"Bee Egg",
 		}
 	},
 	
-	["Limit Upgrade Slot"] = 1, -- เป็นการปลด ค่าสูงสุดของการวางไข่เเละใช้สัตว์ (สูงสุด 5)
-	["Equip When Done"] = { -- จะให้มันใส่สัตว์อะไรหลังจากปลดอันบนเสร็จเเล้ว
+	["Limit Upgrade Slot"] = 1,
+	["Equip When Done"] = {
 		"Blood Owl",
 		"Queen Bee",
-		"Blood Kiwi",
+		"Blood Kiwi"
 	},
 
-	["Webhook"] = {-- webhook เเจ้งเตือน ถ้าได้สัตว์ใน Noti Pets หรือพวกที่มี Noti อื่นๆ
+	["Webhook"] = {
 		UrlPet = "Url Here",
 		UrlSeed = "Url Here",
 		PcName = "Threadripper pro 7995wx"
@@ -126,16 +122,16 @@ getgenv().ConfigsKaitun = {
 		"Bendboo",
 		"Violet Corn",
 		"Succulent",
-		"Crocus",
+		"Crocus"
 	},
-	["Noti Seed Packs"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
+	["Noti Seed Packs"] = {
 		"Idk"
 	},
-	["Lock Seed Packs"] = { -- มันจะไม่เปิด Seed pack นั้นๆให้
+	["Lock Seed Packs"] = {
 		"Flower Seed Pack",
 		"Crafter Seed Pack",
 	},
-	["Noti Pets"] = { -- สัตว์ที่จะให้มันเเจ้งเตือนใน webhook
+	["Noti Pets"] = {
 		"Disco Bee",
 	},
 	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
