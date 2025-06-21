@@ -1,12 +1,11 @@
-
 wait(10)
 getgenv().ConfigsKaitun = {
 	["Stack Plant"] = false,
 	["Low Cpu"] = true,
 	
 	["Limit Tree"] = { -- จำกัดจำนวนต้นไม้
-		["Limit"] = 0, -- ถ้าต้นไม่ถึงที่ตั้งไว้
-		["Sell Untill"] = 0 -- มันจะขายจนเหลือที่ตั้งตรงนี้
+		["Limit"] = 1, -- ถ้าต้นไม่ถึงที่ตั้งไว้
+		["Sell Untill"] = 1 -- มันจะขายจนเหลือที่ตั้งตรงนี้
 	},
 
 	["Seed"] = {
