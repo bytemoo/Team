@@ -130,9 +130,6 @@ getgenv().ConfigsKaitun = {
 		"Blood Kiwi",
 		"Bear Bee",
 		"Petal Bee",
-		"Honey Bee",
-		"Bee",
 		"Tarantula Hawk",
-		"Wasp",
 	}
 }
