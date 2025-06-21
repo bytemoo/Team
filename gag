@@ -76,9 +76,7 @@ getgenv().ConfigsKaitun = {
 	["Equip When Done"] = { -- จะให้มันใส่สัตว์อะไรหลังจากปลดอันบนเสร็จเเล้ว
 		"Blood Owl",
 		"Queen Bee",
-		"Moth",
 		"Blood Kiwi",
-		"Brown Mouse",
 	},
 
 	["Webhook"] = {-- webhook เเจ้งเตือน ถ้าได้สัตว์ใน Noti Pets หรือพวกที่มี Noti อื่นๆ
