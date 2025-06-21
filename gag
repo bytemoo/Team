@@ -28,11 +28,9 @@ getgenv().ConfigsKaitun = {
 	
 	["Event Shop"] =  { -- จะให้ซื้ออะไรบ้างจาก event shop อยากได้อันไหนเพิ่ม เอา -- ออก
 		"Flower Seed Pack",
-		--"Nectarine",
 		"Hive Fruit",
 		"Honey Sprinkler",
 		"Bee Egg",
-		--"Bee Crate",
 	},
 	
 	["Gear Shop"] = {
@@ -55,7 +53,9 @@ getgenv().ConfigsKaitun = {
 		"Godly Sprinkler",
 		"Advanced Sprinkler",
 		"Basic Sprinkler",
-
+		"Mutation Spray Shocked",
+		"Mutation Spray Pollinated",
+		"Mutation Spray Choc",
 	},
 
 	["Eggs"] = {
@@ -68,6 +68,7 @@ getgenv().ConfigsKaitun = {
 			"Uncommon Egg"
 		},
 		["Safe Eggs"] = { -- จะไม่วางหรือฟักไข่ให้
+			"Bee Egg",
 		}
 	},
 	
@@ -102,6 +103,7 @@ getgenv().ConfigsKaitun = {
 	},
 	["Lock Seed Packs"] = { -- มันจะไม่เปิด Seed pack นั้นๆให้
 		"Flower Seed Pack",
+		"Crafter Seed Pack",
 	},
 	["Noti Pets"] = { -- สัตว์ที่จะให้มันเเจ้งเตือนใน webhook
 		"Disco Bee",
@@ -127,5 +129,10 @@ getgenv().ConfigsKaitun = {
 		"Polar Bear",
 		"Blood Kiwi",
 		"Bear Bee",
+		"Petal Bee",
+		"Honey Bee",
+		"Bee",
+		"Tarantula Hawk",
+		"Wasp",
 	}
 }
