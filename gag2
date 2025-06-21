@@ -74,14 +74,12 @@ getgenv().ConfigsKaitun = {
 	
 	["Limit Upgrade Slot"] = 1, -- เป็นการปลด ค่าสูงสุดของการวางไข่เเละใช้สัตว์ (สูงสุด 5)
 	["Equip When Done"] = { -- จะให้มันใส่สัตว์อะไรหลังจากปลดอันบนเสร็จเเล้ว
-		"Bear Bee",
-		"Petal Bee",
 		"Tarantula Hawk",
+		"Wasp",
+		"Queen Bee",
+		"Petal Bee",
 		"Bee",
 		"Honey Bee",
-		"Queen Bee",
-		"Bee",
-		"Wasp",
 	},
 
 	["Webhook"] = {-- webhook เเจ้งเตือน ถ้าได้สัตว์ใน Noti Pets หรือพวกที่มี Noti อื่นๆ
@@ -122,8 +120,6 @@ getgenv().ConfigsKaitun = {
 	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
 		"Disco Bee",
 		"Butterfly",
-		"Moth",
-		"Queen Bee",
 		"Dragonfly",
 		"Raccoon",
 		"Red Fox",
@@ -131,8 +127,9 @@ getgenv().ConfigsKaitun = {
 		"Turtle",
 		"Polar Bear",
 		"Blood Kiwi",
-		"Bear Bee",
-		"Petal Bee",
 		"Tarantula Hawk",
+		"Wasp",
+		"Queen Bee",
+		"Petal Bee",
 	}
 }
