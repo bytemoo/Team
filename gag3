@@ -4,12 +4,12 @@ getgenv().ConfigsKaitun = {
 	["Low Cpu"] = true,
 	
 	["Limit Tree"] = { -- จำกัดจำนวนต้นไม้
-		["Limit"] = 1, -- ถ้าต้นไม่ถึงที่ตั้งไว้
-		["Sell Untill"] = 1 -- มันจะขายจนเหลือที่ตั้งตรงนี้
+		["Limit"] = 800, -- ถ้าต้นไม่ถึงที่ตั้งไว้
+		["Sell Untill"] = 9999 -- มันจะขายจนเหลือที่ตั้งตรงนี้
 	},
 
 	["Seed"] = {
-		["Mode"] = "Custom", -- Custom , Auto
+		["Mode"] = "Auto", -- Custom , Auto
 		["Custom"] = { -- ถ้าปรับเป็น custom มันจะซื้อเเค่ที่ใส่ในด้านล่าง
 			"Sugar Apple",
 			"Ember Lily",
@@ -92,6 +92,24 @@ getgenv().ConfigsKaitun = {
 		"Dragon Pepper"
 	},
 	["Lock Seeds"] = { -- มันจะไม่ใช้ seed ที่เลือก
+		"Carrot",
+		"Strawberry",
+		"Blueberry",
+		"Orange Tulip",
+		"Tomato",
+		"Corn",
+		"Daffoldil",
+		"Watermelon",
+		"Pumpkin",
+		"Apple",
+		"Bamboo",
+		"Coconut",
+		"Cactus",
+		"Dragon Fruit",
+		"Grape",
+		"Mushroom",
+		"Mango",
+		"Beanstalk",
 		"Sunflower",
 		"Dragon Pepper",
 		"Cocovine",
