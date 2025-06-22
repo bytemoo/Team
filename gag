@@ -4,8 +4,8 @@ getgenv().ConfigsKaitun = {
 	["Low Cpu"] = true,
 	
 	["Limit Tree"] = {
-		["Limit"] = 800,
-		["Sell Untill"] = 9999
+		["Limit"] = 200,
+		["Sell Untill"] = 100
 	},
 
 	["Seed"] = {
