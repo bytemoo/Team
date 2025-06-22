@@ -9,7 +9,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	["Seed"] = {
-		["Mode"] = "Auto", -- Custom , Auto
+		["Mode"] = "Auto",
 		["Custom"] = {
 		}
 	},
@@ -17,7 +17,7 @@ getgenv().ConfigsKaitun = {
 	["Craft Event"] = {
 		"Crafters Seed Pack",
 		"Anti Bee Egg",
-		"Reclaimer",
+		"Reclaimer"
 	},
 	
 	["Event Shop"] =  {
@@ -40,7 +40,7 @@ getgenv().ConfigsKaitun = {
 		"Cleaning Spray",
 		"Favorite Tool",
 		"Harvest Tool",
-		"Friendship Pot",
+		"Friendship Pot"
 	},
 	["Gear Lock"] = {
 		"Tanning Mirror",
@@ -50,7 +50,7 @@ getgenv().ConfigsKaitun = {
 		"Basic Sprinkler",
 		"Mutation Spray Shocked",
 		"Mutation Spray Pollinated",
-		"Mutation Spray Choc",
+		"Mutation Spray Choc"
 	},
 
 	["Eggs"] = {
@@ -63,7 +63,7 @@ getgenv().ConfigsKaitun = {
 			"Common Summer Egg",
 			"Rare Summer Egg",
 			"Paradise Egg",
-			"Bee Egg"
+			"Bee Egg",
 			"Common Egg"
 		},
 		["Safe Eggs"] = {
@@ -88,7 +88,7 @@ getgenv().ConfigsKaitun = {
 	},
 	["Noti Seeds"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
 		"Sunflower",
-		"Dragon Pepper"
+		"Dragon Pepper",
 	},
 	["Lock Seeds"] = { -- มันจะไม่ใช้ seed ที่เลือก
 		"Banana",
@@ -126,7 +126,7 @@ getgenv().ConfigsKaitun = {
 		"Bendboo",
 		"Violet Corn",
 		"Succulent",
-		"Crocus"
+		"Crocus",
 	},
 	["Noti Seed Packs"] = {
 		"Idk"
