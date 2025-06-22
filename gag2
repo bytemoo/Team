@@ -4,13 +4,19 @@ getgenv().ConfigsKaitun = {
 	["Low Cpu"] = true,
 	
 	["Limit Tree"] = {
-		["Limit"] = 800,
-		["Sell Untill"] = 9999
+		["Limit"] = 200,
+		["Sell Untill"] = 100
 	},
 
 	["Seed"] = {
-		["Mode"] = "Auto",
+		["Mode"] = "Custom",
 		["Custom"] = {
+			"Sugar Apple",
+			"Feijoa",
+			"Loquat",
+			"Prickly Pear",
+			"Bell Pepper",
+			"Kiwi",
 		}
 	},
 	
@@ -127,6 +133,12 @@ getgenv().ConfigsKaitun = {
 		"Violet Corn",
 		"Succulent",
 		"Crocus",
+		"Sugar Apple",
+		"Feijoa",
+		"Loquat",
+		"Prickly Pear",
+		"Bell Pepper",
+		"Kiwi",
 	},
 	["Noti Seed Packs"] = {
 		"Idk"
