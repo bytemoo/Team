@@ -130,12 +130,7 @@ getgenv().ConfigsKaitun = {
 		"Violet Corn",
 		"Succulent",
 		"Crocus",
-		"Sugar Apple",
-		"Feijoa",
-		"Loquat",
-		"Prickly Pear",
-		"Bell Pepper",
-		"Kiwi",
+
 	},
 	["Noti Seed Packs"] = {
 		"Idk"
