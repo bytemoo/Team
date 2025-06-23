@@ -69,11 +69,11 @@ getgenv().ConfigsKaitun = {
 			"Common Summer Egg",
 			"Rare Summer Egg",
 			"Paradise Egg",
-			"Bee Egg",
-			"Common Egg"
+			"Bee Egg"
 		},
 		["Safe Eggs"] = {
 			"Bee Egg",
+			"Common Egg",
 		}
 	},
 	
@@ -81,9 +81,8 @@ getgenv().ConfigsKaitun = {
 	["Equip When Done"] = {
 		"Blood Owl",
 		"Queen Bee",
-		"Blood Kiwi"
+		"Starfish",
 		"Tarantula Hawk",
-		"Wasp",
 	},
 
 	["Webhook"] = {
@@ -148,6 +147,7 @@ getgenv().ConfigsKaitun = {
 	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
 		"Disco Bee",
 		"Butterfly",
+		"Moth",
 		"Queen Bee",
 		"Dragonfly",
 		"Raccoon",
@@ -156,6 +156,8 @@ getgenv().ConfigsKaitun = {
 		"Turtle",
 		"Polar Bear",
 		"Blood Kiwi",
+		"Bear Bee",
+		"Petal Bee",
 		"Tarantula Hawk",
 		"Scarlet Macaw",
 		"Mimic Octopus",
