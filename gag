@@ -162,5 +162,6 @@ getgenv().ConfigsKaitun = {
 		"Scarlet Macaw",
 		"Mimic Octopus",
 		"Starfish",
+		"Sea Turtle",
 	}
 }
