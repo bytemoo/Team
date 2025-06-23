@@ -61,6 +61,7 @@ getgenv().ConfigsKaitun = {
 
 	["Eggs"] = {
 		["Hatch"] = {
+			"Common Egg",
 			"Anti Bee Egg",
 			"Night Egg",
 			"Bug Egg",
@@ -70,6 +71,7 @@ getgenv().ConfigsKaitun = {
 			"Rare Summer Egg",
 			"Paradise Egg",
 			"Bee Egg"
+
 		},
 		["Safe Eggs"] = {
 			"Bee Egg",
