@@ -82,6 +82,8 @@ getgenv().ConfigsKaitun = {
 		"Blood Owl",
 		"Queen Bee",
 		"Blood Kiwi"
+		"Tarantula Hawk",
+		"Wasp",
 	},
 
 	["Webhook"] = {
