@@ -21,12 +21,12 @@ getgenv().ConfigsKaitun = {
 	},
 	
 	["Craft Event"] = {
-		"Reclaimer"
-		"Lightning Rod"
+		"Reclaimer",
+		"Lightning Rod",
 		"Crafters Seed Pack",
 		"Anti Bee Egg",
 		"Mutation Spray Shocked",
-		"Mutation Spray Choc"
+		"Mutation Spray Choc",
 	},
 	
 	["Event Shop"] =  {
@@ -48,7 +48,7 @@ getgenv().ConfigsKaitun = {
 		"Cleaning Spray",
 		"Favorite Tool",
 		"Harvest Tool",
-		"Friendship Pot"
+		"Friendship Pot",
 	},
 	["Gear Lock"] = {
 		"Tanning Mirror",
@@ -57,7 +57,7 @@ getgenv().ConfigsKaitun = {
 		"Advanced Sprinkler",
 		"Basic Sprinkler",
 		"Mutation Spray Shocked",
-		"Mutation Spray Choc"
+		"Mutation Spray Choc",
 	},
 
 	["Eggs"] = {
@@ -71,7 +71,7 @@ getgenv().ConfigsKaitun = {
 			"Common Summer Egg",
 			"Rare Summer Egg",
 			"Paradise Egg",
-			"Bee Egg"
+			"Bee Egg",
 
 		},
 		["Safe Eggs"] = {
