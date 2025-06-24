@@ -23,17 +23,13 @@ getgenv().ConfigsKaitun = {
 	["Craft Event"] = {
 		"Reclaimer",
 		"Lightning Rod",
-		"Crafters Seed Pack",
-		"Anti Bee Egg",
 		"Mutation Spray Shocked",
 		"Mutation Spray Choc",
+		"Crafters Seed Pack",
 	},
 	
 	["Event Shop"] =  {
 		"Flower Seed Pack",
-		"Hive Fruit",
-		"Honey Sprinkler",
-		"Bee Egg",
 	},
 	
 	["Gear Shop"] = {
@@ -77,6 +73,9 @@ getgenv().ConfigsKaitun = {
 		["Safe Eggs"] = {
 			"Bee Egg",
 			"Common Egg",
+			"Anti Bee Egg",
+			"Night Egg",
+			"Bug Egg",
 		}
 	},
 	
