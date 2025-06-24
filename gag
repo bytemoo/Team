@@ -157,7 +157,10 @@ getgenv().ConfigsKaitun = {
 		"Polar Bear",
 		"Blood Kiwi",
 		"Bear Bee",
-		"Mimic Octopus",
+		"Tarantula Hawk",
+		"Wasp",
+		"Bee",
+		"Honey Bee",
 		"Starfish",
 		"Sea Turtle",
 	}
