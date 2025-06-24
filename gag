@@ -44,7 +44,7 @@ getgenv().ConfigsKaitun = {
 		"Cleaning Spray",
 		"Favorite Tool",
 		"Harvest Tool",
-		"Friendship Pot",
+		"Friendship Pot"
 	},
 	["Gear Lock"] = {
 		"Tanning Mirror",
