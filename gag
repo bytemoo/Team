@@ -84,6 +84,8 @@ getgenv().ConfigsKaitun = {
 	["Equip When Done"] = {
 		"Blood Kiwi",
 		"Bee",
+		"Tarantula Hawk",
+		"Honey Bee",
 		"Starfish",
 	},
 
