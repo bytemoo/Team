@@ -5,8 +5,10 @@ getgenv().bgsInfConfig = {
     AUTO_UPDATE_RESTART = true,
     FOCUS_DICE = true,
     SUPER_TICKET_MINIGAME = "Robot Claw",
-    MASTERY_BUFFS_LEVEL = 20, 
-
+    GIVE_BUBBLE_SHRINE = {"Coins", "Tickets", "Mythic", "Speed", "Lucky"},
+    MIN_GIVE_BUBBLE_SHRINE = 2000,
+    MASTERY_BUFFS_LEVEL = 20,
+    
     PURCHASE_ALIENSHOP = true,
     PURCHASE_BLACKMARKET = true,
     PURCHASE_DICE_MERCHANT = true,
@@ -24,14 +26,12 @@ getgenv().bgsInfConfig = {
     DELETE_LEGENDARY_SHINY = true,
     DELETE_LEGENDARY_MYTHIC = true,
 
-    -- Enchants works after legendary+ team 
-    USE_GEMS_ENCHANT = true, -- Use gems to enchant tier 2/3 & secret (If no more reroll orbs left)
-    ENCHANT_TEAMUP = true,  
-    ENCHANT_TEAMUP_TIER = 5, 
-    ENCHANT_HIGH_ROLLER = false,
+    ENCHANT_TEAMUP = true,
+    ENCHANT_TEAMUP_TIER = 5,
 
     AUTO_BOUNTY_RIFT = true,
-    MIN_RIFT_MULTIPLIER = 15,
+    RIFT_EGGS = {"Bruh Egg"},
+    MIN_RIFT_MULTIPLIER = 5,
     HATCH_1X_EGG = {"Voidcrystal Egg"}, 
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
@@ -39,7 +39,7 @@ getgenv().bgsInfConfig = {
     WEBHOOK_URL = "https://discord.com/api/webhooks/1382120093437268058/Ym8HGalwmpy5SWXBr-TkWlFUkrPY5vgRFSEV-XkwAofEv4ADBKUUqsuPjTZWAxegVxBm",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
-    WEBHOOK_ODDS = "50m",
+    WEBHOOK_ODDS = "5m",
     SHOW_PET_WEBHOOK_USERNAME = true,
 }
 
