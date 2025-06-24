@@ -5,7 +5,7 @@ getgenv().ConfigsKaitun = {
 	
 	["Limit Tree"] = {
 		["Limit"] = 200,
-		["Sell Untill"] = 100
+		["Sell Untill"] = 9999
 	},
 
 	["Seed"] = {
@@ -21,9 +21,12 @@ getgenv().ConfigsKaitun = {
 	},
 	
 	["Craft Event"] = {
+		"Reclaimer"
+		"Lightning Rod"
 		"Crafters Seed Pack",
 		"Anti Bee Egg",
-		"Reclaimer"
+		"Mutation Spray Shocked",
+		"Mutation Spray Choc"
 	},
 	
 	["Event Shop"] =  {
@@ -42,7 +45,6 @@ getgenv().ConfigsKaitun = {
 		"Trowel",
 		"Recall Wrench",
 		"Basic Sprinkler",
-		"Lightning Rod",
 		"Cleaning Spray",
 		"Favorite Tool",
 		"Harvest Tool",
@@ -55,7 +57,6 @@ getgenv().ConfigsKaitun = {
 		"Advanced Sprinkler",
 		"Basic Sprinkler",
 		"Mutation Spray Shocked",
-		"Mutation Spray Pollinated",
 		"Mutation Spray Choc"
 	},
 
