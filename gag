@@ -82,10 +82,9 @@ getgenv().ConfigsKaitun = {
 	
 	["Limit Upgrade Slot"] = 1,
 	["Equip When Done"] = {
-		"Blood Owl",
-		"Queen Bee",
+		"Blood Kiwi",
+		"Bee",
 		"Starfish",
-		"Tarantula Hawk",
 	},
 
 	["Webhook"] = {
@@ -150,22 +149,16 @@ getgenv().ConfigsKaitun = {
 	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
 		"Disco Bee",
 		"Butterfly",
-		"Moth",
 		"Queen Bee",
 		"Dragonfly",
 		"Raccoon",
 		"Red Fox",
 		"Blood Owl",
-		"Turtle",
 		"Polar Bear",
 		"Blood Kiwi",
 		"Bear Bee",
-		"Petal Bee",
-		"Tarantula Hawk",
-		"Scarlet Macaw",
 		"Mimic Octopus",
 		"Starfish",
 		"Sea Turtle",
-		"Squirrel",
 	}
 }
