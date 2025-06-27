@@ -23,14 +23,16 @@ getgenv().ConfigsKaitun = {
 	},
 	
 	["Craft Event"] = {
+		"Honeysuckle",
 		"Reclaimer",
 		"Lightning Rod",
 		"Mutation Spray Shocked",
 		"Mutation Spray Choc",
-		"Honeysuckle",
+
 	},
 	
 	["Event Shop"] =  {
+		"Honeysuckle",
 		"Flower Seed Pack",
 	},
 	
@@ -83,8 +85,8 @@ getgenv().ConfigsKaitun = {
 	
 	["Limit Upgrade Slot"] = 1,
 	["Equip When Done"] = {
-		"Honey Bee",
-		"Starfish",
+		"Tarantula Hawk",
+		"Wasp",
 	},
 
 	["Webhook"] = {
@@ -135,6 +137,7 @@ getgenv().ConfigsKaitun = {
 		"Crocus",
 		"Durian",
 		"Raspberry",
+		"Honeysuckle",
 	},
 	["Noti Seed Packs"] = {
 		"Idk"
@@ -162,7 +165,6 @@ getgenv().ConfigsKaitun = {
 		"Tarantula Hawk",
 		"Bee",
 		"Honey Bee",
-		"Starfish",
-		"Capybara",
+		["Starfish"] = 40, -- limit 5 pet if set to 5
 	}
 }
