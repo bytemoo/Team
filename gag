@@ -2,42 +2,42 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     SUMMER_EVENT = true,
-    CRAFT_EVENT = { "Flower Seed Pack", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked" },
-    BUY_EVENT_SHOP = { "Oasis Egg", "Mutation Spray Burnt" },
+    CRAFT_EVENT = { "Anti Bee Egg" },
+    BUY_EVENT_SHOP = { "Hamster", "Oasis Egg" },
     IGNORE_FRUIT_SUMMER_EVENT = {},  -- Put fruit names to ignore ("Submit Plant")
 
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
-    EXTRA_PET_SLOTS = 5,
-    EXTRA_EGG_SLOTS = 5,
+    EXTRA_PET_SLOTS = 2,
+    EXTRA_EGG_SLOTS = 2,
     OPEN_ALL_SEED_PACK = true,
     ADD_FRIEND = true,
 
-    MAX_PLANTS = 400,
-    DESTROY_UNTIL_MIN_PLANTS = 300,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
+    MAX_PLANTS = 500,
+    DESTROY_UNTIL_MIN_PLANTS = 450,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato" },
     
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg", "Common Egg" },
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg" },
     PLANT_EGGS = { "Oasis Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg" },
 
-    BUY_SEED_SHOP = { "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
-    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia" },
+    BUY_SEED_SHOP = { "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Prickly Pear", "Bell Pepper", "Kiwi", "Pineapple", "Banana", "Avocado", "Green Apple", "Rafflesia", "Watermelon", "Cauliflower", "Tomato", "Blueberry", "Strawberry", "Carrot" },
+    KEEP_SEEDS = {},
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
-    SKIP_HARVEST_MUTATIONS = { "Voidtouched, "Plasma", "Meteoric" },  -- Stop Harvest
+    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Axolotl", "Pack Bee", "Petal Bee", "Bear Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish" },
+    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Axolotl", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Caterpillar", "Giant Ant", "Snail", "Echo Frog", "Hamster", "Squirrel", "Brown Mouse", "Grey Mouse", "Blood Owl", "Cooked Owl", "Golden Bee", "Owl", "Blood Kiwi", "Firefly", "Chicken Zombie" },
 
-    EQUIP_PETS = { "Starfish", "Moth" },
+    EQUIP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Axolotl", "Pack Bee", "Petal Bee", "Bear Bee", "Praying Mantis", "Caterpillar", "Giant Ant", "Snail", "Echo Frog", "Hamster", "Squirrel", "Brown Mouse", "Grey Mouse" },
 
-    BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
-    USE_SPRINKLER = { "Basic Sprinkler" },
+    BUY_GEAR_SHOP = { "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler" },
+    USE_SPRINKLER = { "Basic Sprinkler", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler" },
 
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha", 
-    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
+    PET_WEBHOOK_URL = "",
+    SEED_WEBHOOK_URL = "", 
+    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis" },
     DISCORD_ID = "",
-    WEBHOOK_NOTE = "test",
+    WEBHOOK_NOTE = "",
     SHOW_WEBHOOK_USERNAME = true,
 }
 
