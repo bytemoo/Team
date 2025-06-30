@@ -1,170 +1,44 @@
-wait(10)
-getgenv().ConfigsKaitun = {
-	["Stack Plant"] = true,
-	["Low Cpu"] = true,
-	
-	["Limit Tree"] = {
-		["Limit"] = 200,
-		["Sell Untill"] = 100000
-	},
+setfpscap(3)
 
-	["Seed"] = {
-		["Mode"] = "Custom",
-		["Custom"] = {
-			"Sugar Apple",
-			"Feijoa",
-			"Loquat",
-			"Prickly Pear",
-			"Bell Pepper",
-			"Kiwi",
-			"Tomato",
-			"Strawberry",
-		}
-	},
-	
-	["Craft Event"] = {
-		"Honeysuckle",
-		"Reclaimer",
-		"Lightning Rod",
-		"Mutation Spray Shocked",
-		"Mutation Spray Choc",
+getgenv().gagConfig = {
+    SUMMER_EVENT = true,
+    CRAFT_EVENT = { "Flower Seed Pack", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked" },
+    BUY_EVENT_SHOP = { "Oasis Egg", "Mutation Spray Burnt" },
+    IGNORE_FRUIT_SUMMER_EVENT = {},  -- Put fruit names to ignore ("Submit Plant")
 
-	},
-	
-	["Event Shop"] =  {
-		"Honeysuckle",
-		"Flower Seed Pack",
-	},
-	
-	["Gear Shop"] = {
-		"Tanning Mirror",
-		"Master Sprinkler",
-		"Godly Sprinkler",
-		"Advanced Sprinkler",
-		"Watering Can",
-		"Trowel",
-		"Recall Wrench",
-		"Basic Sprinkler",
-		"Cleaning Spray",
-		"Favorite Tool",
-		"Harvest Tool",
-		"Friendship Pot"
-	},
-	["Gear Lock"] = {
-		"Tanning Mirror",
-		"Master Sprinkler",
-		"Godly Sprinkler",
-		"Advanced Sprinkler",
-		"Basic Sprinkler",
-		"Mutation Spray Shocked",
-		"Mutation Spray Choc",
-	},
+    AUTO_UPDATE_RESTART = true,
+    REDEEM_CODES = {},
+    EXTRA_PET_SLOTS = 5,
+    EXTRA_EGG_SLOTS = 5,
+    OPEN_ALL_SEED_PACK = true,
+    ADD_FRIEND = true,
 
-	["Eggs"] = {
-		["Hatch"] = {
-			"Common Egg",
-			"Anti Bee Egg",
-			"Night Egg",
-			"Bug Egg",
-			"Mythical Egg",
-			"Uncommon Egg",
-			"Common Summer Egg",
-			"Rare Summer Egg",
-			"Paradise Egg",
-			"Bee Egg",
+    MAX_PLANTS = 400,
+    DESTROY_UNTIL_MIN_PLANTS = 300,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
+    
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg", "Common Egg" },
+    PLANT_EGGS = { "Oasis Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg" },
 
-		},
-		["Safe Eggs"] = {
-			"Bee Egg",
-			"Common Egg",
-			"Anti Bee Egg",
-			"Night Egg",
-			"Bug Egg",
-		}
-	},
-	
-	["Limit Upgrade Slot"] = 1,
-	["Equip When Done"] = {
-		"Tarantula Hawk",
-		"Wasp",
-	},
+    BUY_SEED_SHOP = { "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
+    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia" },
+    
+    FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
+    SKIP_HARVEST_MUTATIONS = { "Voidtouched, "Plasma", "Meteoric" },  -- Stop Harvest
 
-	["Webhook"] = {
-		UrlPet = "Url Here",
-		UrlSeed = "Url Here",
-		PcName = "Threadripper pro 7995wx"
-	},
-	["Noti Seeds"] = { -- ที่จะให้มันเเจ้งเตือนใน webhook
-		"Sunflower",
-		"Dragon Pepper",
-	},
-	["Lock Seeds"] = { -- มันจะไม่ใช้ seed ที่เลือก
-		"Banana",
-		"Rose",
-		"Chocolate Carrot",
-		"Moonglow",
-		"Daffoldil",
-		"Glowshroom",
-		"Moon Mango",
-		"Moonflower",
-		"Blood Banana",
-		"Moon Melon",
-		"Carrot",
-		"Nightshade",
-		"Strawberry",
-		"Blueberry",
-		"Orange Tulip",
-		"Tomato",
-		"Corn",
-		"Daffoldil",
-		"Watermelon",
-		"Pumpkin",
-		"Apple",
-		"Bamboo",
-		"Coconut",
-		"Cactus",
-		"Dragon Fruit",
-		"Grape",
-		"Mushroom",
-		"Mango",
-		"Beanstalk",
-		"Sunflower",
-		"Dragon Pepper",
-		"Cocovine",
-		"Bendboo",
-		"Violet Corn",
-		"Succulent",
-		"Crocus",
-		"Durian",
-		"Raspberry",
-		"Honeysuckle",
-	},
-	["Noti Seed Packs"] = {
-		"Idk"
-	},
-	["Lock Seed Packs"] = {
-		"Flower Seed Pack",
-		"Crafter Seed Pack",
-	},
-	["Noti Pets"] = {
-		"Disco Bee",
-	},
-	["Lock Pets"] = { -- สัตว์ที่จะเก็บไว้ไม่ขายไม่เอาไปเเลก slot
-		"Disco Bee",
-		"Butterfly",
-		"Queen Bee",
-		"Dragonfly",
-		"Raccoon",
-		"Mimic Octopus",
-		"Red Fox",
-		"Blood Owl",
-		"Polar Bear",
-		"Blood Kiwi",
-		"Bear Bee",
-		"Petal Bee",
-		"Tarantula Hawk",
-		"Bee",
-		"Honey Bee",
-		["Starfish"] = 40, -- limit 5 pet if set to 5
-	}
+    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Axolotl", "Pack Bee", "Petal Bee", "Bear Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", Starfish },
+
+    EQUIP_PETS = { "Starfish" },
+
+    BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
+    USE_SPRINKLER = { "Basic Sprinkler" },
+
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha", 
+    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
+    DISCORD_ID = "",
+    WEBHOOK_NOTE = "test",
+    SHOW_WEBHOOK_USERNAME = true,
 }
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
