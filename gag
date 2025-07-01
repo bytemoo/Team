@@ -20,23 +20,25 @@ getgenv().gagConfig = {
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg", "Common Egg" },
     PLANT_EGGS = { "Oasis Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg" },
 
+    -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
     KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
-    SKIP_HARVEST_MUTATIONS = { "Voidtouched, "Plasma", "Meteoric" },  -- Stop Harvest
+    SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
-    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie" },
-    EQUIP_PETS = { "Starfish" },
+    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish" },
+
+    EQUIP_PETS = { "Starfish", "Moth" },
 
     BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
     USE_SPRINKLER = { "Basic Sprinkler" },
 
-    PET_WEBHOOK_URL = "",
-    SEED_WEBHOOK_URL = "", 
-    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis" },
+    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha",
+    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha", 
+    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
     DISCORD_ID = "",
-    WEBHOOK_NOTE = "",
+    WEBHOOK_NOTE = "test",
     SHOW_WEBHOOK_USERNAME = true,
 }
 
