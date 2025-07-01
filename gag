@@ -2,8 +2,8 @@ setfpscap(3)
 
 getgenv().gagConfig = {
     SUMMER_EVENT = true,
-    CRAFT_EVENT = { "Anti Bee Egg" },
-    BUY_EVENT_SHOP = { "Hamster", "Oasis Egg" },
+    CRAFT_EVENT = { "Flower Seed Pack", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked" },
+    BUY_EVENT_SHOP = { "Oasis Egg", "Mutation Spray Burnt" },
     IGNORE_FRUIT_SUMMER_EVENT = {},  -- Put fruit names to ignore ("Submit Plant")
 
     AUTO_UPDATE_RESTART = true,
