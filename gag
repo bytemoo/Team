@@ -1,3 +1,4 @@
+script_key="CiNFvswanENjqqWAXptoDrFGzeSXBuqQ";
 setfpscap(3)
 
 getgenv().gagConfig = {
@@ -13,33 +14,23 @@ getgenv().gagConfig = {
     OPEN_ALL_SEED_PACK = true,
     ADD_FRIEND = true,
 
-    MAX_PLANTS = 500,
-    DESTROY_UNTIL_MIN_PLANTS = 300,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
+    MAX_PLANTS = 800,
+    DESTROY_UNTIL_MIN_PLANTS = 700,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear", "Blood Banana", "Feijoa", "Sugar Apple", "Pepper", "Cacao", "Cauliflower", "Succulent", "Ember Lily", "Moon Mango", "Loquat", "Pitcher Plant", "Violet Corn", "Pineapple", "Celestiberry", "Nectarine", "Moon Melon", "Easter Egg", "Cocovine" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg", "Common Egg" },
     PLANT_EGGS = { "Oasis Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg" },
 
     -- BUY_SEED_SHOP Priority (Left -> Right)
-    BUY_SEED_SHOP = { "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
-    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Carrot", "Strawberry", "Blueberry", "Tomato", "Watermelon", "Rafflesia" },
+    BUY_SEED_SHOP = { "Tomato", "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
+    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Carrot", "Strawberry", "Blueberry", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear", "Blood Banana", "Feijoa", "Sugar Apple", "Pepper", "Cacao", "Cauliflower", "Succulent", "Ember Lily", "Moon Mango", "Loquat", "Pitcher Plant", "Violet Corn", "Pineapple" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
-    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish" },
+    KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish", "Ostrich", },
 
-    EQUIP_PETS = { "Starfish", "Moth" },
+    EQUIP_PETS = { "Honey Bee", "Blood Kiwi", "Blood Owl", "Capybara", "Starfish", },
 
     BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
     USE_SPRINKLER = { "Basic Sprinkler" },
-
-    PET_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha",
-    SEED_WEBHOOK_URL = "https://discord.com/api/webhooks/1382496841488400394/Fi7uqeiYgAEdi0_xlsIGrMSAe_Wea_hFAHnxk2MOUbvNv5bNPXSUCrOBo716uiwgZBha", 
-    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
-    DISCORD_ID = "",
-    WEBHOOK_NOTE = "test",
-    SHOW_WEBHOOK_USERNAME = true,
-}
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
