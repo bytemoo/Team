@@ -5,6 +5,7 @@ getgenv().gagConfig = {
     SUMMER_EVENT = true,
     CRAFT_EVENT = { "Flower Seed Pack", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked" },
     BUY_EVENT_SHOP = { "Oasis Egg", "Mutation Spray Burnt" },
+    BUY_4TH_JULY_SHOP = { "Liberty Lily", "Firework Flower", "Firework", "Bald Eagle", "4th July Crate" },
     IGNORE_FRUIT_SUMMER_EVENT = {},  -- Put fruit names to ignore ("Submit Plant")
 
     AUTO_UPDATE_RESTART = true,
@@ -23,14 +24,26 @@ getgenv().gagConfig = {
 
     -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Tomato", "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
-    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Carrot", "Strawberry", "Blueberry", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear", "Blood Banana", "Feijoa", "Sugar Apple", "Pepper", "Cacao", "Cauliflower", "Succulent", "Ember Lily", "Moon Mango", "Loquat", "Pitcher Plant", "Violet Corn", "Pineapple" },
+    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia",  "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
     KEEP_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish", "Ostrich", },
+    KEEP_PETS_WEIGHT = 10,
 
-    EQUIP_PETS = { "Honey Bee", "Blood Kiwi", "Blood Owl", "Capybara", "Starfish", },
+    EQUIP_PETS = { "Honey Bee", "Bald Eagle", "Rooster", "Blood Kiwi", "Chicken", "Starfish" },
 
     BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
     USE_SPRINKLER = { "Basic Sprinkler" },
+
+    PET_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2",
+    SEED_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2", 
+    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
+    NOTIFY_PETS_WEIGHT = 10,
+    DISCORD_ID = "957888708797927454",
+    WEBHOOK_NOTE = "test",
+    SHOW_WEBHOOK_USERNAME = true,
+}
+
+loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
