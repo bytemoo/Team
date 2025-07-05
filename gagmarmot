@@ -40,7 +40,7 @@ getgenv().gagConfig = {
     SEED_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2", 
     NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
     NOTIFY_PETS_WEIGHT = 10,
-    DISCORD_ID = "957888708797927454",
+    DISCORD_ID = "",
     WEBHOOK_NOTE = "test",
     SHOW_WEBHOOK_USERNAME = true,
 }
