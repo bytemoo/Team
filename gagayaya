@@ -1,0 +1,229 @@
+getgenv().ConfigsKaitun = {
+	["Stack Plant"] = true,
+	["Low Cpu"] = true,
+	
+	["Rejoin When Update"] = false,
+
+	["Limit Tree"] = {
+		["Limit"] = 250,
+		["Destroy Untill"] = 200,
+
+		["Safe Tree"] = {
+			"Honeysuckle",
+			"Pink Lily",
+			"Purple Dahlia",
+		}
+	},
+
+	Seed = {
+		Buy = {
+			Mode = "Auto", -- Custom , Auto
+			Custom = {
+				"Tomato",
+				"Sugar Apple",
+				"Pitcher Plant",
+				"Feijoa",
+				"Loquat",
+				"Pineapple",
+				"Kiwi",
+				"Bell Pepper",
+				"Prickly Pear",
+				"Bell Pepper",
+			}
+		},
+		Place = {
+			Mode = "Lock", -- Select , Lock
+			Select = {
+				"Carrot",
+			},
+			Lock = {
+				"Sunflower",
+				"Elephant Ears",
+				"Sugar Apple",
+				"Pitcher Plant",
+				"Feijoa",
+				"Loquat",
+				"Pineapple",
+				"Kiwi",
+				"Bell Pepper",
+				"Prickly Pear",
+				"Bell Pepper",
+				"Traveler's Fruit",
+				"Delphinium",
+				"Lily of the Valley",
+				"Liberty Lily",
+				"Firework Flower",
+				"Firework",
+				"Bell Pepper",
+				"Bell Pepper",
+				"Bell Pepper",
+			}
+		}
+	},
+
+	["Seed Pack"] = {
+		Locked = {
+			"Summer Seed Pack",
+		}
+	},
+
+	Events = {
+		["Traveling Shop"] = {
+			"Liberty Lily",
+			"Firework Flower",
+			"Firework",
+			"Bald Eagle",
+			"July 4th Crate",
+		},
+		["Summer Harvest"] = {
+			["Do At Money"] = 1000000,
+			["Point Limit"] = 16000,
+		},
+		Craft = {
+			"Flower Seed Pack",
+			"Honeysuckle",
+			"Mutation Spray Chilled",
+			"Reclaimer",
+			"Lightning Rod",
+			"Pack Bee",
+			"Mutation Spray Pollinated",
+			"Mutation Spray Shocked",
+		},
+		Shop = {
+			"Traveler's Fruit",
+			"Summer Seed Pack",
+			"Hamster",
+			"Oasis Egg",
+			"Delphinium",
+			"Lily of the Valley",
+		}
+	},
+
+	Gear = {
+		Buy = { 
+			"Master Sprinkler",
+			"Basic Sprinkler",
+			"Godly Sprinkler",
+			"Advanced Sprinkler",
+			"Lightning Rod",
+			"Tanning Mirror",
+			"Watering Can",
+			"Trowel",
+			"Recall Wrench",
+			"Cleaning Spray",
+			"Favorite Tool",
+			"Harvest Tool",
+		},
+		Lock = {
+			"Master Sprinkler",
+			"Basic Sprinkler",
+			"Godly Sprinkler",
+			"Advanced Sprinkler",
+			"Lightning Rod",
+			"Tanning Mirror",
+		},
+	},
+
+	Eggs = {
+		Place = {
+			"Oasis Egg",
+			"Anti Bee Egg",
+			"Paradise Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Rare Egg",
+			"Rare Summer Egg",
+		},
+		Buy = {
+			"Anti Bee Egg",
+			"Paradise Egg",
+			"Bee Egg",
+			"Night Egg",
+			"Bug Egg",
+			"Mythical Egg",
+			"Rare Egg",
+			"Rare Summer Egg",
+			"Common Egg",
+		}
+	},
+
+	Pets = {
+		["Upgrade Slot"] = {
+			["Pet"] = {
+				"Blood Kiwi",
+				"Rooster",
+			},
+			["Limit Upgrade"] = 8,
+			["Equip When Done"] = {
+				"Honey Bee",
+				"Honey Bee",
+				"Bald Eagle",
+				"Blood Kiwi",
+				"Blood Kiwi",
+				"Blood Owl",
+				"Starfish",
+			},
+		},
+		Locked = {
+			"Dragonfly",
+			"Night Owl",
+			"Queen Bee",
+			"Raccoon",
+			"Disco Bee",
+			"Fennec Fox",
+			"Disco Bee",
+			"Butterfly",
+			"Mimic Octopus",
+			"Queen Bee",
+			"Fennec Fox",
+			"Dragonfly",
+			"Raccoon",
+			"Red Fox",
+			"Blood Owl",
+			"Blood Kiwi",
+			"Bald Eagle",
+			"Honey Bee",
+			"Blood Kiwi",
+			"Capybara",
+			"Ostrich",
+			"Hyacinth Macaw",
+			"Scarlet Macaw",
+			["Starfish"] = 10,
+		},
+		LockPet_Weight = 10, -- if Weight >= 10 they will locked,
+		Instant_Sell = {
+			"Dog",
+		}
+	},
+
+	Webhook = {
+		UrlPet = "",
+		UrlSeed = "",
+		PcName = "PC",
+
+		Noti = {
+			Seeds = {
+				"Sunflower",
+				"Dragon Pepper",
+				"Elephant Ears",
+			},
+			SeedPack = {
+				"Idk",
+			},
+			Pets = {
+				"Dragonfly",
+				"Night Owl",
+				"Queen Bee",
+				"Raccoon",
+				"Disco Bee",
+				"Fennec Fox",
+				"Disco Bee",
+				"Butterfly",
+				"Mimic Octopus",
+				"Red Fox",
+			},
+			Pet_Weight_Noti = true,
+		}
+	},
+}
