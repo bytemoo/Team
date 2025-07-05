@@ -23,7 +23,7 @@ getgenv().gagConfig = {
 
     -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Tomato", "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
-    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia",  "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear" },
+    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia",  "Sugar Apple", "Pitcher Plant", "Feijoa", "Loquat", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear", "Strawberry", "Carrot", "Blueberry" },
     
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
