@@ -35,6 +35,7 @@ getgenv().ConfigsKaitun = {
 			Mode = "Lock", -- Select , Lock
 			Select = {
 				"Carrot",
+				"Tomato",
 			},
 			Lock = {
 				"Sunflower",
@@ -55,8 +56,8 @@ getgenv().ConfigsKaitun = {
 				"Firework Flower",
 				"Firework",
 				"Bell Pepper",
-				"Bell Pepper",
-				"Bell Pepper",
+				"Strawberry",
+				"Blueberry",
 			}
 		}
 	},
