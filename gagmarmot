@@ -14,8 +14,8 @@ getgenv().gagConfig = {
     OPEN_ALL_SEED_PACK = true,
     ADD_FRIEND = true,
 
-    MAX_PLANTS = 400,
-    DESTROY_UNTIL_MIN_PLANTS = 200,
+    MAX_PLANTS = 800,
+    DESTROY_UNTIL_MIN_PLANTS = 700,
     DELETE_PLANTS_AFTER_MAX = { "Sunflower", "Cranberry", "Apple", "Hive Fruit", "Coconut", "Lilac", "Rose", "Carrot", "Strawberry", "Blueberry", "Watermelon", "Rafflesia", "Green Apple", "Avocado", "Banana", "Pineapple", "Kiwi", "Bell Pepper", "Prickly Pear", "Blood Banana", "Feijoa", "Sugar Apple", "Pepper", "Cacao", "Cauliflower", "Succulent", "Ember Lily", "Moon Mango", "Loquat", "Pitcher Plant", "Violet Corn", "Pineapple", "Celestiberry", "Nectarine", "Moon Melon", "Easter Egg", "Cocovine" },
     
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Uncommon Egg", "Common Egg" },
