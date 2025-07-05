@@ -32,9 +32,8 @@ getgenv().ConfigsKaitun = {
 			}
 		},
 		Place = {
-			Mode = "Lock", -- Select , Lock
+			Mode = "Select", -- Select , Lock
 			Select = {
-				"Carrot",
 				"Tomato",
 			},
 			Lock = {
@@ -65,6 +64,7 @@ getgenv().ConfigsKaitun = {
 	["Seed Pack"] = {
 		Locked = {
 			"Summer Seed Pack",
+			"Flower Seed Pack",
 		}
 	},
 
@@ -152,7 +152,7 @@ getgenv().ConfigsKaitun = {
 	Pets = {
 		["Upgrade Slot"] = {
 			["Pet"] = {
-				"Blood Kiwi",
+				"Starfish",
 				"Rooster",
 			},
 			["Limit Upgrade"] = 8,
