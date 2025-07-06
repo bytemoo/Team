@@ -1,7 +1,7 @@
 setfpscap(3)
 
 getgenv().gagConfig = {
-    CRAFT_EVENT = { "Flower Seed Pack", "Honeysuckle", "Mutation Spray Chilled", "Pack Bee", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked" },
+    CRAFT_EVENT = { "Flower Seed Pack", "Honeysuckle", "Mutation Spray Chilled", "Pack Bee", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked", "Mutation Spray Amber" },
 
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
