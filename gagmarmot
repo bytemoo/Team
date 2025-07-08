@@ -10,7 +10,7 @@ getgenv().gagConfig = {
     OPEN_ALL_SEED_PACK = false,
     ADD_FRIEND = true,
 
-    MAX_PLANTS = 400,
+    MAX_PLANTS = 300,
     DESTROY_UNTIL_MIN_PLANTS = 250,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Tomato", "Cauliflower" },
 
