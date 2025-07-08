@@ -36,7 +36,7 @@ getgenv().bgsInfConfig = {
     ALWAYS_INFINITY_ELIXIR = true,
     ALWAYS_EGG_ELIXIR = true,
 
-    WEBHOOK_URL = "https://discord.com/api/webhooks/1387647124661080247/uX5kR730XzbD9dIaczlK0e-VPMbsG1SDbm_3D3UjZJPTwytpa8UhLSnkkeQZtU_gmhBT",
+    WEBHOOK_URL = "https://tinyurl.com/mrxbxbnm",
     DISCORD_ID = "",
     WEBHOOK_NOTE = "",
     WEBHOOK_ODDS = "100m",
