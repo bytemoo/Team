@@ -20,15 +20,6 @@ getgenv().ConfigsKaitun = {
 			Mode = "Auto", -- Custom , Auto
 			Custom = {
 				"Tomato",
-				"Sugar Apple",
-				"Pitcher Plant",
-				"Feijoa",
-				"Loquat",
-				"Pineapple",
-				"Kiwi",
-				"Bell Pepper",
-				"Prickly Pear",
-				"Bell Pepper",
 			}
 		},
 		Place = {
@@ -39,24 +30,8 @@ getgenv().ConfigsKaitun = {
 			Lock = {
 				"Sunflower",
 				"Elephant Ears",
-				"Sugar Apple",
-				"Pitcher Plant",
-				"Feijoa",
-				"Loquat",
-				"Pineapple",
-				"Kiwi",
-				"Bell Pepper",
-				"Prickly Pear",
-				"Bell Pepper",
-				"Traveler's Fruit",
-				"Delphinium",
-				"Lily of the Valley",
-				"Liberty Lily",
-				"Firework Flower",
-				"Firework",
-				"Bell Pepper",
-				"Strawberry",
-				"Blueberry",
+				"Dragon Pepper",
+				"Bone Blossom"
 			}
 		}
 	},
@@ -69,6 +44,7 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Events = {
+		Dino = true,
 		["Traveling Shop"] = {
 			"Liberty Lily",
 			"Firework Flower",
@@ -81,6 +57,8 @@ getgenv().ConfigsKaitun = {
 			["Point Limit"] = 16000,
 		},
 		Craft = {
+			"Mutation Spray Amber",
+			"Ancient Seed Pack",
 			"Flower Seed Pack",
 			"Honeysuckle",
 			"Mutation Spray Chilled",
@@ -196,8 +174,8 @@ getgenv().ConfigsKaitun = {
 	},
 
 	Webhook = {
-		UrlPet = "",
-		UrlSeed = "",
+		UrlPet = "https://tinyurl.com/2amm2pk2",
+		UrlSeed = "https://tinyurl.com/2amm2pk2",
 		PcName = "PC",
 
 		Noti = {
