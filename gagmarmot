@@ -25,7 +25,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
-    KEEP_PETS = { "Bald Eagle", "Pterodactyl", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish", "Ostrich", },
+    KEEP_PETS = { "Toucan", "Bald Eagle", "Pterodactyl", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish", "Ostrich", },
     KEEP_PETS_WEIGHT = 10,
 
     EQUIP_PETS = { "Honey Bee", "Bald Eagle", "Blood Kiwi", "Blood Owl", "Brontosaurus", "Starfish", "Triceratops" },
