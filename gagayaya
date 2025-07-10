@@ -19,13 +19,29 @@ getgenv().ConfigsKaitun = {
 		Buy = {
 			Mode = "Auto", -- Custom , Auto
 			Custom = {
-				"Tomato",
+				"Carrot",
+				"Watermelon",
+				"Pumpkin",
+				"Mango",
+				"Strawberry",
+				"BlueBerry",
+				"Apple",
+				"Coconut",
+				"Dragon Fruit",
 			}
 		},
 		Place = {
-			Mode = "Lock", -- Select , Lock
+			Mode = "Select", -- Select , Lock
 			Select = {
-				"Tomato",
+				"Carrot",
+				"Watermelon",
+				"Pumpkin",
+				"Mango",
+				"Strawberry",
+				"BlueBerry",
+				"Apple",
+				"Coconut",
+				"Dragon Fruit",
 			},
 			Lock = {
 				"Prickly Pear"
@@ -42,12 +58,16 @@ getgenv().ConfigsKaitun = {
 		Locked = {
 			"Summer Seed Pack",
 			"Flower Seed Pack",
+			"Ancient Seed Pack",
 		}
 	},
 
 	Events = {
 		Dino = true,
 		["Traveling Shop"] = {
+			"Night Staff",
+			"Star Caller",
+			"Mutation Spray Cloudtouched",
 			"Liberty Lily",
 			"Firework Flower",
 			"Firework",
@@ -60,17 +80,16 @@ getgenv().ConfigsKaitun = {
 		},
 		Craft = {
 			"Mutation Spray Amber",
-			"Ancient Seed Pack",
-			"Flower Seed Pack",
-			"Honeysuckle",
-			"Mutation Spray Chilled",
-			"Reclaimer",
 			"Lightning Rod",
-			"Pack Bee",
+			"Mutation Spray Chilled",
+			"Ancient Seed Pack",
 			"Mutation Spray Pollinated",
 			"Mutation Spray Shocked",
 		},
 		Shop = {
+			"Night Staff",
+			"Star Caller",
+			"Mutation Spray Cloudtouched",
 			"Traveler's Fruit",
 			"Summer Seed Pack",
 			"Hamster",
@@ -144,7 +163,7 @@ getgenv().ConfigsKaitun = {
 				"Ostrich",
 				"Hamster",
 				"Capybara",
-				"Capybara",
+				"Starfish",
 			},
 		},
 		Locked = {
