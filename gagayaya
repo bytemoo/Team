@@ -45,11 +45,10 @@ getgenv().ConfigsKaitun = {
 			},
 			Lock = {
 				"Prickly Pear"
-				"Coconut"
 				"Sunflower",
 				"Elephant Ears",
+				"Bone Blossom",
 				"Dragon Pepper",
-				"Bone Blossom"
 			}
 		}
 	},
