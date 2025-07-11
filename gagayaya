@@ -6,7 +6,7 @@ getgenv().ConfigsKaitun = {
 
 	["Limit Tree"] = {
 		["Limit"] = 250,
-		["Destroy Untill"] = 150,
+		["Destroy Untill"] = 9999,
 
 		["Safe Tree"] = {
 			"Honeysuckle",
