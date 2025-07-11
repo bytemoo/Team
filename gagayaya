@@ -70,8 +70,6 @@ getgenv().ConfigsKaitun = {
 			"Mutation Spray Amber",
 			"Lightning Rod",
 			"Mutation Spray Chilled",
-			"Ancient Seed Pack",
-			"Mutation Spray Pollinated",
 			"Mutation Spray Shocked",
 		},
 		Shop = {
@@ -82,8 +80,6 @@ getgenv().ConfigsKaitun = {
 			"Summer Seed Pack",
 			"Hamster",
 			"Oasis Egg",
-			"Delphinium",
-			"Lily of the Valley",
 		}
 	},
 
