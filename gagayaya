@@ -12,6 +12,10 @@ getgenv().ConfigsKaitun = {
 			"Honeysuckle",
 			"Pink Lily",
 			"Purple Dahlia",
+			"Apple",
+			"Coconut",
+			"Dragon Fruit",
+			"Mango",
 		}
 	},
 
@@ -29,6 +33,8 @@ getgenv().ConfigsKaitun = {
 				"Coconut",
 				"Dragon Fruit",
 				"Mango",
+				"Strawberry",
+				"Blueberry",
 			},
 			Lock = {
 				"Prickly Pear",
