@@ -20,35 +20,15 @@ getgenv().ConfigsKaitun = {
 			Mode = "Auto", -- Custom , Auto
 			Custom = {
 				"Carrot",
-				"Watermelon",
-				"Pumpkin",
-				"Mango",
-				"Strawberry",
-				"Blueberry",
-				"Apple",
-				"Coconut",
-				"Dragon Fruit",
 			}
 		},
 		Place = {
 			Mode = "Select", -- Select , Lock
 			Select = {
 				"Carrot",
-				"Watermelon",
-				"Pumpkin",
-				"Mango",
-				"Strawberry",
-				"BlueBerry",
-				"Apple",
-				"Coconut",
-				"Dragon Fruit",
 			},
 			Lock = {
 				"Prickly Pear",
-				"Sunflower",
-				"Elephant Ears",
-				"Bone Blossom",
-				"Dragon Pepper",
 			}
 		}
 	},
