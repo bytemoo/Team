@@ -8,7 +8,8 @@ getgenv().gagConfig = {
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
     OPEN_ALL_SEED_PACK = true,
-    ADD_FRIEND = true,
+    ADD_FRIEND = false,
+    MUTATE_PET = { "Starfish", "Blood Kiwi", "Blood Owl", "Bald Eagle", "Ostrich" },
 
     MAX_PLANTS = 250,
     DESTROY_UNTIL_MIN_PLANTS = 230,
