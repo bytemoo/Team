@@ -20,7 +20,7 @@ getgenv().gagConfig = {
 
     -- BUY_SEED_SHOP Priority (Left -> Right)
     BUY_SEED_SHOP = { "Carrot", "Watermelon", "Pumpkin", "Bamboo", "Mango", "Strawberry", "Blueberry", "Apple", "Coconut", "Dragon Fruit" },
-    KEEP_SEEDS = { "Bone Blossom", "Tomato", "Corn", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Dragon Fruit", "Cactus", "Daffodil" },
+    KEEP_SEEDS = { "Bone Blossom", "Tomato", "Corn", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Dragon Fruit", "Cactus", "Daffodil", "Sugar Apple" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil" },
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
