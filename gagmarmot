@@ -1,34 +1,34 @@
 setfpscap(3)
 
 getgenv().gagConfig = {
-    CRAFT_EVENT = { "Flower Seed Pack", "Honeysuckle", "Mutation Spray Chilled", "Pack Bee", "Reclaimer", "Lightning Rod", "Mutation Spray Shocked", "Mutation Spray Amber" },
+    CRAFT_EVENT = { "Ancient Seed Pack", "Lightning Rod", "Mutation Spray Amber", "Primal Egg" },
 
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
     EXTRA_PET_SLOTS = 5,
     EXTRA_EGG_SLOTS = 5,
-    OPEN_ALL_SEED_PACK = false,
+    OPEN_ALL_SEED_PACK = true,
     ADD_FRIEND = true,
 
-    MAX_PLANTS = 300,
-    DESTROY_UNTIL_MIN_PLANTS = 250,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil" },
+    MAX_PLANTS = 250,
+    DESTROY_UNTIL_MIN_PLANTS = 230,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil" },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Eggs" },
-    PLANT_EGGS = { "Dinosaur Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    PLANT_EGGS = { "Dinosaur Egg", "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
 
     -- BUY_SEED_SHOP Priority (Left -> Right)
-    BUY_SEED_SHOP = { "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil", "Tomato" },
-    KEEP_SEEDS = { "Pink Lily", "Purple Dahlia", "Bone Blossom" },
+    BUY_SEED_SHOP = { "Carrot", "Watermelon", "Pumpkin", "Bamboo", "Mango", "Strawberry", "Blueberry", "Apple", "Coconut", "Dragon Fruit" },
+    KEEP_SEEDS = { "Bone Blossom" },
     KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil" },
 
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
-    KEEP_PETS = { "Toucan", "Bald Eagle", "Pterodactyl", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Starfish", "Ostrich", },
+    KEEP_PETS = { "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Ostrich", ["Dog"] = 4, ["Bunny"] = 4, ["Golden Lab"] = 4 },
     KEEP_PETS_WEIGHT = 10,
 
-    EQUIP_PETS = { "Honey Bee", "Bald Eagle", "Blood Kiwi", "Blood Owl", "Brontosaurus", "Starfish", "Triceratops" },
+    EQUIP_PETS = { ["Honey Bee"] = 1, ["Blood Kiwi"] = 1, ["Blood Owl"] = 1, ["Bald Eagle"] = 1, ["Ostrich"] = 4, },
 
     BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
     USE_SPRINKLER = { "Basic Sprinkler" },
@@ -38,7 +38,7 @@ getgenv().gagConfig = {
     NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
     NOTIFY_PETS_WEIGHT = 10,
     DISCORD_ID = "",
-    WEBHOOK_NOTE = "test",
+    WEBHOOK_NOTE = "marmot",
     SHOW_WEBHOOK_USERNAME = true,
 }
 
