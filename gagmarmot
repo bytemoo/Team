@@ -28,7 +28,7 @@ getgenv().gagConfig = {
     KEEP_PETS = { "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Ostrich", ["Dog"] = 4, ["Bunny"] = 4, ["Golden Lab"] = 4, ["Starfish"] = 5 },
     KEEP_PETS_WEIGHT = 10,
 
-    EQUIP_PETS = { ["Honey Bee"] = 1, ["Blood Kiwi"] = 1, ["Blood Owl"] = 1, ["Bald Eagle"] = 1, ["Ostrich"] = 4, },
+    EQUIP_PETS = { ["Starfish"] = 1, ["Blood Kiwi"] = 1, ["Blood Owl"] = 1, ["Bald Eagle"] = 1, ["Ostrich"] = 4, },
 
     BUY_GEAR_SHOP = { "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
     USE_SPRINKLER = { "Basic Sprinkler" },
