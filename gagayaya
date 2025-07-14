@@ -173,6 +173,7 @@ getgenv().ConfigsKaitun = {
 			"Moth",
 			"Moth",
 			"Seagull",
+			"Iguanodon",
 			["Dog"] = 2,
 			["Golden Lab"] = 2,
 			["Bunny"] = 2,
