@@ -68,7 +68,6 @@ getgenv().ConfigsKaitun = {
 		},
 		Craft = {
 			"Mutation Spray Amber",
-			"Lightning Rod",
 			"Mutation Spray Chilled",
 			"Mutation Spray Shocked",
 		},
@@ -93,6 +92,7 @@ getgenv().ConfigsKaitun = {
 			"Tanning Mirror",
 			"Watering Can",
 			"Trowel",
+			"Godly Sprinkler",
 			"Recall Wrench",
 			"Cleaning Spray",
 			"Favorite Tool",
@@ -102,6 +102,7 @@ getgenv().ConfigsKaitun = {
 			"Master Sprinkler",
 			"Godly Sprinkler",
 			"Advanced Sprinkler",
+			"Godly Sprinkler",
 			"Lightning Rod",
 			"Tanning Mirror",
 		},
