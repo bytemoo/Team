@@ -1,0 +1,203 @@
+-- gui2lua made by roadtoglory
+local mode = "fire"
+local guiName = "ELYMO_UI"
+
+-- 🔁 Cleanup old GUI
+local function destroyGui()
+	local existing = game:GetService("CoreGui"):FindFirstChild(guiName)
+	if existing then existing:Destroy() end
+end
+
+-- GUI Constructor
+local function buildGui()
+	destroyGui()
+
+	local Converted = {
+		["_ScreenGui"] = Instance.new("ScreenGui");
+		["_TextButton"] = Instance.new("TextButton");
+		["_Frame"] = Instance.new("Frame");
+		["_UICorner"] = Instance.new("UICorner");
+		["_UIStroke"] = Instance.new("UIStroke");
+		["_ScrollingFrame"] = Instance.new("ScrollingFrame");
+	}
+
+	Converted["_ScreenGui"].Name = guiName
+	Converted["_ScreenGui"].ZIndexBehavior = Enum.ZIndexBehavior.Sibling
+	Converted["_ScreenGui"].Parent = game:GetService("CoreGui")
+
+	Converted["_TextButton"].Font = Enum.Font.Gotham
+	Converted["_TextButton"].Text = "ELYMO"
+	Converted["_TextButton"].TextColor3 = Color3.fromRGB(255, 255, 255)
+	Converted["_TextButton"].TextSize = 12
+	Converted["_TextButton"].AutoButtonColor = false
+	Converted["_TextButton"].BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+	Converted["_TextButton"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Converted["_TextButton"].BorderSizePixel = 0
+	Converted["_TextButton"].Position = UDim2.new(0.2626, 0, 0.3147, 0)
+	Converted["_TextButton"].Size = UDim2.new(0, 107, 0, 32)
+	Converted["_TextButton"].Parent = Converted["_ScreenGui"]
+
+	Converted["_Frame"].BackgroundColor3 = Color3.fromRGB(46, 46, 46)
+	Converted["_Frame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Converted["_Frame"].BorderSizePixel = 0
+	Converted["_Frame"].Position = UDim2.new(-0.0086, 0, 0.9876, 0)
+	Converted["_Frame"].Size = UDim2.new(0, 252, 0, 441)
+	Converted["_Frame"].Parent = Converted["_TextButton"]
+
+	Converted["_UICorner"].Parent = Converted["_Frame"]
+	Converted["_UIStroke"].Color = Color3.fromRGB(113, 113, 113)
+	Converted["_UIStroke"].Parent = Converted["_Frame"]
+
+	Converted["_ScrollingFrame"].AutomaticCanvasSize = Enum.AutomaticSize.Y
+	Converted["_ScrollingFrame"].ScrollBarThickness = 5
+	Converted["_ScrollingFrame"].Active = true
+	Converted["_ScrollingFrame"].BackgroundColor3 = Color3.fromRGB(255, 255, 255)
+	Converted["_ScrollingFrame"].BackgroundTransparency = 1
+	Converted["_ScrollingFrame"].BorderColor3 = Color3.fromRGB(0, 0, 0)
+	Converted["_ScrollingFrame"].BorderSizePixel = 0
+	Converted["_ScrollingFrame"].Size = UDim2.new(0, 252, 0, 441)
+	Converted["_ScrollingFrame"].Parent = Converted["_Frame"]
+
+	Converted["_UIListLayout"] = Instance.new("UIListLayout")
+	Converted["_UIListLayout"].SortOrder = Enum.SortOrder.LayoutOrder
+	Converted["_UIListLayout"].Parent = Converted["_ScrollingFrame"]
+
+	local template = Instance.new("Frame")
+	template.Name = "ExampleFrame"
+	template.BackgroundTransparency = 1
+	template.Size = UDim2.new(0, 252, 0, 79)
+	template.Visible = false
+
+	local function createLabel(name, posY)
+		local label = Instance.new("TextLabel")
+		label.Name = name
+		label.Font = Enum.Font.Gotham
+		label.TextColor3 = Color3.new(1, 1, 1)
+		label.TextSize = 12
+		label.TextXAlignment = Enum.TextXAlignment.Left
+		label.BackgroundTransparency = 1
+		label.Position = UDim2.new(0.047, 0, posY, 0)
+		label.Size = UDim2.new(0, 220, 0, 21)
+		label.Parent = template
+		return label
+	end
+
+	createLabel("NameLabel", 0.1)
+	createLabel("IDLabel", 0.3)
+	createLabel("DescLabel", 0.5)
+	createLabel("PriceLabel", 0.7)
+
+	-- ✅ Get Bone Blossom fruits only
+	local function getAllTargets()
+	local parents = {}
+	table.insert(parents, workspace.Farm.Farm.Important.Plants_Physical)
+
+	for i = 5, 10 do
+		local farm = workspace.Farm:GetChildren()[i]
+		if farm and farm:FindFirstChild("Important") and farm.Important:FindFirstChild("Plants_Physical") then
+			table.insert(parents, farm.Important.Plants_Physical)
+		end
+	end
+
+	local results = {}
+
+	for _, parent in ipairs(parents) do
+		for _, plant in ipairs(parent:GetChildren()) do
+			if plant:FindFirstChild("Fruits") then
+				for _, fruit in ipairs(plant.Fruits:GetChildren()) do
+					-- Match if fruit is named "Bone Blossom" or starts with it
+					if fruit.Name:match("^Bone Blossom") and fruit:FindFirstChild("Weight") then
+						local weight = fruit.Weight
+						if weight:IsA("NumberValue") then
+							table.insert(results, {
+								name = plant.Name,
+								weight = weight,
+								fruitSize = plant:GetAttribute("FruitSizeMultiplier") or "No Attribute"
+							})
+						end
+					end
+				end
+			end
+		end
+	end
+
+	return results
+end
+
+	local function clearFrames()
+		for _, child in ipairs(Converted["_ScrollingFrame"]:GetChildren()) do
+			if child:IsA("Frame") and child.Name:find("_Display") then
+				child:Destroy()
+			end
+		end
+	end
+
+	local function sortFrames()
+		local frames = {}
+		for _, child in ipairs(Converted["_ScrollingFrame"]:GetChildren()) do
+			if child:IsA("Frame") and child:FindFirstChild("PriceLabel") then
+				table.insert(frames, child)
+			end
+		end
+		table.sort(frames, function(a, b)
+			local aVal = tonumber(a.PriceLabel.Text:match("%d+%.?%d*")) or -1
+			local bVal = tonumber(b.PriceLabel.Text:match("%d+%.?%d*")) or -1
+			return aVal > bVal
+		end)
+		for i, frame in ipairs(frames) do
+			frame.LayoutOrder = i
+		end
+	end
+
+	-- Auto rebuild every 2s
+	task.spawn(function()
+		while Converted["_ScreenGui"].Parent do
+			clearFrames()
+			local targets = getAllTargets()
+			for _, data in ipairs(targets) do
+				local frame = template:Clone()
+				frame.Visible = true
+				frame.Name = data.name .. "_Display"
+				frame.Parent = Converted["_ScrollingFrame"]
+
+				frame.NameLabel.Text = data.name
+				frame.IDLabel.Text = "Weight + FruitSizeMultiplier"
+				frame.DescLabel.Text = "Size: " .. tostring(data.fruitSize)
+				frame.PriceLabel.Text = "Weight: " .. tostring(data.weight.Value)
+
+				data.weight:GetPropertyChangedSignal("Value"):Connect(function()
+					frame.PriceLabel.Text = "Weight: " .. tostring(data.weight.Value)
+					sortFrames()
+				end)
+
+				local plantInstance = workspace:FindFirstChild(data.name, true)
+				if plantInstance then
+					plantInstance:GetAttributeChangedSignal("FruitSizeMultiplier"):Connect(function()
+						frame.DescLabel.Text = "Size: " .. tostring(plantInstance:GetAttribute("FruitSizeMultiplier") or "No Attribute")
+					end)
+				end
+			end
+			sortFrames()
+			task.wait(2)
+		end
+	end)
+
+	-- Destroy GUI on click
+	Converted["_TextButton"].MouseButton1Click:Connect(function()
+		if Converted["_ScreenGui"] then
+			Converted["_ScreenGui"]:Destroy()
+		end
+	end)
+end
+
+-- Initial build
+buildGui()
+
+-- Hotkey to reopen with L
+game:GetService("UserInputService").InputBegan:Connect(function(input, gp)
+	if not gp and input.KeyCode == Enum.KeyCode.L then
+		if not game:GetService("CoreGui"):FindFirstChild(guiName) then
+			buildGui()
+		end
+	end
+end)
