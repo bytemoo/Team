@@ -1,4 +1,4 @@
-agetgenv().ConfigsKaitun = {
+getgenv().ConfigsKaitun = {
 	["Stack Plant"] = true,
 	["Low Cpu"] = true,
 	
