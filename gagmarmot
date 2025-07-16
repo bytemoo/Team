@@ -31,7 +31,7 @@ getgenv().gagConfig = {
     KEEP_PETS_WEIGHT = 10,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Capybara"] = 7, "Mooncat", "Pack Bee", "Echo Frog", "Moth" },
+    EQUIP_PETS = { ["Capybara"] = 7, "Mooncat", "Pack Bee", "Echo Frog", "Moth", "Ostrich" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish" },
 
     BUY_GEAR_SHOP = { "Levelup Lollipop", "Medium Treat", "Medium Toy", "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
