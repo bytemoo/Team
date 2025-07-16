@@ -13,8 +13,8 @@ getgenv().gagConfig = {
     ADD_FRIEND = false,
     MUTATE_PET = { "Starfish", "Blood Kiwi", "Blood Owl", "Bald Eagle", "Ostrich", "Seagull", "Crab", "Bee", "Honey Bee", "Flamingo", "Dog", "Bunny", "Golden Lab" },
 
-    MAX_PLANTS = 250,
-    DESTROY_UNTIL_MIN_PLANTS = 230,
+    MAX_PLANTS = 1,
+    DESTROY_UNTIL_MIN_PLANTS = 999,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Pumpkin", "Watermelon", "Daffodil" },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Eggs" },
