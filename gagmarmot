@@ -1,7 +1,7 @@
 setfpscap(3)
 
 getgenv().gagConfig = {
-    CRAFT_EVENT = { "Ancient Seed Pack", "Small Toy", "Small Treat" },
+    CRAFT_EVENT = { "Ancient Seed Pack", "Small Toy", "Small Treat", "Small Pet Toy", "Small Pet Treat" },
     PETS_TRADE_DINO = { "Caterpillar", "Seagull", "Crab", "Bee", "Honey Bee", "Flamingo", "Dog", "Bunny", "Golden Lab" },
     BUY_TRAVELING_MERCHANT = { "Night Staff", "Star Caller", "Cloudtouched Spray", "Bee Egg", "Honey Sprinkler", "Flower Seed Pack" },
 
@@ -13,8 +13,8 @@ getgenv().gagConfig = {
     ADD_FRIEND = false,
     MUTATE_PET = { "Starfish", "Blood Kiwi", "Blood Owl", "Bald Eagle", "Ostrich", "Seagull", "Crab", "Bee", "Honey Bee", "Flamingo", "Dog", "Bunny", "Golden Lab" },
 
-    MAX_PLANTS = 1,
-    DESTROY_UNTIL_MIN_PLANTS = 999,
+    MAX_PLANTS = 100,
+    DESTROY_UNTIL_MIN_PLANTS = 1,
     DELETE_PLANTS_AFTER_MAX = { "Carrot", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Pumpkin", "Watermelon", "Daffodil" },
 
     BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Eggs" },
@@ -28,13 +28,13 @@ getgenv().gagConfig = {
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
     KEEP_PETS = { "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Ostrich", ["Dog"] = 4, ["Bunny"] = 4, ["Golden Lab"] = 4, ["Starfish"] = 10 },
-    KEEP_PETS_WEIGHT = 10,
+    KEEP_PETS_WEIGHT = 4,
 
     -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Capybara"] = 7, "Mooncat", "Pack Bee", "Echo Frog", "Moth", "Ostrich" },
+    EQUIP_PETS = { ["Capybara"] = 7, "Mooncat", "Blood Owl", "Bald Eagle", "Blood Kiwi", "Pack Bee", "Echo Frog", "Moth", "Ostrich" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish" },
 
-    BUY_GEAR_SHOP = { "Levelup Lollipop", "Medium Treat", "Medium Toy", "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
+    BUY_GEAR_SHOP = { "Levelup Lollipop", "Medium Treat", "Medium Toy", "Medium Pet Treat", "Medium Pet Toy", "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
     USE_SPRINKLER = { "Basic Sprinkler" },
 
     PET_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2",
