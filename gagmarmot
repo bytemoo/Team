@@ -27,7 +27,7 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
 
-    KEEP_PETS = { "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Pterodactyl", "Brontosaurus", "T-Rex", "Seal", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Ostrich", ["Dog"] = 4, ["Bunny"] = 4, ["Golden Lab"] = 4, ["Starfish"] = 10 },
+    KEEP_PETS = { "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Ostrich", ["Dog"] = 4, ["Bunny"] = 4, ["Golden Lab"] = 4, ["Starfish"] = 10 },
     KEEP_PETS_WEIGHT = 4,
 
     -- EQUIP_PETS Priority (Left -> Right)
