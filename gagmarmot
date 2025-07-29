@@ -1,49 +1,56 @@
 setfpscap(3)
 
 getgenv().gagConfig = {
-    CRAFT_EVENT = { "Ancient Seed Pack", "Small Toy", "Small Treat", "Small Pet Toy", "Small Pet Treat" },
-    PETS_TRADE_DINO = { "Caterpillar", "Seagull", "Crab", "Bee", "Honey Bee", "Flamingo", "Dog", "Bunny", "Golden Lab" },
-    BUY_TRAVELING_MERCHANT = { "Night Staff", "Star Caller", "Cloudtouched Spray", "Bee Egg", "Honey Sprinkler", "Flower Seed Pack" },
-
+    -- Event:
+    CRAFT_EVENT = { "Small Toy" },
+    GET_HONEY = true,
+    BUY_TRAVELING_MERCHANT = { "Bee Egg", "Loquat", "Feijoa", "Pitcher Plant" },
+    BUY_EVENT_SHOP = { "Zen Seed Pack", "Zen Egg", "Zenflare", "Sakura Bush", "Soft Sunshine", "Spiked Mango", "Pet Shard Tranquill", "Pet Shard Corrupted", "Raiju" },
+    MAX_EVENT_RESTOCK_SHECKLES = 0,
+    PLACE_ALL_EVENT_STAFF = true,
+    
+    -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
-    EXTRA_PET_SLOTS = 5,
-    EXTRA_EGG_SLOTS = 5,
+    EXTRA_PET_SLOTS = 0,
+    EXTRA_EGG_SLOTS = 0,
+    ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = false,
-    ADD_FRIEND = false,
-    MUTATE_PET = { "Starfish", "Blood Kiwi", "Blood Owl", "Bald Eagle", "Ostrich", "Seagull", "Crab", "Bee", "Honey Bee", "Flamingo", "Dog", "Bunny", "Golden Lab" },
 
-    MAX_PLANTS = 100,
-    DESTROY_UNTIL_MIN_PLANTS = 1,
-    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Pumpkin", "Watermelon", "Daffodil" },
-
-    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Eggs" },
-    PLANT_EGGS = { "Primal Egg", "Anti Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
-
-    BUY_SEED_SHOP = { "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", ["Daffodil"] = 50, ["Tomato"] = 50, ["Orange Tulip"] = 50, ["Blueberry"] = 50, ["Strawberry"] = 50, ["Carrot"] = 50 },
-    KEEP_SEEDS = { "Bone Blossom", "Tomato", "Corn", "Cauliflower", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Dragon Fruit", "Cactus", "Daffodil", "Sugar Apple" },
-    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Ember Lily", "Beanstalk", "Cacao", "Pepper", "Mushroom", "Grape", "Mango", "Dragon Fruit", "Cactus", "Coconut", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffodil" },
-
+    MAX_PLANTS = 20,
+    DESTROY_UNTIL_MIN_PLANTS = 200,
+    DELETE_PLANTS_AFTER_MAX = { "Carrot", "Strawberry", "Blueberry", "Orange Tulip", "Apple", "Tomato", "Corn", "Daffodil", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Cactus", "Dragon Fruit", "Mango", "Grape", "Mushroom" },
+    LIMIT_PLANT_SEED = { ["Strawberry"] = 1, ["Blueberry"] = 5, ["Orange Tulip"] = 1, ["Apple"] = 1, ["Tomato"] = 1, ["Corn"] = 1, ["Daffodil"] = 1, ["Bamboo"] = 1, ["Coconut"] = 5, ["Pumpkin"] = 1, ["Watermelon"] = 1, ["Cactus"] = 1, ["Dragon Fruit"] = 5, ["Mango"] = 1, ["Grape"] = 1, ["Mushroom"] = 1, ["Pepper"] = 1, ["Cacao"] = 5 },
+    
+    BUY_EGGS = { "Bug Egg", "Bee Egg", "Paradise Egg", "Mythical Egg", "Rare Summer Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg", "Common Egg" },
+    PLANT_EGGS = { "Dinosaur Egg", "Corrupted Zen Egg", "Zen Egg", "Primal Egg", "Anti Bee Egg", "Bee Egg", "Night Egg", "Bug Egg", "Paradise Egg", "Mythical Egg", "Common Summer Egg", "Rare Egg", "Uncommon Egg" },
+    
+    BUY_SEED_SHOP = { "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Pepper", "Mushroom", "Grape", "Mango", "Cactus", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffoldil", "Corn", "Tomato", "Orange Tulip", "Strawberry", "Carrot", "Dragon Fruit", "Coconut", "BlueBerry" },
+    KEEP_SEEDS = { "Elder Strawberry", "Giant Pinecone", "Burning Bud", "Sugar Apple", "Ember Lily", "Beanstalk", "Pepper", "Mushroom", "Grape", "Mango", "Cactus", "Bamboo", "Apple", "Pumpkin", "Watermelon", "Daffoldil", "Corn", "Tomato", "Orange Tulip", "Strawberry", "Carrot", "Cacao" },
+    KEEP_SEEDS_AFTER_MAX_PLANTS = { "Dragon Fruit", "Coconut", "BlueBerry", "Cacao" },
+    
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
-    SKIP_HARVEST_MUTATIONS = { "Voidtouched", "Plasma", "Meteoric" },  -- Stop Harvest
+    SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Bald Eagle", "Dilophosaurus", "Ankylosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Hyacinth Macaw", "Scarlet Macaw", "Pack Bee", "Echo Frog", "Hamster", "Blood Owl", "Cooked Owl", "Blood Kiwi", "Firefly", "Chicken Zombie", "Ostrich", ["Dog"] = 4, ["Bunny"] = 4, ["Golden Lab"] = 4, ["Starfish"] = 10 },
-    KEEP_PETS_WEIGHT = 4,
+    KEEP_PETS = { "Corrupted Kitsune", "Raiju", "Mizuchi", "Tanchozuru", "Kodama", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie", ["Blood Kiwi"] = 5, ["Capybara"] = 5, ["Starfish"] = 5, ["Nihonzaru"] = 3, },
+    KEEP_PETS_WEIGHT = 8,
+    KEEP_PETS_AGE = 30,
 
-    -- EQUIP_PETS Priority (Left -> Right)
-    EQUIP_PETS = { ["Blood Owl"] = 2, ["Ostrich"] = 2, ["Brontosaurus"] = 1, ["Bald Eagle"] = 2, ["Blood Kiwi"] = 2 },
+    EQUIP_PETS = { ["Nihonzaru"] = 1, ["Bald Eagle"] = 1, ["Blood Owl"] = 1, ["Moth"] = 1, ["Starfish"] = 1, ["Tanchozuru"] = 4, ["Kodama"] = 4, ["Ostrich"] = 4 },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish" },
 
-    BUY_GEAR_SHOP = { "Levelup Lollipop", "Medium Treat", "Medium Toy", "Medium Pet Treat", "Medium Pet Toy", "Tanning Mirror", "Watering Can", "Trowel", "Recall Wrench", "Master Sprinkler", "Godly Sprinkler", "Advanced Sprinkler", "Basic Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot" },
+    BUY_GEAR_SHOP = { "Watering Can", "Trowel", "Recall Wrench", "Basic Sprinkler", "Advanced Sprinkler", "Medium Toy", "Medium Treat", "Godly Sprinkler", "Magnifying Glass", "Tanning Mirror", "Master Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot", "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler" },
 
     PET_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2",
     SEED_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2", 
-    NOTIFY_PETS = { "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw" },
+    NOTIFY_PETS = { "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Tanchozuru", "Kappa", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis", "Pterodactyl", "Brontosaurus", "T-Rex", "Dilophosaurus", "Ankylosaurus", "Spinosaurus" },
     NOTIFY_PETS_WEIGHT = 10,
     DISCORD_ID = "",
     WEBHOOK_NOTE = "marmot",
     SHOW_WEBHOOK_USERNAME = true,
+    SHOW_WEBHOOK_JOBID = false,
 }
 
 loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/6cb882027ef5de19462b160764dcfb53.lua"))()
