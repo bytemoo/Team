@@ -12,8 +12,8 @@ getgenv().gagConfig = {
     -- General:
     AUTO_UPDATE_RESTART = true,
     REDEEM_CODES = {},
-    EXTRA_PET_SLOTS = 0,
-    EXTRA_EGG_SLOTS = 0,
+    EXTRA_PET_SLOTS = 5,
+    EXTRA_EGG_SLOTS = 5,
     ADD_FRIEND = true,
     OPEN_ALL_SEED_PACK = false,
 
@@ -37,7 +37,7 @@ getgenv().gagConfig = {
     KEEP_PETS_AGE = 30,
 
     EQUIP_PETS = { ["Nihonzaru"] = 1, ["Bald Eagle"] = 1, ["Blood Owl"] = 1, ["Moth"] = 1, ["Starfish"] = 1, ["Tanchozuru"] = 4, ["Kodama"] = 4, ["Ostrich"] = 4 },
-    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish" },
+    USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish" },
 
     BUY_GEAR_SHOP = { "Watering Can", "Trowel", "Recall Wrench", "Basic Sprinkler", "Advanced Sprinkler", "Medium Toy", "Medium Treat", "Godly Sprinkler", "Magnifying Glass", "Tanning Mirror", "Master Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot", "Levelup Lollipop" },
