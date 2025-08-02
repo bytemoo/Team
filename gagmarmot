@@ -32,20 +32,20 @@ getgenv().gagConfig = {
     FAVOURITE_FRUIT_MUTATIONS = {},  -- Stop Autosell
     SKIP_HARVEST_MUTATIONS = {},  -- Stop Harvest
 
-    KEEP_PETS = { "Corrupted Kitsune", "Raiju", "Mizuchi", "Tanchozuru", "Kodama", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie", ["Blood Kiwi"] = 5, ["Capybara"] = 5, ["Starfish"] = 5, ["Nihonzaru"] = 3, },
-    KEEP_PETS_WEIGHT = 8,
-    KEEP_PETS_AGE = 30,
+    KEEP_PETS = { "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Tanchozuru", "Kodama", "Kappa", "Kitsune", "Koi", "Bald Eagle", "Dilophosaurus", "Spinosaurus", "Brontosaurus", "T-Rex", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Pack Bee", "Blood Owl", "Chicken Zombie", ["Blood Kiwi"] = 5, ["Capybara"] = 5, ["Starfish"] = 5, ["Nihonzaru"] = 3, },
+    KEEP_PETS_WEIGHT = { ["Red Giant Ant"] = 5 },
+    KEEP_PETS_AGE = { ["Starfish"] = 76 },
 
     EQUIP_PETS = { ["Bald Eagle"] = 1, ["Blood Owl"] = 1, ["Brontosaurus"] = 4, ["Ostrich"] = 4 },
     USE_PETS_FOR_UPGRADE_SLOT = { "Starfish", "Capybara" },
     REMOVE_PET_MAX_UPGRADE = { "Starfish" },
 
-    BUY_GEAR_SHOP = { "Watering Can", "Trowel", "Recall Wrench", "Basic Sprinkler", "Advanced Sprinkler", "Medium Toy", "Medium Treat", "Godly Sprinkler", "Magnifying Glass", "Tanning Mirror", "Master Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot", "Levelup Lollipop" },
+    BUY_GEAR_SHOP = { "Trading Ticket", "Grandmaster Sprinkler", "Watering Can", "Trowel", "Recall Wrench", "Basic Sprinkler", "Advanced Sprinkler", "Medium Toy", "Medium Treat", "Godly Sprinkler", "Magnifying Glass", "Tanning Mirror", "Master Sprinkler", "Cleaning Spray", "Favorite Tool", "Harvest Tool", "Friendship Pot", "Levelup Lollipop" },
     USE_SPRINKLER = { "Basic Sprinkler" },
 
     PET_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2",
     SEED_WEBHOOK_URL = "https://tinyurl.com/2amm2pk2", 
-    NOTIFY_PETS = { "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Tanchozuru", "Kappa", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis", "Pterodactyl", "Brontosaurus", "T-Rex", "Dilophosaurus", "Ankylosaurus", "Spinosaurus" },
+    NOTIFY_PETS = { "French Fry Ferret", "Mochi Mouse", "Corrupted Kitsune", "Raiju", "Mizuchi", "Bald Eagle", "Koi", "Tanchozuru", "Kappa", "Kitsune", "Fennec Fox", "Disco Bee", "Raccoon", "Queen Bee", "Night Owl", "Dragonfly", "Butterfly", "Mimic Octopus", "Red Fox", "Red Giant Ant", "Hyacinth Macaw", "Axolotl", "Echo Frog", "Bear Bee", "Praying Mantis", "Pterodactyl", "Brontosaurus", "T-Rex", "Dilophosaurus", "Ankylosaurus", "Spinosaurus" },
     NOTIFY_PETS_WEIGHT = 10,
     DISCORD_ID = "",
     WEBHOOK_NOTE = "marmot",
