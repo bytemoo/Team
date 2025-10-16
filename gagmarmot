@@ -14,9 +14,9 @@
                 },
             },
         },
-        ["White Screen"] = false,
+        ["White Screen"] = true,
         ["Lock Fps"] = {
-            ["Enabled"] = false,
+            ["Enabled"] = true,
             ["FPS"] = 20,
         },
         ["Get Items"] = {
@@ -69,9 +69,3 @@
             ["Fruit"] = {"Leopard-Leopard","Kitsune-Kitsune","Dragon-Dragon","Yeti-Yeti","Gas-Gas"},
         },
         ["Lock Fruit"] = {},
-        ["Webhook"] = {
-            ["Enabled"] = false,
-            ["WebhookUrl"] = "",
-        }
-    }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/obiiyeuem/vthangsitink/main/BananaCat-kaitunBF.lua"))()
