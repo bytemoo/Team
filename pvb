@@ -12,17 +12,17 @@ getgenv().pvbConfig = {
     
     OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
     OPEN_CARD_PACK = {"Base", "Shiny Base"},
-    MERGE_CARD_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
+    MERGE_CARD_RARITY = {"`Common", "Uncommon", "Rare", "Epic", "Legendary"},
     USE_PLANT_EXTRACTOR_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    FUSE_PLANT = {"Mr Carrot", "Watermelon", "Eggplant", "Dragon Fruit", "Sunflower", "Pumpkin"},  -- Auto keep (favorite) & fuse required plant + brainrot
+    FUSE_PLANT = {"Mr Carrot"},  -- Auto keep (favorite) & fuse required plant + brainrot
 
-    BUY_SEED_SHOP = {"Tomatrio", "Shroombino", "Mango", "King Limone"},
+    BUY_SEED_SHOP = {"Mango", "King Limone"},
     BUY_GEAR_SHOP = {"Water Bucket", "Carrot Launcher", "Frost Grenade", "Frost Blower"},
 
     -- Keep = Favorite (Prevent sell)
-    KEEP_SEED = {},  -- Plant Names
+    KEEP_SEED = {"Tomatrio", "Shroombino", "Mango", "King Limone"},  -- Plant Names
     KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT_MONEY_PER_SECOND = 200000,  -- 20000 means keep $20+k/s brainrot
+    KEEP_BRAINROT_MONEY_PER_SECOND = 100000,  -- 20000 means keep $20+k/s brainrot
     KEEP_BRAINROT_RARITY = {}, 
 
     SELL_BRAINROT_DELAY = 30,  -- Delay for "sell all" brainrot
@@ -42,9 +42,9 @@ getgenv().pvbConfig = {
     KICK_AFTER_GIFTED_ALL = false,
     GIFT_USERNAME = {"ChurvanessMadeYou_14"},  -- Add username "username1", "username2"
     GIFT_BRAINROT = {},  -- Gift brainrot via name
-    GIFT_BRAINROT_MONEY_PER_SECOND = 210000,  -- $10k+/s -> Gift
+    GIFT_BRAINROT_MONEY_PER_SECOND = 100000,  -- $10k+/s -> Gift
     GIFT_PLANT = {},  -- Gift plant via name
-    GIFT_PLANT_DAMAGE = 100000,  -- 100k+ Damage -> Gift
+    GIFT_PLANT_DAMAGE = 300000,  -- 100k+ Damage -> Gift
     GIFTING_COOLDOWN = 5,
 }
 
