@@ -16,7 +16,7 @@ getgenv().pvbConfig = {
     USE_PLANT_EXTRACTOR_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
     FUSE_PLANT = {"Mr Carrot"},  -- Auto keep (favorite) & fuse required plant + brainrot
 
-    BUY_SEED_SHOP = {"Mango", "King Limone"},
+    BUY_SEED_SHOP = {"Cactus", "Strawberry", "Pumpkin", "Sunflower", "Dragon Fruit", "Eggplant", "Watermelon", "Grape", "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone"},
     BUY_GEAR_SHOP = {"Water Bucket", "Carrot Launcher", "Frost Grenade", "Frost Blower"},
 
     -- Keep = Favorite (Prevent sell)
