@@ -1,51 +1,32 @@
-script_key="SjirpjAgjqsQooaNkeOkKpBVOtyZWFct";
+getgenv().CONFIG_2G = {
+    --== [ HUB SETTINGS ] ==--
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
+    CustomLabel = "VPS1",  -- [Custom Label Here, EX: "VPS1"]
 
-getgenv().pvbConfig = {
-    AUTO_UPDATE_RESTART = true,
-    MAX_FPS = 3,  -- This will override setfpscap()
-    LOW_CPU = true,
-    MAX_REBIRTH = 99,  -- Stop rebirth at set amount
-    USE_XP_BOTTLE = true,  -- Use XP Bottle on highest damage plant
-    FROST_GRENADE_TARGET_MAX_HP = 100000,  -- Use frost grenade 100k+ hp brainrot
-    CONSUME_POTION_EVENT = {"Frozen", "Golden", "Rainbow", "Galactic", "Underworld", "UpsideDown", "Volcano"},
-    PLANT_SECRET_LIMITED_SEED_EVENT = {"Frozen", "Golden", "Rainbow", "Galactic", "Underworld", "UpsideDown", "Volcano"},
-    
-    OPEN_LUCKY_EGG = {"Godly Lucky Egg", "Secret Lucky Egg", "Meme Lucky Egg"},
-    OPEN_CARD_PACK = {"Base", "Shiny Base"},
-    MERGE_CARD_RARITY = {"`Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    USE_PLANT_EXTRACTOR_RARITY = {"Common", "Uncommon", "Rare", "Epic", "Legendary"},
-    FUSE_PLANT = {"Mr Carrot"},  -- Auto keep (favorite) & fuse required plant + brainrot
+    --== [ MAIN FARM ] ==--
+    PotFarm = true,
+    EggFarm = false,
+    EggName = "Aztec Egg",
 
-    BUY_SEED_SHOP = {"Cactus", "Strawberry", "Pumpkin", "Sunflower", "Dragon Fruit", "Eggplant", "Watermelon", "Grape", "Cocotank", "Carnivorous Plant", "Mr Carrot", "Tomatrio", "Shroombino", "Mango", "King Limone"},
-    BUY_GEAR_SHOP = {"Water Bucket", "Carrot Launcher", "Frost Grenade", "Frost Blower"},
+    --== [ PET PEN ] ==--
+    PetPen = false,
+    CustomPenEggs = {"Aztec Egg"},
+    CustomPenPets = {},
 
-    -- Keep = Favorite (Prevent sell)
-    KEEP_SEED = {"Tomatrio", "Shroombino", "Mango", "King Limone"},  -- Plant Names
-    KEEP_PLANT_RARITY = {"Secret", "Limited"},
-    KEEP_BRAINROT_MONEY_PER_SECOND = 100000,  -- 20000 means keep $20+k/s brainrot
-    KEEP_BRAINROT_RARITY = {}, 
+    --== [ PET RELEASER ] ==--
+    PetReleaser = false,
+    ReleasePets = {}, -- Whitelist: List of pet names to release (empty = release all pets)
+    ExcludeReleasePets = {}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
+    SkipTimer = true, -- Uses bucks to skip the timer
 
-    SELL_BRAINROT_DELAY = 30,  -- Delay for "sell all" brainrot
-    SELL_PLANT_DELAY = 30,  -- "Delay for "sell all" plant
+    --== [ LURE / BAIT SETTINGS ] ==--
+    BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
 
-    -- Webhook
-    BRAINROT_WEBHOOK_URL = "https://tinyurl.com/57zcmapc",
-    DISCORD_ID = "",
-    NOTIFY_RARITY = {},
-    NOTIFY_MONEY_PER_SECOND = 200000,
-    WEBHOOK_NOTE = "PVB UG",
-    SHOW_PUBLIC_DISCORD_ID = false,
-    SHOW_WEBHOOK_USERNAME = true,
-    SHOW_WEBHOOK_JOBID = false,
+    --== [ DISCORD WEBHOOK SETTINGS ] ==--
+    WebhookEnabled = true,
+    WebhookURL = "https://tinyurl.com/raysonadm",
+    WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
-    -- Gifting
-    KICK_AFTER_GIFTED_ALL = false,
-    GIFT_USERNAME = {"ChurvanessMadeYou_14"},  -- Add username "username1", "username2"
-    GIFT_BRAINROT = {},  -- Gift brainrot via name
-    GIFT_BRAINROT_MONEY_PER_SECOND = 100000,  -- $10k+/s -> Gift
-    GIFT_PLANT = {},  -- Gift plant via name
-    GIFT_PLANT_DAMAGE = 300000,  -- 100k+ Damage -> Gift
-    GIFTING_COOLDOWN = 5,
+    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
-
-loadstring(game:HttpGet("https://api.luarmor.net/files/v3/loaders/1955a9eeb0a6b663051651121e75f7f7.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
