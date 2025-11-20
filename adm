@@ -27,6 +27,6 @@ getgenv().CONFIG_2G = {
     WebhookURL = "https://tinyurl.com/raysonadm",
     WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
-    ExtraOpti = true -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
