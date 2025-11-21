@@ -5,19 +5,19 @@ getgenv().CONFIG_2G = {
 
     --== [ MAIN FARM ] ==--
     PotFarm = true,
-    EggFarm = false,
+    EggFarm = true,
     EggName = "Aztec Egg",
 
     --== [ PET PEN ] ==--
-    PetPen = false,
+    PetPen = true,
     CustomPenEggs = {"Aztec Egg"},
-    CustomPenPets = {},
+    CustomPenPets = {"Temple Friend"},
 
     --== [ PET RELEASER ] ==--
-    PetReleaser = false,
+    PetReleaser = true,
     ReleasePets = {}, -- Whitelist: List of pet names to release (empty = release all pets)
-    ExcludeReleasePets = {}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
-    SkipTimer = true, -- Uses bucks to skip the timer
+    ExcludeReleasePets = {"Temple Friend", "Dog", "Cat"}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
+    SkipTimer = false, -- Uses bucks to skip the timer
 
     --== [ LURE / BAIT SETTINGS ] ==--
     BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
