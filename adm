@@ -5,13 +5,13 @@ getgenv().CONFIG_2G = {
 
     --== [ MAIN FARM ] ==--
     PotFarm = true,
-    EggFarm = false,
+    EggFarm = true,
     EggName = "Aztec Egg",
 
     --== [ PET PEN ] ==--
-    PetPen = false,
+    PetPen = true,
     CustomPenEggs = {"Aztec Egg"},
-    CustomPenPets = {},
+    CustomPenPets = {"Temple Friend"},
 
     --== [ PET RELEASER ] ==--
     PetReleaser = false,
@@ -23,9 +23,9 @@ getgenv().CONFIG_2G = {
     BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
 
     --== [ DISCORD WEBHOOK SETTINGS ] ==--
-    WebhookEnabled = false,
-    WebhookURL = "",
-    WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
+    WebhookEnabled = true,
+    WebhookURL = "https://tinyurl.com/raysonadm",
+    WebhookPets = {"Temple Friend"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
     ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
