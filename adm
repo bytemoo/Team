@@ -1,6 +1,6 @@
 getgenv().CONFIG_2G = {
     --== [ HUB SETTINGS ] ==--
-    HubKey = "",   -- [Your Hub Key Here]
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
     CustomLabel = "VPS1",  -- [Custom Label Here, EX: "VPS1"]
 
     --== [ MAIN FARM ] ==--
