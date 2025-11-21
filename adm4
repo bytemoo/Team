@@ -1,0 +1,33 @@
+getgenv().CONFIG_2G = {
+    --== [ HUB SETTINGS ] ==--
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
+    CustomLabel = "VPS4",  -- [Custom Label Here, EX: "VPS1"]
+
+    --== [ MAIN FARM ] ==--
+    PotFarm = false,
+    EggFarm = true,
+    EggName = "Aztec Egg",
+
+    --== [ PET PEN ] ==--
+    PetPen = true,
+    CustomPenEggs = {"Aztec Egg"},
+    CustomPenPets = {"Temple Friend"},
+
+    --== [ PET RELEASER ] ==--
+    PetReleaser = false,
+    ReleasePets = {}, -- Whitelist: List of pet names to release (empty = release all pets)
+    ExcludeReleasePets = {}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
+    SkipTimer = true, -- Uses bucks to skip the timer
+
+    --== [ LURE / BAIT SETTINGS ] ==--
+    BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
+
+    --== [ DISCORD WEBHOOK SETTINGS ] ==--
+    WebhookEnabled = true,
+    WebhookURL = "https://tinyurl.com/raysonadm",
+    WebhookPets = {"Temple Friend"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
+
+    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+}
+
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
