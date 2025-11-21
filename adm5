@@ -11,7 +11,7 @@ getgenv().CONFIG_2G = {
     --== [ PET PEN ] ==--
     PetPen = false,
     CustomPenEggs = {"Aztec Egg"},
-    CustomPenPets = {"Temple Friend"},
+    CustomPenPets = {},
 
     --== [ PET RELEASER ] ==--
     PetReleaser = false,
@@ -23,11 +23,10 @@ getgenv().CONFIG_2G = {
     BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
 
     --== [ DISCORD WEBHOOK SETTINGS ] ==--
-    WebhookEnabled = true,
-    WebhookURL = "https://tinyurl.com/raysonadm",
-    WebhookPets = {"Temple Friend"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
+    WebhookEnabled = false,
+    WebhookURL = "",
+    WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
     ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
-
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
