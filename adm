@@ -25,7 +25,7 @@ getgenv().CONFIG_2G = {
     --== [ DISCORD WEBHOOK SETTINGS ] ==--
     WebhookEnabled = true,
     WebhookURL = "https://tinyurl.com/raysonadm",
-    WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
+    WebhookPets = {"Temple Friend"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
     ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
