@@ -1,17 +1,17 @@
 getgenv().CONFIG_2G = {
     --== [ HUB SETTINGS ] ==--
-    HubKey = "1283448cb3aefda73df4848839cb1688",
-    CustomLabel = "VPS02",
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
+    CustomLabel = "VPS2",  -- [Custom Label Here, EX: "VPS1"]
 
     --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
+    PotFarm = false,
+    EggFarm = true,
     EggName = "Aztec Egg",
 
     --== [ PET PEN ] ==--
-    PetPen = false,
+    PetPen = true,
     CustomPenEggs = {"Aztec Egg"},
-    CustomPenPets = {},
+    CustomPenPets = {"Temple Friend"},
 
     --== [ PET RELEASER ] ==--
     PetReleaser = false,
@@ -25,8 +25,9 @@ getgenv().CONFIG_2G = {
     --== [ DISCORD WEBHOOK SETTINGS ] ==--
     WebhookEnabled = true,
     WebhookURL = "https://tinyurl.com/raysonadm",
-    WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
+    WebhookPets = {"Temple Friend"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
     ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
+
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
