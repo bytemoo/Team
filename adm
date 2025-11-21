@@ -5,11 +5,11 @@ getgenv().CONFIG_2G = {
 
     --== [ MAIN FARM ] ==--
     PotFarm = true,
-    EggFarm = true,
+    EggFarm = false,
     EggName = "Aztec Egg",
 
     --== [ PET PEN ] ==--
-    PetPen = true,
+    PetPen = false,
     CustomPenEggs = {"Aztec Egg"},
     CustomPenPets = {},
 
