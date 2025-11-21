@@ -4,8 +4,8 @@ getgenv().CONFIG_2G = {
     CustomLabel = "VPS2",  -- [Custom Label Here, EX: "VPS1"]
 
     --== [ MAIN FARM ] ==--
-    PotFarm = false,
-    EggFarm = true,
+    PotFarm = true,
+    EggFarm = false,
     EggName = "Aztec Egg",
 
     --== [ PET PEN ] ==--
@@ -27,7 +27,7 @@ getgenv().CONFIG_2G = {
     WebhookURL = "https://tinyurl.com/raysonadm",
     WebhookPets = {"Temple Friend"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
 
-    ExtraOpti = true -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
 
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
