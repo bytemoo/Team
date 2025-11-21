@@ -9,7 +9,7 @@ getgenv().CONFIG_2G = {
     EggName = "Aztec Egg",
 
     --== [ PET PEN ] ==--
-    PetPen = false,
+    PetPen = true,
     CustomPenEggs = {"Aztec Egg"},
     CustomPenPets = {},
 
