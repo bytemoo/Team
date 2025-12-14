@@ -4,8 +4,8 @@ getgenv().CONFIG_2G = {
     CustomLabel = "VPS",
 
     --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
+    PotFarm = false,
+    EggFarm = true,
     EggName = "Cracked Egg",
 
     --== [ PET PEN ] ==--
