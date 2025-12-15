@@ -23,7 +23,7 @@ getgenv().CONFIG_2G = {
     AutoFuse = true,
 
     --== [ BUY PETS ] ==--
-    BuyPets = true,
+    BuyPets = false,
     BuyPetName = "Maine Coon",
 
     --== [ LURE / BAIT SETTINGS ] ==--
