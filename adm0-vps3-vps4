@@ -1,39 +1,36 @@
-getgenv().CONFIG_2G = {
-    --== [ HUB SETTINGS ] ==--
-    HubKey = "1283448cb3aefda73df4848839cb1688",
-    CustomLabel = "34",
+getgenv().ATConfig = {
+    -- ## General
+    hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
+    MainAccUsername = {"lysithea_raine"},
+    PetsToTrade = {"Alicornl", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
+    TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
+    
+    -- ### Main Pet Buy Feature
+    buyPet = false,
+    PetName = "Dog", -- Pet Name to Trade/Buy
+    CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
+    Cost = 10000, -- Cost of Pet
+    Quantity = 0, -- Set to 0 if you want to buy ALL
 
-    --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
-    EggName = "Aztec Egg",
+    -- ### Box Features
+    buyBoxes = false,
+    boxName = "Kelp Raider Box",
+    openBoxes = true,
 
-    --== [ PET PEN ] ==--
-    PetPen = false,
-    CustomPenEggs = {},
-    CustomPenPets = {},
+    -- ### Bait Transfer Features
+    transferBait = false,
+    baitName = "Shiver Cone Bait", -- [ Shiver Cone Bait / Subzero Popsicle Bait ]
 
-    --== [ PET RELEASER ] ==--
-    PetReleaser = true,
-    ReleasePets = {},
-    ExcludeReleasePets = {"Christmas Spirit", "Maine Coon", "Snowball Pug", "Dango Penguins", "Emberlight", "Giant Panda", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves"},
-    SkipTimer = true, -- Uses bucks to skip the timer
+    SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
 
-    --== [ AUTO FUSE ] ==--
-    AutoFuse = true,
+    -- ### Pet Aging Features
+    AgePets = true,
+    AgeNeons = true, -- Enable if u want to make megas
+    useTinyAgePotion = true,
+    PetsToAge = {"Alicornl", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
+    autoFuse = true, -- Auto Convert to Neon/Mega
 
-    --== [ BUY PETS ] ==--
-    BuyPets = true,
-    BuyPetName = "Christmas Spirit",
-
-    --== [ LURE / BAIT SETTINGS ] ==--
-    BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
-
-    --== [ DISCORD WEBHOOK SETTINGS ] ==--
-    WebhookEnabled = true,
-    WebhookURL = "https://tinyurl.com/raysonadm",
-    WebhookPets = {"Christmas Spirit", "Maine Coon", "Snowball Pug", "Dango Penguins", "Emberlight", "Giant Panda", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves"},
-
-    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+    Leave = true, -- Leaves the game once trade is completed
+    LeaveDelay = 300 -- Delay in seconds to wait before leaving
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
