@@ -1,2 +1,39 @@
-getgenv().hub_key = "1283448cb3aefda73df4848839cb1688"
-loadstring(game:HttpGet("https://nb0.xyz/scripts/2G_WINTER_2025_EVENT.lua"))()
+getgenv().CONFIG_2G = {
+    --== [ HUB SETTINGS ] ==--
+    HubKey = "1283448cb3aefda73df4848839cb1688",
+    CustomLabel = "12",
+
+    --== [ MAIN FARM ] ==--
+    PotFarm = true,
+    EggFarm = false,
+    EggName = "Aztec Egg",
+
+    --== [ PET PEN ] ==--
+    PetPen = true,
+    CustomPenEggs = {"Basic Egg"},
+    CustomPenPets = {"Ant", "Mouse", "Camel", "Donkey", "Poodle", "Orangutan", "Parakeet", "Zebra", "Corgi", "Robot", "Swordfish", "Alicorn", "Diamond Griffin", "Dragonfly", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Ancient Dragon", "Cat", "Chanekeh", "Corgi", "Diamond Mahi Mahi", "Diamond Griffin", "Diamond Unicorn", "Dog", "Donkey", "Ehecatl", "Frozen Penguin", "Garden Snake", "Ginger Cat", "Gold Mahi Mahi", "Golden Albatross", "Grinmoire", "Humbug", "Icy Porcupine", "Mahi Mahi", "Muskrat", "Orca", "Pomeranian", "Poodle", "Shih Tzu", "Snowy Mammoth", "Starfish", "Tegu", "Tree Frog"},
+
+    --== [ PET RELEASER ] ==--
+    PetReleaser = true,
+    ReleasePets = {},
+    ExcludeReleasePets = {"Christmas Spirit", "Maine Coon", "Snowball Pug", "Dango Penguins", "Emberlight", "Giant Panda", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves"},
+    SkipTimer = true, -- Uses bucks to skip the timer
+
+    --== [ AUTO FUSE ] ==--
+    AutoFuse = true,
+
+    --== [ BUY PETS ] ==--
+    BuyPets = false,
+    BuyPetName = "Maine Coon",
+
+    --== [ LURE / BAIT SETTINGS ] ==--
+    BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
+
+    --== [ DISCORD WEBHOOK SETTINGS ] ==--
+    WebhookEnabled = true,
+    WebhookURL = "https://tinyurl.com/raysonadm",
+    WebhookPets = {"Christmas Spirit", "Maine Coon", "Snowball Pug", "Dango Penguins", "Emberlight", "Giant Panda", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves"},
+
+    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
