@@ -1,2 +1,0 @@
-getgenv().hub_key = "1283448cb3aefda73df4848839cb1688"
-loadstring(game:HttpGet("https://nb0.xyz/scripts/2G_WINTER_2025_EVENT.lua"))()
