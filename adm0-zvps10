@@ -4,14 +4,14 @@ getgenv().CONFIG_2G = {
     CustomLabel = "Panda",  -- [Custom Label Here, EX: "VPS1"]
 
     --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
+    PotFarm = false,
+    EggFarm = true,
     EggName = "Crystal Egg",
     PrioritizePet = "2D Kitty",
 
     --== [ PET PEN ] ==--
     PetPen = true,
-    CustomPenEggs = {"Crystal Egg"},
+    CustomPenEggs = {"Basic Egg"},
     CustomPenPets = {},
 
     --== [ PET RELEASER ] ==--
