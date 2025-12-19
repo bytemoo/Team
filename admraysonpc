@@ -27,7 +27,7 @@ getgenv().ATConfig = {
     AgePets = true,
     AgeNeons = true, -- Enable if u want to make megas
     useTinyAgePotion = true,
-    PetsToAge = {"Alicornl", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
+    PetsToAge = {"Angus Bull", "Angus Calf", "Angus Cow", "Cozy Mistletroll", "Alicornl", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
     Leave = true, -- Leaves the game once trade is completed
