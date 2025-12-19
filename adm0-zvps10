@@ -16,7 +16,7 @@ task.spawn(function()
         ["EggToBuyEgg"] = "",
 
 
-        ["NeonMegaFarm"] = true,
+        ["NeonMegaFarm"] = false,
         ["BuyEgg"] = "", -- only work with NeonMegaFarm, will loop buy this egg when enough bucks
         
 
