@@ -1,1 +1,6 @@
-
+getgenv().CONFIG_2G = {
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
+    CustomLabel = "VPS09 - Xmas Farm",  -- [Custom Label Here, EX: "VPS1"]
+    ExtraOpti = true, -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+}
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/WINTER_2025"))()
