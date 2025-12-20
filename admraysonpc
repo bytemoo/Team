@@ -1,7 +1,7 @@
 getgenv().ATConfig = {
     -- ## General
     hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
-    MainAccUsername = {"lysithea_raine2"},
+    MainAccUsername = {},
     PetsToTrade = {},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     
