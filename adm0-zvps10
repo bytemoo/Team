@@ -1,36 +1,40 @@
-getgenv().ATConfig = {
-    -- ## General
-    hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
-    MainAccUsername = {"lysithea_raine2"},
-    PetsToTrade = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian", "Starfish"},
-    TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
-    
-    -- ### Main Pet Buy Feature
-    buyPet = false,
-    PetName = "Dog", -- Pet Name to Trade/Buy
-    CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
-    Cost = 10000, -- Cost of Pet
-    Quantity = 0, -- Set to 0 if you want to buy ALL
+getgenv().CONFIG_2G = {
+    --== [ HUB SETTINGS ] ==--
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
+    CustomLabel = "Panda",  -- [Custom Label Here, EX: "VPS1"]
 
-    -- ### Box Features
-    buyBoxes = false,
-    boxName = "Kelp Raider Box",
-    openBoxes = true,
+    --== [ MAIN FARM ] ==--
+    PotFarm = false,
+    EggFarm = true,
+    EggName = "Crystal Egg",
+    PrioritizePet = "2D Kitty",
 
-    -- ### Bait Transfer Features
-    transferBait = false,
-    baitName = "Shiver Cone Bait", -- [ Shiver Cone Bait / Subzero Popsicle Bait ]
+    --== [ PET PEN ] ==--
+    PetPen = true,
+    CustomPenEggs = {},
+    CustomPenPets = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
 
-    SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
+    --== [ PET RELEASER ] ==--
+    PetReleaser = true,
+    ReleasePets = {}, -- Whitelist: List of pet names to release (empty = release all pets)
+    ExcludeReleasePets = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
+    SkipTimer = true, -- Uses bucks to skip the timer
 
-    -- ### Pet Aging Features
-    AgePets = true,
-    AgeNeons = true, -- Enable if u want to make megas
-    useTinyAgePotion = true,
-    PetsToAge = {"Angus Bull", "Angus Cow", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian", "Starfish"},
-    autoFuse = true, -- Auto Convert to Neon/Mega
+    --== [ AUTO FUSE ] ==--
+    AutoFuse = true, -- Automatically fuse neons and megas periodically
 
-    Leave = true, -- Leaves the game once trade is completed
-    LeaveDelay = 30000 -- Delay in seconds to wait before leaving
+    --== [ BUY PETS ] ==--
+    BuyPets = false, -- Automatically buy pets when enough currency is available
+    BuyPetName = "Christmas Spirit", -- Pet name to buy
+
+    --== [ LURE / BAIT SETTINGS ] ==--
+    BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
+
+    --== [ DISCORD WEBHOOK SETTINGS ] ==--
+    WebhookEnabled = true,
+    WebhookURL = "https://tinyurl.com/raysonadm",
+    WebhookPets = {"Giant Panda", "Dango Penguins", "Snowball Pug"}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
+
+    ExtraOpti = true -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
