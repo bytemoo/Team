@@ -31,6 +31,6 @@ getgenv().ATConfig = {
     autoFuse = true, -- Auto Convert to Neon/Mega
 
     Leave = true, -- Leaves the game once trade is completed
-    LeaveDelay = 300 -- Delay in seconds to wait before leaving
+    LeaveDelay = 6000 -- Delay in seconds to wait before leaving
 }
 loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
