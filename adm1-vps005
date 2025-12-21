@@ -1,6 +1,36 @@
-getgenv().CONFIG_2G = {
-    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
-    CustomLabel = "VPS05 - Xmas Farm",  -- [Custom Label Here, EX: "VPS1"]
-    ExtraOpti = true, -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+getgenv().ATConfig = {
+    -- ## General
+    hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
+    MainAccUsername = {"lysithea_raine2"},
+    PetsToTrade = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian"},
+    TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
+    
+    -- ### Main Pet Buy Feature
+    buyPet = false,
+    PetName = "Dog", -- Pet Name to Trade/Buy
+    CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
+    Cost = 10000, -- Cost of Pet
+    Quantity = 0, -- Set to 0 if you want to buy ALL
+
+    -- ### Box Features
+    buyBoxes = true,
+    boxName = "Aberdeen Angus Box",
+    openBoxes = true,
+
+    -- ### Bait Transfer Features
+    transferBait = false,
+    baitName = "Shiver Cone Bait", -- [ Shiver Cone Bait / Subzero Popsicle Bait ]
+
+    SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
+
+    -- ### Pet Aging Features
+    AgePets = true,
+    AgeNeons = true, -- Enable if u want to make megas
+    useTinyAgePotion = true,
+    PetsToAge = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian"},
+    autoFuse = true, -- Auto Convert to Neon/Mega
+
+    Leave = true, -- Leaves the game once trade is completed
+    LeaveDelay = 300000 -- Delay in seconds to wait before leaving
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/WINTER_2025"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
