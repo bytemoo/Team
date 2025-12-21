@@ -4,14 +4,14 @@ getgenv().CONFIG_2G = {
     CustomLabel = "VPS010 - Panda",  -- [Custom Label Here, EX: "VPS1"]
 
     --== [ MAIN FARM ] ==--
-    PotFarm = false,
-    EggFarm = true,
+    PotFarm = true,
+    EggFarm = false,
     EggName = "Crystal Egg",
     PrioritizePet = "2D Kitty",
 
     --== [ PET PEN ] ==--
     PetPen = true,
-    CustomPenEggs = {},
+    CustomPenEggs = {"Crystal Egg"},
     CustomPenPets = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
 
     --== [ PET RELEASER ] ==--
