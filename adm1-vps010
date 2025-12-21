@@ -4,8 +4,8 @@ getgenv().CONFIG_2G = {
     CustomLabel = "VPS010 - Panda",  -- [Custom Label Here, EX: "VPS1"]
 
     --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
+    PotFarm = false,
+    EggFarm = true,
     EggName = "Crystal Egg",
     PrioritizePet = "2D Kitty",
 
