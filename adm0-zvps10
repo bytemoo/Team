@@ -18,7 +18,7 @@ getgenv().CONFIG_2G = {
     PetReleaser = true,
     ReleasePets = {}, -- Whitelist: List of pet names to release (empty = release all pets)
     ExcludeReleasePets = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
-    SkipTimer = true, -- Uses bucks to skip the timer
+    SkipTimer = false, -- Uses bucks to skip the timer
 
     --== [ AUTO FUSE ] ==--
     AutoFuse = true, -- Automatically fuse neons and megas periodically
