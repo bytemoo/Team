@@ -11,7 +11,7 @@ getgenv().CONFIG_2G = {
 
     --== [ PET PEN ] ==--
     PetPen = true,
-    CustomPenEggs = {"Crystal Egg"},
+    CustomPenEggs = {"Crystal Egg", "Basic Egg"},
     CustomPenPets = {"Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Shih Tzu", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
 
     --== [ PET RELEASER ] ==--
