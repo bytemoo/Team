@@ -1,38 +1,6 @@
-getgenv().ATConfig = {
-    -- ## General
-    hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
-    MainAccUsername = {"Ma_Kristine2"},
-    PetsToTrade = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
-    TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
-    ForceReceiver = false, -- If true, any account the script is executed on will be treated as a receiver
-    
-    -- ### Main Pet Buy Feature
-    buyPet = true,
-    PetName = "Maine Coon", -- Pet Name to Trade/Buy
-    CurrencyName = "Event", -- ("Bucks" / "Event" / "Social Stones")
-    Cost = 80000, -- Cost of Pet
-    Quantity = 0, -- Set to 0 if you want to buy ALL
-
-    -- ### Box Features
-    buyBoxes = false,
-    boxName = "Kelp Raider Box",
-    openBoxes = false,
-
-    -- ### Bait Transfer Features
-    transferBait = true,
-    baitName = "Shiver Cone Bait", -- [ Shiver Cone Bait / Subzero Popsicle Bait ]
-
-    UpdateDashboard = true, -- If true, the 2G dashboard will be updated
-    SmartBuy = false, -- EXPERIMENTAL FEATURE [PETS]
-
-    -- ### Pet Aging Features
-    AgePets = true,
-    AgeNeons = true, -- Enable if u want to make megas
-    useTinyAgePotion = true,
-    PetsToAge = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
-    autoFuse = true, -- Auto Convert to Neon/Mega
-
-    Leave = true, -- Leaves the game once trade is completed
-    LeaveDelay = 300000 -- Delay in seconds to wait before leaving
+getgenv().CONFIG_2G = {
+    HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
+    CustomLabel = "VPS08 - Xmas Farm",  -- [Custom Label Here, EX: "VPS1"]
+    ExtraOpti = false, -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/ROLOX_UTILITY"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/WINTER_2025_E"))()
