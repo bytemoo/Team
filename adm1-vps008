@@ -2,7 +2,7 @@ getgenv().ATConfig = {
     -- ## General
     hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
     MainAccUsername = {"AlexSummerw"},
-    PetsToTrade = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian"},
+    PetsToTrade = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     
     -- ### Main Pet Buy Feature
@@ -31,7 +31,7 @@ getgenv().ATConfig = {
     -- ## General
     hub_key = "1283448cb3aefda73df4848839cb1688", -- 2G KEY
     MainAccUsername = {"AlexSummerw"},
-    PetsToTrade = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian"},
+    PetsToTrade = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
     TradePetType = {"ALL"}, -- Choose any combination: "ALL", "Mega", "Neon", "Regular", "Neon_FG", "Regular_FG"
     
     -- ### Main Pet Buy Feature
@@ -56,7 +56,7 @@ getgenv().ATConfig = {
     AgePets = true,
     AgeNeons = true, -- Enable if u want to make megas
     useTinyAgePotion = true,
-    PetsToAge = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Diamond Griffin", "Diamond Mahi Mahi", "Dragonfly", "Emberlight", "Giant Panda", "Golden Dragon", "Golden Unicorn", "Golden Griffin", "Kitty Bat", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Humbug", "Christmas Spirit", "Maine Coon", "Snowball Pug", "Pomeranian"},
+    PetsToAge = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Ancient Dragon", "Alicorn", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
     autoFuse = true, -- Auto Convert to Neon/Mega
 
     Leave = true, -- Leaves the game once trade is completed
