@@ -1,40 +1,6 @@
 getgenv().CONFIG_2G = {
-    --== [ HUB SETTINGS ] ==--
     HubKey = "1283448cb3aefda73df4848839cb1688",   -- [Your Hub Key Here]
-    CustomLabel = "2Dkitty",  -- [Custom Label Here, EX: "VPS1"]
-
-    --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
-    EggName = "Aztec Egg",
-    PrioritizePet = "2D Kitty",
-
-    --== [ PET PEN ] ==--
-    PetPen = true,
-    CustomPenEggs = {"Aztec Egg"},
-    CustomPenPets = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"},
-
-    --== [ PET RELEASER ] ==--
-    PetReleaser = true,
-    ReleasePets = {}, -- Whitelist: List of pet names to release (empty = release all pets)
-    ExcludeReleasePets = {"2D Kitty", "Angus Bull", "Angus Calf", "Cozy Mistletroll", "Dango Penguins", "Emberlight", "Giant Panda", "Quetzalcoatl", "Temple Friend", "Tree Sasquatch", "Turtle Doves", "Christmas Spirit", "Maine Coon", "Snowball Pug"}, -- Blacklist: List of pet names to EXCLUDE from releasing (takes priority over ReleasePets)
-    SkipTimer = true, -- Uses bucks to skip the timer
-
-    --== [ AUTO FUSE ] ==--
-    AutoFuse = true, -- Automatically fuse neons and megas periodically
-
-    --== [ BUY PETS ] ==--
-    BuyPets = false, -- Automatically buy pets when enough currency is available
-    BuyPetName = "Christmas Spirit", -- Pet name to buy
-
-    --== [ LURE / BAIT SETTINGS ] ==--
-    BaitName = "Ice Soup Bait", -- OPTIONAL: Change this to your bait name if you want
-
-    --== [ DISCORD WEBHOOK SETTINGS ] ==--
-    WebhookEnabled = false,
-    WebhookURL = "",
-    WebhookPets = {}, -- List of pet names to send (empty = send all pets), EX: {"Temple Friend", "Cactus Friend"}
-
-    ExtraOpti = false -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
+    CustomLabel = "VPS05 - Xmas farm",  -- [Custom Label Here, EX: "VPS1"]
+    ExtraOpti = false, -- EXPERIMENTAL OPTIMIZATION, MAY CAUSE ISSUES
 }
-loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/2G_FARM_BETA"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Roleck11/2G_HUB/refs/heads/main/WINTER_2025_E"))()
