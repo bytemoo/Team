@@ -4,10 +4,10 @@ task.spawn(function()
         ["PetAMountToBuy"] = "0", -- can be 999
         ["WhatCategory"] = "pets", -- gifts if WhatCategory = "" then = pets
         ["PetRemoteToBuy"] = "aztec_egg_2025_aztec_egg", -- exemple for gifts halloween_2025_spider_box
-
+    ["check_for_2d_kitty"] = true, -- farm 2d kitty event work with eggfarm or petfarm
 
         ["PetFarmAutoSwitchFullGrown"] = true,
-        ["PetFarmActive"] = false, -- farm potion
+        ["PetFarmActive"] = true, -- farm potion
 
 
         ["EggFarmActive"] = false, -- farm egg, if no more eggs will farm potion, if found new egg will farm them to
