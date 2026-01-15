@@ -7,7 +7,7 @@ task.spawn(function()
 
 
         ["PetFarmAutoSwitchFullGrown"] = true,
-        ["PetFarmActive"] = true, -- farm potion
+        ["PetFarmActive"] = false, -- farm potion
 
 
         ["EggFarmActive"] = false, -- farm egg, if no more eggs will farm potion, if found new egg will farm them to
