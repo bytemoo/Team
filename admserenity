@@ -23,7 +23,7 @@ task.spawn(function()
     ["GlobalBlacklist"] = {""}, -- item kind or name separated by , ; |
     ["LegendaryAllowedToRecycle"] = {""}, -- item kind or name separated by , ; |
     ["RecycleWebhook"] = "", -- webhook to send recycle info
-    ["RecycleOnlyPetWithAge"] = "6", -- 6 = full grown, let "" to recycle all
+    ["RecycleOnlyPetWithAge"] = "", -- 6 = full grown, let "" to recycle all
 
     ["common"] = true,
     ["uncommon"] = true,
