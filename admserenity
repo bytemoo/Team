@@ -20,11 +20,11 @@ task.spawn(function()
         ["BuyEgg"] = "aztec_egg_2025_aztec_egg", -- only work with NeonMegaFarm, will loop buy this egg when enough bucks
         
 
-        ["AutoReleasePet"] = false, -- work with egg/pet farm, will release selected rarity
+        ["AutoReleasePet"] = true, -- work with egg/pet farm, will release selected rarity
         ["RecycleWebhook"] = "",
-        ["common"] = false,
-        ["uncommon"] = false,
-        ["rare"] = false,
+        ["common"] = true,
+        ["uncommon"] = true,
+        ["rare"] = true,
         ["ultra_rare"] = false,
 
         ["HideUselessGui"] = true,
