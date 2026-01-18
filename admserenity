@@ -28,7 +28,7 @@ task.spawn(function()
     ["common"] = true,
     ["uncommon"] = true,
     ["rare"] = true,
-    ["ultra_rare"] = false,
+    ["ultra_rare"] = true,
     ["legendary"] = false, -- WARNING must know what you are doing
 
         ["HideUselessGui"] = true,
