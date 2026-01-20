@@ -19,14 +19,14 @@ task.spawn(function()
         ["NeonMegaFarm"] = true,
         ["BuyEgg"] = "", -- only work with NeonMegaFarm, will loop buy this egg when enough bucks
         
-    ["AutoReleasePet"] = false, -- work with egg/pet farm, will release selected rarity
+    ["AutoReleasePet"] = true, -- work with egg/pet farm, will release selected rarity
     ["GlobalBlacklist"] = {""}, -- item kind or name separated by , ; |
     ["LegendaryAllowedToRecycle"] = {""}, -- item kind or name separated by , ; |
     ["RecycleWebhook"] = "", -- webhook to send recycle info
     ["RecycleOnlyPetWithAge"] = "", -- 6 = full grown, let "" to recycle all
 
-    ["common"] = false,
-    ["uncommon"] = false,
+    ["common"] = true,
+    ["uncommon"] = true,
     ["rare"] = false,
     ["ultra_rare"] = false,
     ["legendary"] = false, -- WARNING must know what you are doing
