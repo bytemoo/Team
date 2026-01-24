@@ -5,7 +5,7 @@
         },
         BabyFarm = true, -- Does baby farm
         PetFarm = {
-            Enabled = true, -- Enables the Pet Farm
+            Enabled = false, -- Enables the Pet Farm
             FarmEggs = false, -- If true, equips eggs to hatch them. If false, equips regular pets
             BuyEggs = false, -- If FarmEggs is true and no eggs in inventory, buy eggs automatically
             EggType = "any", -- Which egg to equip ("any" = first available, or specific egg ID)
@@ -29,15 +29,15 @@
             AutoLeaveAfterTrades = false, -- Leave trade area after completing trades
         },
         AutoNeon = {
-            Enabled = true, -- Enable auto neon/mega fusion
-            MakeMega = true, -- Fuse neons into mega neons
-            NeonAll = true, -- Neon everything possible
+            Enabled = false, -- Enable auto neon/mega fusion
+            MakeMega = false, -- Fuse neons into mega neons
+            NeonAll = false, -- Neon everything possible
             SelectedPets = {}, -- {} when NeonAll = true, otherwise {"dog", "cat"} etc
             MaxPerType = {}, -- {} = unlimited, {dog = 2, cat = 1} = limits per pet type
         },
         Settings = {
-            AutoShowUI = true, -- Load the UI on script start (main overlay disable for less memory usage)
-            ShowOverlay = true, -- Show stats overlay (disables 3D rendering)
+            AutoShowUI = false, -- Load the UI on script start (main overlay disable for less memory usage)
+            ShowOverlay = false, -- Show stats overlay (disables 3D rendering)
             ReduceGraphics = false, -- Reduce graphics quality to minimum
             FPSCap = 0, -- FPS cap option (0 = uncapped)
             LureId = "ice_dimension_2025_ice_soup_bait" -- what lure to use for example: "ice_dimension_2025_ice_soup_bait"
