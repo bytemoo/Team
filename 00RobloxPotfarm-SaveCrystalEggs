@@ -1,11 +1,11 @@
 getgenv().CONFIG_2G = {
     --== [ HUB SETTINGS ] ==--
     HubKey = "1283448cb3aefda73df4848839cb1688",
-    CustomLabel = "VPS009-m85",  --
+    CustomLabel = "VPS",  --
 
     --== [ MAIN FARM ] ==--
-    PotFarm = true,
-    EggFarm = false,
+    PotFarm = false,
+    EggFarm = true,
     EggName = "Aztec Egg",
     PrioritizePet = "2D Kitty",
 
