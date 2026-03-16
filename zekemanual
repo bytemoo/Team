@@ -67,7 +67,7 @@
                 uncommon = {"regular"},                    -- Only recycle neon uncommons
                 rare = {"regular"},     -- Recycle all rare versions
                 ultra_rare = {"regular"}, -- Recycle all ultra rare versions
-                legendary = {},                   -- Only recycle mega legendaries
+                -- legendary = {},                   -- Only recycle mega legendaries
             },
             AgeFilter = {}, -- Empty = all ages, or specific ages e.g. {1, 2, 3, 4, 5, 6} (1=Newborn, 6=Full Grown)
             ExcludedPets = {"sugarfest_2026_gumball_caterpillar"}, -- Pet IDs to never recycle e.g. {"dog", "cat", "shadow_dragon"}
