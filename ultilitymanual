@@ -13,7 +13,7 @@
             Enabled = false, -- Start auto trading on load
             AutoAcceptTrades = true, -- Auto accept incoming trade requests
             AutoLeaveAfterTrades = false, -- Leave/shutdown when all trades complete
-            Usernames = {"Ma_Kristine2"}, -- Players to trade with e.g. {"player1", "player2"}
+            Usernames = {}, -- Players to trade with e.g. {"player1", "player2"}
             TradeMode = "all", -- "all" = trade everything in categories, "specific" = only Items list
             Categories = {"pets"}, -- Categories to include
             Items = {}, -- Item IDs/names when TradeMode = "specific" e.g. {"dog", "cat", "buffalo"}
