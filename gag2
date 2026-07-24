@@ -143,5 +143,5 @@ getgenv().Config = {
             FPSBoost = false; -- wipe other players' plots/plants (keeps your own) for better FPS
         };
     };
-getgenv().scriptkey="nSKjmxwYngqMJZhRVulZLZiiMmpWAAYn"
+getgenv().scriptkey="peQtUJLyRuFReibOWUXnGDKwSReeGKtu"
 loadstring(game:HttpGet("https://zekehub.com/scripts/GAG2/Main.lua"))()
